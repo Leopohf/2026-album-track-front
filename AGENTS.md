@@ -53,3 +53,12 @@ You are an expert in TypeScript, Angular, and scalable web application developme
 - Design services around a single responsibility
 - Use the `providedIn: 'root'` option for singleton services
 - Use the `inject()` function instead of constructor injection
+
+## Documentation & Vault Integration
+
+- **Location**: `../../album-project/`
+- **Mandate**: All documentation within the Obsidian vault (wiki, README, etc.) MUST be in **English**.
+- **Process**: After implementing features or changing architecture, update:
+  - `wiki/log.md`: Chronological log of changes.
+  - `wiki/front-architecture.md`: Frontend technical details.
+  - `wiki/front-overview.md`: High-level summary.
