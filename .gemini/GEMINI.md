@@ -53,3 +53,21 @@ You are an expert in TypeScript, Angular, and scalable web application developme
 - Design services around a single responsibility
 - Use the `providedIn: 'root'` option for singleton services
 - Use the `inject()` function instead of constructor injection
+
+## Project Specific Conventions - Panini Album 2026
+
+### Design & Styling
+- **Minimalism**: Adhere to a strict minimalist aesthetic. No shadows, gradients, or complex animations.
+- **Tailwind CSS**: Use utility classes exclusively. Avoid custom CSS/SCSS files for components.
+- **Typography**: Use `font-mono` (IBM Plex Mono) for all text. Jerarchy should be defined by size and weight (`text-xs` to `text-4xl`).
+- **Colors**: Use the defined palette in `tailwind.config.ts` (`bg`, `surface`, `ink`, `muted`, `border`, `success`).
+
+### State & Logic
+- **Signals**: Use Angular Signals for all reactive state.
+- **AlbumService**: Centralize all sticker logic and persistence in `AlbumService`.
+- **SSR Safety**: Always check `isPlatformBrowser` before accessing `localStorage` or other browser-only APIs.
+- **Performance**: Use `ChangeDetectionStrategy.OnPush` and `@for` with `track` in templates.
+
+### Data Model
+- Stickers must follow the `Sticker` interface in `src/app/models/sticker.model.ts`.
+- Use `Record<string, ...>` for efficient sticker state mapping in `UserAlbum`.
