@@ -12,6 +12,7 @@
     "isolatedModules": true,
     "experimentalDecorators": true,
     "importHelpers": true,
+    "jsx": "react-jsx",
     "target": "ES2022",
     "module": "preserve"
   },

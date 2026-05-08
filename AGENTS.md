@@ -54,7 +54,17 @@ You are an expert in TypeScript, Angular, and scalable web application developme
 - Use the `providedIn: 'root'` option for singleton services
 - Use the `inject()` function instead of constructor injection
 
+### Package Management
+- **pnpm**: Use `pnpm` exclusively for all package management tasks (install, add, remove, run scripts). Do NOT use `npm` or `yarn`.
+
 ## Project Specific Conventions - Panini Album 2026
+
+### React Integration
+- **Mandatory for New Components**: ALL new UI components MUST be built with React. No new components should be created using Angular templates.
+- **Hybrid Approach**: Angular remains the primary framework for routing, services, and state (Signals), acting as a host for React components.
+- **React Wrapper**: Use the generic `ReactWrapperComponent` to mount React components.
+- **Pure Components**: React components must be pure and functional, receiving all state via props. No direct access to Angular services or signals from React.
+- **File Extensions**: Use `.tsx` for React components.
 
 ### Design & Styling
 - **Minimalism**: Adhere to a strict minimalist aesthetic. No shadows, gradients, or complex animations.
