@@ -1,3 +1,24 @@
 import { Routes } from '@angular/router';
 
-export const routes: Routes = [];
+export const routes: Routes = [
+  {
+    path: '',
+    loadComponent: () => import('./pages/home/home.component').then(m => m.HomeComponent)
+  },
+  {
+    path: 'album',
+    loadComponent: () => import('./pages/album/album.component').then(m => m.AlbumComponent)
+  },
+  {
+    path: 'album/:seccion',
+    loadComponent: () => import('./pages/section/section.component').then(m => m.SectionComponent)
+  },
+  {
+    path: 'perfil',
+    loadComponent: () => import('./pages/profile/profile.component').then(m => m.ProfileComponent)
+  },
+  {
+    path: '**',
+    redirectTo: ''
+  }
+];
