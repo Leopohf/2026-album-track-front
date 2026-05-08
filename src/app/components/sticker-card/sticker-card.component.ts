@@ -29,16 +29,16 @@ import { Sticker } from '../../models/sticker.model';
       <div class="flex items-center justify-between mt-auto pt-2 border-t border-border/50">
         <button 
           (click)="onToggle()"
-          class="text-[10px] uppercase font-bold tracking-tighter hover:underline"
+          class="text-[10px] uppercase font-bold tracking-tighter px-2 py-1 border border-ink hover:underline"
         >
-          {{ sticker.tengo ? 'Quitar' : 'Marcar' }}
+          {{ !sticker.tengo ? 'Faltante' : (sticker.repetidas > 0 ? 'Repetida' : 'Adquirida') }}
         </button>
 
         @if (sticker.tengo) {
           <div class="flex items-center gap-2">
-            <button (click)="onUpdateRepetidas(-1)" class="w-5 h-5 flex items-center justify-center border border-ink text-xs hover:bg-ink hover:text-white">-</button>
+            <button (click)="onUpdateRepetidas(-1)" class="w-5 h-5 flex items-center justify-center border border-ink text-xs hover:bg-ink hover:text-surface">-</button>
             <span class="text-xs font-bold">{{ sticker.repetidas }}</span>
-            <button (click)="onUpdateRepetidas(1)" class="w-5 h-5 flex items-center justify-center border border-ink text-xs hover:bg-ink hover:text-white">+</button>
+            <button (click)="onUpdateRepetidas(1)" class="w-5 h-5 flex items-center justify-center border border-ink text-xs hover:bg-ink hover:text-surface">+</button>
           </div>
         }
       </div>
