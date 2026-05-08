@@ -1,0 +1,204 @@
+import { Sticker } from '../../models/sticker.model';
+
+export const JORDAN_DATA: Sticker[] = [
+  {
+    "id": "JOR-01",
+    "numero": 1,
+    "nombre": "Jordan Player 1",
+    "seccion": "Jordan",
+    "grupo": "Jordan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "JOR-02",
+    "numero": 2,
+    "nombre": "Jordan Player 2",
+    "seccion": "Jordan",
+    "grupo": "Jordan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "JOR-03",
+    "numero": 3,
+    "nombre": "Jordan Player 3",
+    "seccion": "Jordan",
+    "grupo": "Jordan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "JOR-04",
+    "numero": 4,
+    "nombre": "Jordan Player 4",
+    "seccion": "Jordan",
+    "grupo": "Jordan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "JOR-05",
+    "numero": 5,
+    "nombre": "Jordan Player 5",
+    "seccion": "Jordan",
+    "grupo": "Jordan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "JOR-06",
+    "numero": 6,
+    "nombre": "Jordan Player 6",
+    "seccion": "Jordan",
+    "grupo": "Jordan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "JOR-07",
+    "numero": 7,
+    "nombre": "Jordan Player 7",
+    "seccion": "Jordan",
+    "grupo": "Jordan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "JOR-08",
+    "numero": 8,
+    "nombre": "Jordan Player 8",
+    "seccion": "Jordan",
+    "grupo": "Jordan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "JOR-09",
+    "numero": 9,
+    "nombre": "Jordan Player 9",
+    "seccion": "Jordan",
+    "grupo": "Jordan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "JOR-10",
+    "numero": 10,
+    "nombre": "Jordan Player 10",
+    "seccion": "Jordan",
+    "grupo": "Jordan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "JOR-11",
+    "numero": 11,
+    "nombre": "Jordan Player 11",
+    "seccion": "Jordan",
+    "grupo": "Jordan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "JOR-12",
+    "numero": 12,
+    "nombre": "Jordan Player 12",
+    "seccion": "Jordan",
+    "grupo": "Jordan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "JOR-13",
+    "numero": 13,
+    "nombre": "Jordan Emblem",
+    "seccion": "Jordan",
+    "grupo": "Jordan",
+    "tipo": "escudo",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "JOR-14",
+    "numero": 14,
+    "nombre": "Jordan Player 14",
+    "seccion": "Jordan",
+    "grupo": "Jordan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "JOR-15",
+    "numero": 15,
+    "nombre": "Jordan Player 15",
+    "seccion": "Jordan",
+    "grupo": "Jordan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "JOR-16",
+    "numero": 16,
+    "nombre": "Jordan Player 16",
+    "seccion": "Jordan",
+    "grupo": "Jordan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "JOR-17",
+    "numero": 17,
+    "nombre": "Jordan Player 17",
+    "seccion": "Jordan",
+    "grupo": "Jordan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "JOR-18",
+    "numero": 18,
+    "nombre": "Jordan Player 18",
+    "seccion": "Jordan",
+    "grupo": "Jordan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "JOR-19",
+    "numero": 19,
+    "nombre": "Jordan Player 19",
+    "seccion": "Jordan",
+    "grupo": "Jordan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "JOR-20",
+    "numero": 20,
+    "nombre": "Jordan Player 20",
+    "seccion": "Jordan",
+    "grupo": "Jordan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  }
+];

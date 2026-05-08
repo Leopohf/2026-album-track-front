@@ -1,0 +1,204 @@
+import { Sticker } from '../../models/sticker.model';
+
+export const HAITI_DATA: Sticker[] = [
+  {
+    "id": "HAI-01",
+    "numero": 1,
+    "nombre": "Desconocido",
+    "seccion": "Haiti",
+    "grupo": "C",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "HAI-02",
+    "numero": 2,
+    "nombre": "JOHN PLACIDE",
+    "seccion": "Haiti",
+    "grupo": "C",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "HAI-03",
+    "numero": 3,
+    "nombre": "CARLENS ARCUS",
+    "seccion": "Haiti",
+    "grupo": "C",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "HAI-04",
+    "numero": 4,
+    "nombre": "MARTIN EXPERIENCE",
+    "seccion": "Haiti",
+    "grupo": "C",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "HAI-05",
+    "numero": 5,
+    "nombre": "JEAN-KEVIN DUVERNE",
+    "seccion": "Haiti",
+    "grupo": "C",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "HAI-06",
+    "numero": 6,
+    "nombre": "RICARDO ADÉ",
+    "seccion": "Haiti",
+    "grupo": "C",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "HAI-07",
+    "numero": 7,
+    "nombre": "DUKE LACROIX",
+    "seccion": "Haiti",
+    "grupo": "C",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "HAI-08",
+    "numero": 8,
+    "nombre": "GARVEN METUSALA",
+    "seccion": "Haiti",
+    "grupo": "C",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "HAI-09",
+    "numero": 9,
+    "nombre": "HANNES DELCROIX",
+    "seccion": "Haiti",
+    "grupo": "C",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "HAI-10",
+    "numero": 10,
+    "nombre": "LEVERTON PIERRE",
+    "seccion": "Haiti",
+    "grupo": "C",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "HAI-11",
+    "numero": 11,
+    "nombre": "DANLEY JEAN JACQUES",
+    "seccion": "Haiti",
+    "grupo": "C",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "HAI-12",
+    "numero": 12,
+    "nombre": "JEAN-FRONELY BELLEGARDE",
+    "seccion": "Haiti",
+    "grupo": "C",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "HAI-13",
+    "numero": 13,
+    "nombre": "Haiti Escudo",
+    "seccion": "Haiti",
+    "grupo": "C",
+    "tipo": "escudo",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "HAI-14",
+    "numero": 14,
+    "nombre": "CHRISTOPHER ATTYS",
+    "seccion": "Haiti",
+    "grupo": "C",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "HAI-15",
+    "numero": 15,
+    "nombre": "DERRICK ETIENNE JR.",
+    "seccion": "Haiti",
+    "grupo": "C",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "HAI-16",
+    "numero": 16,
+    "nombre": "JOSUÉ CASIMIR",
+    "seccion": "Haiti",
+    "grupo": "C",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "HAI-17",
+    "numero": 17,
+    "nombre": "RUBEN PROVIDENCE",
+    "seccion": "Haiti",
+    "grupo": "C",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "HAI-18",
+    "numero": 18,
+    "nombre": "DUCKENS NAZON",
+    "seccion": "Haiti",
+    "grupo": "C",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "HAI-19",
+    "numero": 19,
+    "nombre": "LOUICIUS DEEDSON",
+    "seccion": "Haiti",
+    "grupo": "C",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "HAI-20",
+    "numero": 20,
+    "nombre": "FRANTZDY PIERROT",
+    "seccion": "Haiti",
+    "grupo": "C",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  }
+];

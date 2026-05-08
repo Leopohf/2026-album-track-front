@@ -1,0 +1,204 @@
+import { Sticker } from '../../models/sticker.model';
+
+export const TUNISIA_DATA: Sticker[] = [
+  {
+    "id": "TUN-01",
+    "numero": 1,
+    "nombre": "Tunisia Player 1",
+    "seccion": "Tunisia",
+    "grupo": "Tunisia",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "TUN-02",
+    "numero": 2,
+    "nombre": "Tunisia Player 2",
+    "seccion": "Tunisia",
+    "grupo": "Tunisia",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "TUN-03",
+    "numero": 3,
+    "nombre": "Tunisia Player 3",
+    "seccion": "Tunisia",
+    "grupo": "Tunisia",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "TUN-04",
+    "numero": 4,
+    "nombre": "Tunisia Player 4",
+    "seccion": "Tunisia",
+    "grupo": "Tunisia",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "TUN-05",
+    "numero": 5,
+    "nombre": "Tunisia Player 5",
+    "seccion": "Tunisia",
+    "grupo": "Tunisia",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "TUN-06",
+    "numero": 6,
+    "nombre": "Tunisia Player 6",
+    "seccion": "Tunisia",
+    "grupo": "Tunisia",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "TUN-07",
+    "numero": 7,
+    "nombre": "Tunisia Player 7",
+    "seccion": "Tunisia",
+    "grupo": "Tunisia",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "TUN-08",
+    "numero": 8,
+    "nombre": "Tunisia Player 8",
+    "seccion": "Tunisia",
+    "grupo": "Tunisia",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "TUN-09",
+    "numero": 9,
+    "nombre": "Tunisia Player 9",
+    "seccion": "Tunisia",
+    "grupo": "Tunisia",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "TUN-10",
+    "numero": 10,
+    "nombre": "Tunisia Player 10",
+    "seccion": "Tunisia",
+    "grupo": "Tunisia",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "TUN-11",
+    "numero": 11,
+    "nombre": "Tunisia Player 11",
+    "seccion": "Tunisia",
+    "grupo": "Tunisia",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "TUN-12",
+    "numero": 12,
+    "nombre": "Tunisia Player 12",
+    "seccion": "Tunisia",
+    "grupo": "Tunisia",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "TUN-13",
+    "numero": 13,
+    "nombre": "Tunisia Emblem",
+    "seccion": "Tunisia",
+    "grupo": "Tunisia",
+    "tipo": "escudo",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "TUN-14",
+    "numero": 14,
+    "nombre": "Tunisia Player 14",
+    "seccion": "Tunisia",
+    "grupo": "Tunisia",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "TUN-15",
+    "numero": 15,
+    "nombre": "Tunisia Player 15",
+    "seccion": "Tunisia",
+    "grupo": "Tunisia",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "TUN-16",
+    "numero": 16,
+    "nombre": "Tunisia Player 16",
+    "seccion": "Tunisia",
+    "grupo": "Tunisia",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "TUN-17",
+    "numero": 17,
+    "nombre": "Tunisia Player 17",
+    "seccion": "Tunisia",
+    "grupo": "Tunisia",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "TUN-18",
+    "numero": 18,
+    "nombre": "Tunisia Player 18",
+    "seccion": "Tunisia",
+    "grupo": "Tunisia",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "TUN-19",
+    "numero": 19,
+    "nombre": "Tunisia Player 19",
+    "seccion": "Tunisia",
+    "grupo": "Tunisia",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "TUN-20",
+    "numero": 20,
+    "nombre": "Tunisia Player 20",
+    "seccion": "Tunisia",
+    "grupo": "Tunisia",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  }
+];

@@ -1,0 +1,204 @@
+import { Sticker } from '../../models/sticker.model';
+
+export const ENGLAND_DATA: Sticker[] = [
+  {
+    "id": "ENG-01",
+    "numero": 1,
+    "nombre": "England Player 1",
+    "seccion": "England",
+    "grupo": "England",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "ENG-02",
+    "numero": 2,
+    "nombre": "England Player 2",
+    "seccion": "England",
+    "grupo": "England",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "ENG-03",
+    "numero": 3,
+    "nombre": "England Player 3",
+    "seccion": "England",
+    "grupo": "England",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "ENG-04",
+    "numero": 4,
+    "nombre": "England Player 4",
+    "seccion": "England",
+    "grupo": "England",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "ENG-05",
+    "numero": 5,
+    "nombre": "England Player 5",
+    "seccion": "England",
+    "grupo": "England",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "ENG-06",
+    "numero": 6,
+    "nombre": "England Player 6",
+    "seccion": "England",
+    "grupo": "England",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "ENG-07",
+    "numero": 7,
+    "nombre": "England Player 7",
+    "seccion": "England",
+    "grupo": "England",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "ENG-08",
+    "numero": 8,
+    "nombre": "England Player 8",
+    "seccion": "England",
+    "grupo": "England",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "ENG-09",
+    "numero": 9,
+    "nombre": "England Player 9",
+    "seccion": "England",
+    "grupo": "England",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "ENG-10",
+    "numero": 10,
+    "nombre": "England Player 10",
+    "seccion": "England",
+    "grupo": "England",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "ENG-11",
+    "numero": 11,
+    "nombre": "England Player 11",
+    "seccion": "England",
+    "grupo": "England",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "ENG-12",
+    "numero": 12,
+    "nombre": "England Player 12",
+    "seccion": "England",
+    "grupo": "England",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "ENG-13",
+    "numero": 13,
+    "nombre": "England Emblem",
+    "seccion": "England",
+    "grupo": "England",
+    "tipo": "escudo",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "ENG-14",
+    "numero": 14,
+    "nombre": "England Player 14",
+    "seccion": "England",
+    "grupo": "England",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "ENG-15",
+    "numero": 15,
+    "nombre": "England Player 15",
+    "seccion": "England",
+    "grupo": "England",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "ENG-16",
+    "numero": 16,
+    "nombre": "England Player 16",
+    "seccion": "England",
+    "grupo": "England",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "ENG-17",
+    "numero": 17,
+    "nombre": "England Player 17",
+    "seccion": "England",
+    "grupo": "England",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "ENG-18",
+    "numero": 18,
+    "nombre": "England Player 18",
+    "seccion": "England",
+    "grupo": "England",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "ENG-19",
+    "numero": 19,
+    "nombre": "England Player 19",
+    "seccion": "England",
+    "grupo": "England",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "ENG-20",
+    "numero": 20,
+    "nombre": "England Player 20",
+    "seccion": "England",
+    "grupo": "England",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  }
+];

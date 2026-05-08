@@ -1,0 +1,204 @@
+import { Sticker } from '../../models/sticker.model';
+
+export const SPAIN_DATA: Sticker[] = [
+  {
+    "id": "ESP-01",
+    "numero": 1,
+    "nombre": "Desconocido",
+    "seccion": "España",
+    "grupo": "H",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "ESP-02",
+    "numero": 2,
+    "nombre": "UNAI SIMÓN",
+    "seccion": "España",
+    "grupo": "H",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "ESP-03",
+    "numero": 3,
+    "nombre": "ROBIN LE NORMAND",
+    "seccion": "España",
+    "grupo": "H",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "ESP-04",
+    "numero": 4,
+    "nombre": "AYMERIC LAPORTE",
+    "seccion": "España",
+    "grupo": "H",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "ESP-05",
+    "numero": 5,
+    "nombre": "DEAN HUIJSEN",
+    "seccion": "España",
+    "grupo": "H",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "ESP-06",
+    "numero": 6,
+    "nombre": "PEDRO PORRO",
+    "seccion": "España",
+    "grupo": "H",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "ESP-07",
+    "numero": 7,
+    "nombre": "DANI CARVAJAL",
+    "seccion": "España",
+    "grupo": "H",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "ESP-08",
+    "numero": 8,
+    "nombre": "MARC CUCURELLA",
+    "seccion": "España",
+    "grupo": "H",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "ESP-09",
+    "numero": 9,
+    "nombre": "MARTÍN ZUBIMENDI",
+    "seccion": "España",
+    "grupo": "H",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "ESP-10",
+    "numero": 10,
+    "nombre": "RODRI",
+    "seccion": "España",
+    "grupo": "H",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "ESP-11",
+    "numero": 11,
+    "nombre": "PEDRI",
+    "seccion": "España",
+    "grupo": "H",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "ESP-12",
+    "numero": 12,
+    "nombre": "FABIÁN RUIZ",
+    "seccion": "España",
+    "grupo": "H",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "ESP-13",
+    "numero": 13,
+    "nombre": "SPAIN EMBLEM",
+    "seccion": "España",
+    "grupo": "H",
+    "tipo": "escudo",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "ESP-14",
+    "numero": 14,
+    "nombre": "MIKEL MERINO",
+    "seccion": "España",
+    "grupo": "H",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "ESP-15",
+    "numero": 15,
+    "nombre": "LAMINE YAMAL",
+    "seccion": "España",
+    "grupo": "H",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "ESP-16",
+    "numero": 16,
+    "nombre": "DANI OLMO",
+    "seccion": "España",
+    "grupo": "H",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "ESP-17",
+    "numero": 17,
+    "nombre": "NICO WILLIAMS",
+    "seccion": "España",
+    "grupo": "H",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "ESP-18",
+    "numero": 18,
+    "nombre": "FERRAN TORRES",
+    "seccion": "España",
+    "grupo": "H",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "ESP-19",
+    "numero": 19,
+    "nombre": "ÁLVARO MORATA",
+    "seccion": "España",
+    "grupo": "H",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "ESP-20",
+    "numero": 20,
+    "nombre": "MIKEL OYARZABAL",
+    "seccion": "España",
+    "grupo": "H",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  }
+];

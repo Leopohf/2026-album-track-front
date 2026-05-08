@@ -1,0 +1,204 @@
+import { Sticker } from '../../models/sticker.model';
+
+export const CABO_VERDE_DATA: Sticker[] = [
+  {
+    "id": "CPV-01",
+    "numero": 1,
+    "nombre": "Cabo Verde Player 1",
+    "seccion": "Cabo Verde",
+    "grupo": "Cabo Verde",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CPV-02",
+    "numero": 2,
+    "nombre": "Cabo Verde Player 2",
+    "seccion": "Cabo Verde",
+    "grupo": "Cabo Verde",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CPV-03",
+    "numero": 3,
+    "nombre": "Cabo Verde Player 3",
+    "seccion": "Cabo Verde",
+    "grupo": "Cabo Verde",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CPV-04",
+    "numero": 4,
+    "nombre": "Cabo Verde Player 4",
+    "seccion": "Cabo Verde",
+    "grupo": "Cabo Verde",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CPV-05",
+    "numero": 5,
+    "nombre": "Cabo Verde Player 5",
+    "seccion": "Cabo Verde",
+    "grupo": "Cabo Verde",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CPV-06",
+    "numero": 6,
+    "nombre": "Cabo Verde Player 6",
+    "seccion": "Cabo Verde",
+    "grupo": "Cabo Verde",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CPV-07",
+    "numero": 7,
+    "nombre": "Cabo Verde Player 7",
+    "seccion": "Cabo Verde",
+    "grupo": "Cabo Verde",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CPV-08",
+    "numero": 8,
+    "nombre": "Cabo Verde Player 8",
+    "seccion": "Cabo Verde",
+    "grupo": "Cabo Verde",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CPV-09",
+    "numero": 9,
+    "nombre": "Cabo Verde Player 9",
+    "seccion": "Cabo Verde",
+    "grupo": "Cabo Verde",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CPV-10",
+    "numero": 10,
+    "nombre": "Cabo Verde Player 10",
+    "seccion": "Cabo Verde",
+    "grupo": "Cabo Verde",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CPV-11",
+    "numero": 11,
+    "nombre": "Cabo Verde Player 11",
+    "seccion": "Cabo Verde",
+    "grupo": "Cabo Verde",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CPV-12",
+    "numero": 12,
+    "nombre": "Cabo Verde Player 12",
+    "seccion": "Cabo Verde",
+    "grupo": "Cabo Verde",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CPV-13",
+    "numero": 13,
+    "nombre": "Cabo Verde Emblem",
+    "seccion": "Cabo Verde",
+    "grupo": "Cabo Verde",
+    "tipo": "escudo",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CPV-14",
+    "numero": 14,
+    "nombre": "Cabo Verde Player 14",
+    "seccion": "Cabo Verde",
+    "grupo": "Cabo Verde",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CPV-15",
+    "numero": 15,
+    "nombre": "Cabo Verde Player 15",
+    "seccion": "Cabo Verde",
+    "grupo": "Cabo Verde",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CPV-16",
+    "numero": 16,
+    "nombre": "Cabo Verde Player 16",
+    "seccion": "Cabo Verde",
+    "grupo": "Cabo Verde",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CPV-17",
+    "numero": 17,
+    "nombre": "Cabo Verde Player 17",
+    "seccion": "Cabo Verde",
+    "grupo": "Cabo Verde",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CPV-18",
+    "numero": 18,
+    "nombre": "Cabo Verde Player 18",
+    "seccion": "Cabo Verde",
+    "grupo": "Cabo Verde",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CPV-19",
+    "numero": 19,
+    "nombre": "Cabo Verde Player 19",
+    "seccion": "Cabo Verde",
+    "grupo": "Cabo Verde",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CPV-20",
+    "numero": 20,
+    "nombre": "Cabo Verde Player 20",
+    "seccion": "Cabo Verde",
+    "grupo": "Cabo Verde",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  }
+];

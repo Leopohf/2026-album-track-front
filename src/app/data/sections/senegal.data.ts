@@ -1,0 +1,204 @@
+import { Sticker } from '../../models/sticker.model';
+
+export const SENEGAL_DATA: Sticker[] = [
+  {
+    "id": "SEN-01",
+    "numero": 1,
+    "nombre": "Senegal Player 1",
+    "seccion": "Senegal",
+    "grupo": "Senegal",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "SEN-02",
+    "numero": 2,
+    "nombre": "Senegal Player 2",
+    "seccion": "Senegal",
+    "grupo": "Senegal",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "SEN-03",
+    "numero": 3,
+    "nombre": "Senegal Player 3",
+    "seccion": "Senegal",
+    "grupo": "Senegal",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "SEN-04",
+    "numero": 4,
+    "nombre": "Senegal Player 4",
+    "seccion": "Senegal",
+    "grupo": "Senegal",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "SEN-05",
+    "numero": 5,
+    "nombre": "Senegal Player 5",
+    "seccion": "Senegal",
+    "grupo": "Senegal",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "SEN-06",
+    "numero": 6,
+    "nombre": "Senegal Player 6",
+    "seccion": "Senegal",
+    "grupo": "Senegal",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "SEN-07",
+    "numero": 7,
+    "nombre": "Senegal Player 7",
+    "seccion": "Senegal",
+    "grupo": "Senegal",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "SEN-08",
+    "numero": 8,
+    "nombre": "Senegal Player 8",
+    "seccion": "Senegal",
+    "grupo": "Senegal",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "SEN-09",
+    "numero": 9,
+    "nombre": "Senegal Player 9",
+    "seccion": "Senegal",
+    "grupo": "Senegal",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "SEN-10",
+    "numero": 10,
+    "nombre": "Senegal Player 10",
+    "seccion": "Senegal",
+    "grupo": "Senegal",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "SEN-11",
+    "numero": 11,
+    "nombre": "Senegal Player 11",
+    "seccion": "Senegal",
+    "grupo": "Senegal",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "SEN-12",
+    "numero": 12,
+    "nombre": "Senegal Player 12",
+    "seccion": "Senegal",
+    "grupo": "Senegal",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "SEN-13",
+    "numero": 13,
+    "nombre": "Senegal Emblem",
+    "seccion": "Senegal",
+    "grupo": "Senegal",
+    "tipo": "escudo",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "SEN-14",
+    "numero": 14,
+    "nombre": "Senegal Player 14",
+    "seccion": "Senegal",
+    "grupo": "Senegal",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "SEN-15",
+    "numero": 15,
+    "nombre": "Senegal Player 15",
+    "seccion": "Senegal",
+    "grupo": "Senegal",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "SEN-16",
+    "numero": 16,
+    "nombre": "Senegal Player 16",
+    "seccion": "Senegal",
+    "grupo": "Senegal",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "SEN-17",
+    "numero": 17,
+    "nombre": "Senegal Player 17",
+    "seccion": "Senegal",
+    "grupo": "Senegal",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "SEN-18",
+    "numero": 18,
+    "nombre": "Senegal Player 18",
+    "seccion": "Senegal",
+    "grupo": "Senegal",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "SEN-19",
+    "numero": 19,
+    "nombre": "Senegal Player 19",
+    "seccion": "Senegal",
+    "grupo": "Senegal",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "SEN-20",
+    "numero": 20,
+    "nombre": "Senegal Player 20",
+    "seccion": "Senegal",
+    "grupo": "Senegal",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  }
+];

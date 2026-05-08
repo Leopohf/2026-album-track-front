@@ -1,0 +1,204 @@
+import { Sticker } from '../../models/sticker.model';
+
+export const UZBEKISTAN_DATA: Sticker[] = [
+  {
+    "id": "UZB-01",
+    "numero": 1,
+    "nombre": "Uzbekistan Player 1",
+    "seccion": "Uzbekistan",
+    "grupo": "Uzbekistan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "UZB-02",
+    "numero": 2,
+    "nombre": "Uzbekistan Player 2",
+    "seccion": "Uzbekistan",
+    "grupo": "Uzbekistan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "UZB-03",
+    "numero": 3,
+    "nombre": "Uzbekistan Player 3",
+    "seccion": "Uzbekistan",
+    "grupo": "Uzbekistan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "UZB-04",
+    "numero": 4,
+    "nombre": "Uzbekistan Player 4",
+    "seccion": "Uzbekistan",
+    "grupo": "Uzbekistan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "UZB-05",
+    "numero": 5,
+    "nombre": "Uzbekistan Player 5",
+    "seccion": "Uzbekistan",
+    "grupo": "Uzbekistan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "UZB-06",
+    "numero": 6,
+    "nombre": "Uzbekistan Player 6",
+    "seccion": "Uzbekistan",
+    "grupo": "Uzbekistan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "UZB-07",
+    "numero": 7,
+    "nombre": "Uzbekistan Player 7",
+    "seccion": "Uzbekistan",
+    "grupo": "Uzbekistan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "UZB-08",
+    "numero": 8,
+    "nombre": "Uzbekistan Player 8",
+    "seccion": "Uzbekistan",
+    "grupo": "Uzbekistan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "UZB-09",
+    "numero": 9,
+    "nombre": "Uzbekistan Player 9",
+    "seccion": "Uzbekistan",
+    "grupo": "Uzbekistan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "UZB-10",
+    "numero": 10,
+    "nombre": "Uzbekistan Player 10",
+    "seccion": "Uzbekistan",
+    "grupo": "Uzbekistan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "UZB-11",
+    "numero": 11,
+    "nombre": "Uzbekistan Player 11",
+    "seccion": "Uzbekistan",
+    "grupo": "Uzbekistan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "UZB-12",
+    "numero": 12,
+    "nombre": "Uzbekistan Player 12",
+    "seccion": "Uzbekistan",
+    "grupo": "Uzbekistan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "UZB-13",
+    "numero": 13,
+    "nombre": "Uzbekistan Emblem",
+    "seccion": "Uzbekistan",
+    "grupo": "Uzbekistan",
+    "tipo": "escudo",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "UZB-14",
+    "numero": 14,
+    "nombre": "Uzbekistan Player 14",
+    "seccion": "Uzbekistan",
+    "grupo": "Uzbekistan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "UZB-15",
+    "numero": 15,
+    "nombre": "Uzbekistan Player 15",
+    "seccion": "Uzbekistan",
+    "grupo": "Uzbekistan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "UZB-16",
+    "numero": 16,
+    "nombre": "Uzbekistan Player 16",
+    "seccion": "Uzbekistan",
+    "grupo": "Uzbekistan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "UZB-17",
+    "numero": 17,
+    "nombre": "Uzbekistan Player 17",
+    "seccion": "Uzbekistan",
+    "grupo": "Uzbekistan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "UZB-18",
+    "numero": 18,
+    "nombre": "Uzbekistan Player 18",
+    "seccion": "Uzbekistan",
+    "grupo": "Uzbekistan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "UZB-19",
+    "numero": 19,
+    "nombre": "Uzbekistan Player 19",
+    "seccion": "Uzbekistan",
+    "grupo": "Uzbekistan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "UZB-20",
+    "numero": 20,
+    "nombre": "Uzbekistan Player 20",
+    "seccion": "Uzbekistan",
+    "grupo": "Uzbekistan",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  }
+];

@@ -1,0 +1,204 @@
+import { Sticker } from '../../models/sticker.model';
+
+export const MOROCCO_DATA: Sticker[] = [
+  {
+    "id": "MAR-01",
+    "numero": 1,
+    "nombre": "Desconocido",
+    "seccion": "Marruecos",
+    "grupo": "Marruecos",
+    "tipo": "escudo",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "MAR-02",
+    "numero": 2,
+    "nombre": "Yassine Bounou",
+    "seccion": "Marruecos",
+    "grupo": "Marruecos",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "MAR-03",
+    "numero": 3,
+    "nombre": "Munir El Kajoui",
+    "seccion": "Marruecos",
+    "grupo": "Marruecos",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "MAR-04",
+    "numero": 4,
+    "nombre": "Achraf Hakimi",
+    "seccion": "Marruecos",
+    "grupo": "Marruecos",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "MAR-05",
+    "numero": 5,
+    "nombre": "Noussair Mazraoui",
+    "seccion": "Marruecos",
+    "grupo": "Marruecos",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "MAR-06",
+    "numero": 6,
+    "nombre": "Nayef Aguerd",
+    "seccion": "Marruecos",
+    "grupo": "Marruecos",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "MAR-07",
+    "numero": 7,
+    "nombre": "Romain Saïss",
+    "seccion": "Marruecos",
+    "grupo": "Marruecos",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "MAR-08",
+    "numero": 8,
+    "nombre": "Jawad El Yamiq",
+    "seccion": "Marruecos",
+    "grupo": "Marruecos",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "MAR-09",
+    "numero": 9,
+    "nombre": "Adam Masina",
+    "seccion": "Marruecos",
+    "grupo": "Marruecos",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "MAR-10",
+    "numero": 10,
+    "nombre": "Sofyan Amrabat",
+    "seccion": "Marruecos",
+    "grupo": "Marruecos",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "MAR-11",
+    "numero": 11,
+    "nombre": "Azzedine Ounahi",
+    "seccion": "Marruecos",
+    "grupo": "Marruecos",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "MAR-12",
+    "numero": 12,
+    "nombre": "Eliesse Ben Seghir",
+    "seccion": "Marruecos",
+    "grupo": "Marruecos",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "MAR-13",
+    "numero": 13,
+    "nombre": "Desconocido",
+    "seccion": "Marruecos",
+    "grupo": "Marruecos",
+    "tipo": "escudo",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "MAR-14",
+    "numero": 14,
+    "nombre": "Bilal El Khannouss",
+    "seccion": "Marruecos",
+    "grupo": "Marruecos",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "MAR-15",
+    "numero": 15,
+    "nombre": "Ismael Saibari",
+    "seccion": "Marruecos",
+    "grupo": "Marruecos",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "MAR-16",
+    "numero": 16,
+    "nombre": "Youssef En-Nesyri",
+    "seccion": "Marruecos",
+    "grupo": "Marruecos",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "MAR-17",
+    "numero": 17,
+    "nombre": "Abde Ezzalzouli",
+    "seccion": "Marruecos",
+    "grupo": "Marruecos",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "MAR-18",
+    "numero": 18,
+    "nombre": "Soufiane Rahimi",
+    "seccion": "Marruecos",
+    "grupo": "Marruecos",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "MAR-19",
+    "numero": 19,
+    "nombre": "Brahim Díaz",
+    "seccion": "Marruecos",
+    "grupo": "Marruecos",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  },
+  {
+    "id": "MAR-20",
+    "numero": 20,
+    "nombre": "Ayoub El Kaabi",
+    "seccion": "Marruecos",
+    "grupo": "Marruecos",
+    "tipo": "jugador",
+    "tengo": true,
+    "repetidas": 0
+  }
+];

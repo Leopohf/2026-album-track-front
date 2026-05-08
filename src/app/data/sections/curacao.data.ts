@@ -1,0 +1,204 @@
+import { Sticker } from '../../models/sticker.model';
+
+export const CURACAO_DATA: Sticker[] = [
+  {
+    "id": "CUW-01",
+    "numero": 1,
+    "nombre": "Curaçao Player 1",
+    "seccion": "Curaçao",
+    "grupo": "Curaçao",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CUW-02",
+    "numero": 2,
+    "nombre": "Curaçao Player 2",
+    "seccion": "Curaçao",
+    "grupo": "Curaçao",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CUW-03",
+    "numero": 3,
+    "nombre": "Curaçao Player 3",
+    "seccion": "Curaçao",
+    "grupo": "Curaçao",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CUW-04",
+    "numero": 4,
+    "nombre": "Curaçao Player 4",
+    "seccion": "Curaçao",
+    "grupo": "Curaçao",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CUW-05",
+    "numero": 5,
+    "nombre": "Curaçao Player 5",
+    "seccion": "Curaçao",
+    "grupo": "Curaçao",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CUW-06",
+    "numero": 6,
+    "nombre": "Curaçao Player 6",
+    "seccion": "Curaçao",
+    "grupo": "Curaçao",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CUW-07",
+    "numero": 7,
+    "nombre": "Curaçao Player 7",
+    "seccion": "Curaçao",
+    "grupo": "Curaçao",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CUW-08",
+    "numero": 8,
+    "nombre": "Curaçao Player 8",
+    "seccion": "Curaçao",
+    "grupo": "Curaçao",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CUW-09",
+    "numero": 9,
+    "nombre": "Curaçao Player 9",
+    "seccion": "Curaçao",
+    "grupo": "Curaçao",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CUW-10",
+    "numero": 10,
+    "nombre": "Curaçao Player 10",
+    "seccion": "Curaçao",
+    "grupo": "Curaçao",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CUW-11",
+    "numero": 11,
+    "nombre": "Curaçao Player 11",
+    "seccion": "Curaçao",
+    "grupo": "Curaçao",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CUW-12",
+    "numero": 12,
+    "nombre": "Curaçao Player 12",
+    "seccion": "Curaçao",
+    "grupo": "Curaçao",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CUW-13",
+    "numero": 13,
+    "nombre": "Curaçao Emblem",
+    "seccion": "Curaçao",
+    "grupo": "Curaçao",
+    "tipo": "escudo",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CUW-14",
+    "numero": 14,
+    "nombre": "Curaçao Player 14",
+    "seccion": "Curaçao",
+    "grupo": "Curaçao",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CUW-15",
+    "numero": 15,
+    "nombre": "Curaçao Player 15",
+    "seccion": "Curaçao",
+    "grupo": "Curaçao",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CUW-16",
+    "numero": 16,
+    "nombre": "Curaçao Player 16",
+    "seccion": "Curaçao",
+    "grupo": "Curaçao",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CUW-17",
+    "numero": 17,
+    "nombre": "Curaçao Player 17",
+    "seccion": "Curaçao",
+    "grupo": "Curaçao",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CUW-18",
+    "numero": 18,
+    "nombre": "Curaçao Player 18",
+    "seccion": "Curaçao",
+    "grupo": "Curaçao",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CUW-19",
+    "numero": 19,
+    "nombre": "Curaçao Player 19",
+    "seccion": "Curaçao",
+    "grupo": "Curaçao",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  },
+  {
+    "id": "CUW-20",
+    "numero": 20,
+    "nombre": "Curaçao Player 20",
+    "seccion": "Curaçao",
+    "grupo": "Curaçao",
+    "tipo": "jugador",
+    "tengo": false,
+    "repetidas": 0
+  }
+];
