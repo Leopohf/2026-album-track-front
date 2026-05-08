@@ -61,6 +61,7 @@ You are an expert in TypeScript, Angular, and scalable web application developme
 - **Tailwind CSS**: Use utility classes exclusively. Avoid custom CSS/SCSS files for components.
 - **Typography**: Use `font-mono` (IBM Plex Mono) for all text. Jerarchy should be defined by size and weight (`text-xs` to `text-4xl`).
 - **Colors**: Use the defined palette in `tailwind.config.ts` (`bg`, `surface`, `ink`, `muted`, `border`, `success`).
+- **Buttons**: Action buttons in cards must use a full border (`border-ink`) and explicit status labels (`Faltante`, `Adquirida`, `Repetida`) to indicate state clearly.
 
 ### State & Logic
 - **Signals**: Use Angular Signals for all reactive state.
@@ -74,8 +75,10 @@ You are an expert in TypeScript, Angular, and scalable web application developme
 
 ## Documentation & Vault Integration
 
-- **Location**: `../../album-project/`
+- **Vault Path**: `/mnt/data/Projects/personal/2026-album-track/album-project` (Absolute)
+- **Location**: `../../` (Relative to this project)
 - **Mandate**: All documentation within the Obsidian vault (wiki, README, etc.) MUST be in **English**.
+- **Requirement**: All codebase changes (features, bug fixes, refactors) MUST be documented in this vault.
 - **Process**: After implementing features or changing architecture, update:
   - `wiki/log.md`: Chronological log of changes.
   - `wiki/front-architecture.md`: Frontend technical details.

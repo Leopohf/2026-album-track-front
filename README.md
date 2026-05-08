@@ -14,7 +14,7 @@ A minimalist, high-performance web application to track your 2026 Panini World C
 ## Features
 
 - **User Management**: Simple username-based sessions stored locally.
-- **Sticker Collection**: Track owned stickers, missing ones, and duplicates.
+- **Sticker Collection**: Track owned stickers, missing ones, and duplicates. Enhanced UI with status labels (Missing, Owned, Duplicate) and outlined design.
 - **Advanced Filtering**: Filter by name, number, section, or status (Owned, Missing, Duplicates).
 - **Progress Tracking**: Real-time progress bar and metrics (Total, Owned, Missing, Duplicates).
 - **Export/Import**: Backup or share your album state via JSON.
