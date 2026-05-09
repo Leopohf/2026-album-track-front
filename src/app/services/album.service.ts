@@ -8,6 +8,8 @@ export class AlbumService {
   private platformId = inject(PLATFORM_ID);
   private stickers = signal<Sticker[]>([]);
   private username = signal<string>('');
+  private collapsedSections = signal<Set<string>>(new Set());
+  private collapsedGroups = signal<Set<string>>(new Set());
 
   constructor() {
     if (isPlatformBrowser(this.platformId)) {
@@ -69,6 +71,60 @@ export class AlbumService {
 
   getSecciones(): string[] {
     return Array.from(new Set(this.stickers().map(s => s.seccion)));
+  }
+
+  getGrupos(): string[] {
+    return Array.from(new Set(this.stickers().map(s => s.grupo)));
+  }
+
+  getCollapsedSections() {
+    return this.collapsedSections();
+  }
+
+  getCollapsedGroups() {
+    return this.collapsedGroups();
+  }
+
+  toggleSection(seccion: string): void {
+    this.collapsedSections.update(set => {
+      const newSet = new Set(set);
+      if (newSet.has(seccion)) {
+        newSet.delete(seccion);
+      } else {
+        newSet.add(seccion);
+      }
+      return newSet;
+    });
+  }
+
+  toggleGroup(grupo: string): void {
+    this.collapsedGroups.update(set => {
+      const newSet = new Set(set);
+      if (newSet.has(grupo)) {
+        newSet.delete(grupo);
+      } else {
+        newSet.add(grupo);
+      }
+      return newSet;
+    });
+  }
+
+  expandAll(): void {
+    this.collapsedSections.set(new Set());
+    this.collapsedGroups.set(new Set());
+  }
+
+  collapseAll(): void {
+    this.collapsedSections.set(new Set(this.getSecciones()));
+    this.collapsedGroups.set(new Set(this.getGrupos()));
+  }
+
+  expandGroups(): void {
+    this.collapsedGroups.set(new Set());
+  }
+
+  collapseGroups(): void {
+    this.collapsedGroups.set(new Set(this.getGrupos()));
   }
 
   exportAlbum(): string {

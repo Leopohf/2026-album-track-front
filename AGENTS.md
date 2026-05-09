@@ -79,9 +79,11 @@ You are an expert in TypeScript, Angular, and scalable web application developme
 - **SSR Safety**: Always check `isPlatformBrowser` before accessing `localStorage` or other browser-only APIs.
 - **Performance**: Use `ChangeDetectionStrategy.OnPush` and `@for` with `track` in templates.
 
-### Data Model
+### Data Model & Hierarchy
 - Stickers must follow the `Sticker` interface in `src/app/models/sticker.model.ts`.
+- **Hierarchical Grouping**: Stickers are organized by `TournamentGroup` -> `TeamGroup` -> `Sticker`.
 - Use `Record<string, ...>` for efficient sticker state mapping in `UserAlbum`.
+- **Collapsible UI**: All hierarchical levels (Groups, Sections) must be independently collapsible with smooth grid-based height transitions.
 
 ## Documentation & Vault Integration
 

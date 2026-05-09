@@ -1,6 +1,7 @@
-import { Component, Output, EventEmitter, ChangeDetectionStrategy, Input } from '@angular/core';
+import { Component, Output, EventEmitter, ChangeDetectionStrategy, Input, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FilterState } from '../../models/sticker.model';
+import { AlbumService } from '../../services/album.service';
 import { ReactWrapperComponent } from '../react-wrapper/react-wrapper.component';
 import { FilterBarReact } from './FilterBarReact';
 
@@ -17,6 +18,7 @@ import { FilterBarReact } from './FilterBarReact';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class FilterBarComponent {
+  albumService = inject(AlbumService);
   @Input() secciones: string[] = [];
   @Output() filtersChanged = new EventEmitter<FilterState>();
 
@@ -30,7 +32,11 @@ export class FilterBarComponent {
         status: 'todas',
         seccion: ''
       },
-      onFilterChange: (filters: FilterState) => this.filtersChanged.emit(filters)
+      onFilterChange: (filters: FilterState) => this.filtersChanged.emit(filters),
+      onExpandAll: () => this.albumService.expandAll(),
+      onCollapseAll: () => this.albumService.collapseAll(),
+      onExpandGroups: () => this.albumService.expandGroups(),
+      onCollapseGroups: () => this.albumService.collapseGroups()
     };
   }
 }

@@ -5,6 +5,10 @@ interface FilterBarProps {
   secciones: string[];
   initialFilters: FilterState;
   onFilterChange: (filters: FilterState) => void;
+  onExpandAll: () => void;
+  onCollapseAll: () => void;
+  onExpandGroups: () => void;
+  onCollapseGroups: () => void;
 }
 
 const TABS: { label: string; value: FilterState['status'] }[] = [
@@ -17,7 +21,11 @@ const TABS: { label: string; value: FilterState['status'] }[] = [
 export const FilterBarReact: React.FC<FilterBarProps> = ({ 
   secciones, 
   initialFilters, 
-  onFilterChange 
+  onFilterChange,
+  onExpandAll,
+  onCollapseAll,
+  onExpandGroups,
+  onCollapseGroups
 }) => {
   const [filters, setFilters] = useState<FilterState>(initialFilters);
 
@@ -59,21 +67,54 @@ export const FilterBarReact: React.FC<FilterBarProps> = ({
         </select>
       </div>
 
-      {/* Status Tabs */}
-      <div className="flex border-b border-border">
-        {TABS.map(tab => (
-          <button 
-            key={tab.value}
-            onClick={() => setStatus(tab.value)}
-            className={`px-4 py-2 text-[10px] uppercase font-bold tracking-widest border-b-2 transition-all duration-150 hover:text-ink ${
-              filters.status === tab.value 
-                ? 'border-ink text-ink' 
-                : 'border-transparent text-muted'
-            }`}
-          >
-            {tab.label}
-          </button>
-        ))}
+      {/* Status Tabs & Actions */}
+      <div className="flex flex-col sm:flex-row items-center border-b border-border gap-4 sm:gap-8">
+        <div className="flex w-full sm:w-auto overflow-x-auto no-scrollbar">
+          {TABS.map(tab => (
+            <button 
+              key={tab.value}
+              onClick={() => setStatus(tab.value)}
+              className={`px-4 py-2 text-[10px] uppercase font-bold tracking-widest border-b-2 transition-all duration-150 hover:text-ink whitespace-nowrap ${
+                filters.status === tab.value 
+                  ? 'border-ink text-ink' 
+                  : 'border-transparent text-muted'
+              }`}
+            >
+              {tab.label}
+            </button>
+          ))}
+        </div>
+
+        <div className="flex flex-wrap gap-x-6 gap-y-2 pb-2 sm:pb-0">
+          <div className="flex gap-4 border-r border-border pr-6">
+            <button 
+              onClick={onExpandGroups}
+              className="text-[10px] uppercase font-bold tracking-tighter text-muted hover:text-ink transition-colors flex items-center gap-1"
+            >
+              <span>[+]</span> GRUPOS
+            </button>
+            <button 
+              onClick={onCollapseGroups}
+              className="text-[10px] uppercase font-bold tracking-tighter text-muted hover:text-ink transition-colors flex items-center gap-1"
+            >
+              <span>[-]</span> GRUPOS
+            </button>
+          </div>
+          <div className="flex gap-4">
+            <button 
+              onClick={onExpandAll}
+              className="text-[10px] uppercase font-bold tracking-tighter text-muted hover:text-ink transition-colors flex items-center gap-1"
+            >
+              <span>[+]</span> TODO
+            </button>
+            <button 
+              onClick={onCollapseAll}
+              className="text-[10px] uppercase font-bold tracking-tighter text-muted hover:text-ink transition-colors flex items-center gap-1"
+            >
+              <span>[-]</span> TODO
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );

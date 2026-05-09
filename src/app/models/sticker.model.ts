@@ -30,3 +30,13 @@ export interface FilterState {
   status: 'todas' | 'tengo' | 'faltan' | 'repetidas';
   seccion: string;
 }
+
+export interface TeamGroup {
+  name: string;
+  stickers: Sticker[];
+}
+
+export interface TournamentGroup {
+  name: string;
+  teams: TeamGroup[];
+}

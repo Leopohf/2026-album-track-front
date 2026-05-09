@@ -1,39 +1,67 @@
 import React, { useMemo } from 'react';
-import { Sticker } from '../../models/sticker.model';
+import { Sticker, TournamentGroup, TeamGroup } from '../../models/sticker.model';
 import { StickerCardReact } from '../sticker-card/StickerCardReact';
 
 interface StickerGridProps {
   stickers: Sticker[];
+  collapsedSections: Set<string>;
+  collapsedGroups: Set<string>;
+  onToggleSection: (seccion: string) => void;
+  onToggleGroup: (grupo: string) => void;
   onToggled: (id: string) => void;
   onRepeatChanged: (id: string, delta: number) => void;
 }
 
 export const StickerGridReact: React.FC<StickerGridProps> = ({ 
   stickers, 
+  collapsedSections,
+  collapsedGroups,
+  onToggleSection,
+  onToggleGroup,
   onToggled, 
   onRepeatChanged 
 }) => {
-  const groupedStickers = useMemo(() => {
-    const groups = new Map<string, Sticker[]>();
+  const groupedData = useMemo(() => {
+    const tournamentGroupsMap = new Map<string, Map<string, Sticker[]>>();
+    
     stickers.forEach((sticker) => {
-      const group = groups.get(sticker.seccion) || [];
-      group.push(sticker);
-      groups.set(sticker.seccion, group);
+      if (!tournamentGroupsMap.has(sticker.grupo)) {
+        tournamentGroupsMap.set(sticker.grupo, new Map());
+      }
+      const teamsMap = tournamentGroupsMap.get(sticker.grupo)!;
+      if (!teamsMap.has(sticker.seccion)) {
+        teamsMap.set(sticker.seccion, []);
+      }
+      teamsMap.get(sticker.seccion)!.push(sticker);
     });
 
-    // Sort stickers within each group: #1 first, #13 second, others numerical
-    const entries = Array.from(groups.entries());
-    entries.forEach(([_, sectionStickers]) => {
-      sectionStickers.sort((a, b) => {
-        if (a.numero === 1) return -1;
-        if (b.numero === 1) return 1;
-        if (a.numero === 13) return -1;
-        if (b.numero === 13) return 1;
-        return a.numero - b.numero;
+    const result: TournamentGroup[] = [];
+    
+    // Sort Groups (A, B, C...)
+    const sortedGroupKeys = Array.from(tournamentGroupsMap.keys()).sort();
+    
+    sortedGroupKeys.forEach(groupName => {
+      const teamsMap = tournamentGroupsMap.get(groupName)!;
+      const teams: TeamGroup[] = [];
+      
+      // Teams within a group are already grouped by section
+      Array.from(teamsMap.entries()).forEach(([teamName, teamStickers]) => {
+        // Sort stickers within each team: #1 first, #13 second, others numerical
+        teamStickers.sort((a, b) => {
+          if (a.numero === 1) return -1;
+          if (b.numero === 1) return 1;
+          if (a.numero === 13) return -1;
+          if (b.numero === 13) return 1;
+          return a.numero - b.numero;
+        });
+        
+        teams.push({ name: teamName, stickers: teamStickers });
       });
+      
+      result.push({ name: groupName, teams });
     });
 
-    return entries;
+    return result;
   }, [stickers]);
 
   if (stickers.length === 0) {
@@ -45,31 +73,81 @@ export const StickerGridReact: React.FC<StickerGridProps> = ({
   }
 
   return (
-    <div className="space-y-12 pb-20">
-      {groupedStickers.map(([seccion, sectionStickers]) => (
-        <div key={seccion} className="space-y-4">
-          <div className="flex items-center gap-4">
-            <h2 className="font-mono text-xs uppercase tracking-[0.2em] text-muted whitespace-nowrap">
-              {seccion}
-            </h2>
-            <div className="h-[1px] w-full bg-border/30"></div>
+    <div className="space-y-16 pb-20">
+      {groupedData.map((group) => {
+        const isGroupCollapsed = collapsedGroups.has(group.name);
+        const groupLabel = group.name.length === 1 ? `GRUPO ${group.name}` : group.name;
+
+        return (
+          <div key={group.name} className="space-y-8">
+            {/* Group Header */}
+            <div 
+              className="flex items-center gap-6 cursor-pointer group/group-header sticky top-0 bg-bg/95 backdrop-blur-sm z-10 py-4 -mx-4 px-4 border-b border-border/50"
+              onClick={() => onToggleGroup(group.name)}
+            >
+              <button 
+                className="text-xs font-mono text-ink border-2 border-ink px-3 py-1 group-hover/group-header:bg-ink group-hover/group-header:text-bg transition-all min-w-[120px] text-center font-bold"
+              >
+                {isGroupCollapsed ? '[+] EXPANDIR' : '[-] COLAPSAR'}
+              </button>
+              <h2 className="font-mono text-lg uppercase tracking-[0.3em] text-ink whitespace-nowrap font-black">
+                {groupLabel}
+              </h2>
+              <div className="h-[2px] w-full bg-ink/10 group-hover/group-header:bg-ink/30 transition-colors"></div>
+            </div>
+
+            {/* Teams within Group */}
+            <div className={`grid transition-all duration-500 ease-in-out ${isGroupCollapsed ? 'grid-rows-[0fr] opacity-0 pointer-events-none' : 'grid-rows-[1fr] opacity-100'}`}>
+              <div className="overflow-hidden">
+                <div className="space-y-12 pt-4">
+                  {group.teams.map((team) => {
+                    const isTeamCollapsed = collapsedSections.has(team.name);
+                    
+                    return (
+                      <div key={team.name} className="space-y-4">
+                        {/* Team Header */}
+                        <div 
+                          className="flex items-center gap-4 cursor-pointer group/team-header ml-4 sm:ml-8"
+                          onClick={() => onToggleSection(team.name)}
+                        >
+                          <button 
+                            className="text-[10px] font-mono text-muted border border-border/50 px-2 py-0.5 group-hover/team-header:border-ink group-hover/team-header:text-ink transition-all min-w-[90px] text-center"
+                          >
+                            {isTeamCollapsed ? '[+] EXPANDIR' : '[-] COLAPSAR'}
+                          </button>
+                          <h3 className="font-mono text-xs uppercase tracking-[0.2em] text-muted whitespace-nowrap group-hover/team-header:text-ink transition-colors">
+                            {team.name}
+                          </h3>
+                          <div className="h-[1px] w-full bg-border/30 group-hover/team-header:bg-ink/30 transition-colors"></div>
+                        </div>
+                        
+                        {/* Stickers within Team */}
+                        <div className={`grid transition-all duration-300 ease-in-out ${isTeamCollapsed ? 'grid-rows-[0fr] opacity-0' : 'grid-rows-[1fr] opacity-100'}`}>
+                          <div className="overflow-hidden">
+                            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 pt-2 pb-1 ml-4 sm:ml-8">
+                              {team.stickers.map((sticker) => (
+                                <StickerCardReact 
+                                  key={sticker.id}
+                                  sticker={sticker}
+                                  onToggle={onToggled}
+                                  onUpdateRepetidas={(id, delta) => {
+                                    const nuevaCantidad = Math.max(0, sticker.repetidas + delta);
+                                    onRepeatChanged(id, nuevaCantidad);
+                                  }}
+                                />
+                              ))}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
           </div>
-          
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
-            {sectionStickers.map((sticker) => (
-              <StickerCardReact 
-                key={sticker.id}
-                sticker={sticker}
-                onToggle={onToggled}
-                onUpdateRepetidas={(id, delta) => {
-                  const nuevaCantidad = Math.max(0, sticker.repetidas + delta);
-                  onRepeatChanged(id, nuevaCantidad);
-                }}
-              />
-            ))}
-          </div>
-        </div>
-      ))}
+        );
+      })}
     </div>
   );
 };
