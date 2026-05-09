@@ -6,8 +6,8 @@ interface StickerGridProps {
   stickers: Sticker[];
   collapsedSections: Set<string>;
   collapsedGroups: Set<string>;
-  onToggleSection: (seccion: string) => void;
-  onToggleGroup: (grupo: string) => void;
+  onToggleSection: (section: string) => void;
+  onToggleGroup: (group: string) => void;
   onToggled: (id: string) => void;
   onRepeatChanged: (id: string, delta: number) => void;
 }
@@ -25,14 +25,14 @@ export const StickerGridReact: React.FC<StickerGridProps> = ({
     const tournamentGroupsMap = new Map<string, Map<string, Sticker[]>>();
     
     stickers.forEach((sticker) => {
-      if (!tournamentGroupsMap.has(sticker.grupo)) {
-        tournamentGroupsMap.set(sticker.grupo, new Map());
+      if (!tournamentGroupsMap.has(sticker.group)) {
+        tournamentGroupsMap.set(sticker.group, new Map());
       }
-      const teamsMap = tournamentGroupsMap.get(sticker.grupo)!;
-      if (!teamsMap.has(sticker.seccion)) {
-        teamsMap.set(sticker.seccion, []);
+      const teamsMap = tournamentGroupsMap.get(sticker.group)!;
+      if (!teamsMap.has(sticker.section)) {
+        teamsMap.set(sticker.section, []);
       }
-      teamsMap.get(sticker.seccion)!.push(sticker);
+      teamsMap.get(sticker.section)!.push(sticker);
     });
 
     const result: TournamentGroup[] = [];
@@ -48,11 +48,11 @@ export const StickerGridReact: React.FC<StickerGridProps> = ({
       Array.from(teamsMap.entries()).forEach(([teamName, teamStickers]) => {
         // Sort stickers within each team: #1 first, #13 second, others numerical
         teamStickers.sort((a, b) => {
-          if (a.numero === 1) return -1;
-          if (b.numero === 1) return 1;
-          if (a.numero === 13) return -1;
-          if (b.numero === 13) return 1;
-          return a.numero - b.numero;
+          if (a.number === 1) return -1;
+          if (b.number === 1) return 1;
+          if (a.number === 13) return -1;
+          if (b.number === 13) return 1;
+          return a.number - b.number;
         });
         
         teams.push({ name: teamName, stickers: teamStickers });
@@ -67,7 +67,7 @@ export const StickerGridReact: React.FC<StickerGridProps> = ({
   if (stickers.length === 0) {
     return (
       <div className="py-20 text-center font-mono text-muted uppercase text-sm border border-dashed border-border">
-        No se encontraron láminas
+        No stickers found
       </div>
     );
   }
@@ -76,7 +76,7 @@ export const StickerGridReact: React.FC<StickerGridProps> = ({
     <div className="space-y-16 pb-20">
       {groupedData.map((group) => {
         const isGroupCollapsed = collapsedGroups.has(group.name);
-        const groupLabel = group.name.length === 1 ? `GRUPO ${group.name}` : group.name;
+        const groupLabel = group.name.length === 1 ? `GROUP ${group.name}` : group.name;
 
         return (
           <div key={group.name} className="space-y-8">
@@ -88,7 +88,7 @@ export const StickerGridReact: React.FC<StickerGridProps> = ({
               <button 
                 className="text-xs font-mono text-ink border-2 border-ink px-3 py-1 group-hover/group-header:bg-ink group-hover/group-header:text-bg transition-all min-w-[120px] text-center font-bold"
               >
-                {isGroupCollapsed ? '[+] EXPANDIR' : '[-] COLAPSAR'}
+                {isGroupCollapsed ? '[+] EXPAND' : '[-] COLLAPSE'}
               </button>
               <h2 className="font-mono text-lg uppercase tracking-[0.3em] text-ink whitespace-nowrap font-black">
                 {groupLabel}
@@ -113,7 +113,7 @@ export const StickerGridReact: React.FC<StickerGridProps> = ({
                           <button 
                             className="text-[10px] font-mono text-muted border border-border/50 px-2 py-0.5 group-hover/team-header:border-ink group-hover/team-header:text-ink transition-all min-w-[90px] text-center"
                           >
-                            {isTeamCollapsed ? '[+] EXPANDIR' : '[-] COLAPSAR'}
+                            {isTeamCollapsed ? '[+] EXPAND' : '[-] COLLAPSE'}
                           </button>
                           <h3 className="font-mono text-xs uppercase tracking-[0.2em] text-muted whitespace-nowrap group-hover/team-header:text-ink transition-colors">
                             {team.name}
@@ -130,9 +130,9 @@ export const StickerGridReact: React.FC<StickerGridProps> = ({
                                   key={sticker.id}
                                   sticker={sticker}
                                   onToggle={onToggled}
-                                  onUpdateRepetidas={(id, delta) => {
-                                    const nuevaCantidad = Math.max(0, sticker.repetidas + delta);
-                                    onRepeatChanged(id, nuevaCantidad);
+                                  onUpdateDuplicates={(id, delta) => {
+                                    const newQuantity = Math.max(0, sticker.duplicates + delta);
+                                    onRepeatChanged(id, newQuantity);
                                   }}
                                 />
                               ))}

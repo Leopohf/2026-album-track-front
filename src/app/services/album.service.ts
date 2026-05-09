@@ -33,48 +33,48 @@ export class AlbumService {
   getStats = computed<AlbumStats>(() => {
     const allStickers = this.stickers();
     const total = allStickers.length;
-    const tengo = allStickers.filter(s => s.tengo).length;
-    const faltan = total - tengo;
-    const repetidas = allStickers.reduce((acc, s) => acc + s.repetidas, 0);
-    const progreso = total > 0 ? (tengo / total) * 100 : 0;
+    const owned = allStickers.filter(s => s.owned).length;
+    const missing = total - owned;
+    const duplicates = allStickers.reduce((acc, s) => acc + s.duplicates, 0);
+    const progress = total > 0 ? (owned / total) * 100 : 0;
 
-    return { total, tengo, faltan, repetidas, progreso };
+    return { total, owned, missing, duplicates, progress };
   });
 
   toggleSticker(id: string): void {
     this.stickers.update(stickers =>
-      stickers.map(s => s.id === id ? { ...s, tengo: !s.tengo, repetidas: !s.tengo ? 0 : s.repetidas } : s)
+      stickers.map(s => s.id === id ? { ...s, owned: !s.owned, duplicates: !s.owned ? 0 : s.duplicates } : s)
     );
     this.saveToLocalStorage();
   }
 
-  updateRepetidas(id: string, cantidad: number): void {
+  updateDuplicates(id: string, quantity: number): void {
     this.stickers.update(stickers =>
-      stickers.map(s => s.id === id ? { ...s, repetidas: Math.max(0, cantidad) } : s)
+      stickers.map(s => s.id === id ? { ...s, duplicates: Math.max(0, quantity) } : s)
     );
     this.saveToLocalStorage();
   }
 
   getFiltered(filters: FilterState): Sticker[] {
     return this.stickers().filter(s => {
-      const matchBusqueda = s.nombre.toLowerCase().includes(filters.busqueda.toLowerCase()) ||
-                            s.numero.toString().includes(filters.busqueda);
-      const matchStatus = filters.status === 'todas' ? true :
-                          filters.status === 'tengo' ? s.tengo :
-                          filters.status === 'faltan' ? !s.tengo :
-                          filters.status === 'repetidas' ? s.repetidas > 0 : true;
-      const matchSeccion = filters.seccion === '' ? true : s.seccion === filters.seccion;
+      const matchSearch = s.name.toLowerCase().includes(filters.search.toLowerCase()) ||
+                            s.number.toString().includes(filters.search);
+      const matchStatus = filters.status === 'all' ? true :
+                          filters.status === 'owned' ? s.owned :
+                          filters.status === 'missing' ? !s.owned :
+                          filters.status === 'duplicates' ? s.duplicates > 0 : true;
+      const matchSection = filters.section === '' ? true : s.section === filters.section;
 
-      return matchBusqueda && matchStatus && matchSeccion;
+      return matchSearch && matchStatus && matchSection;
     });
   }
 
-  getSecciones(): string[] {
-    return Array.from(new Set(this.stickers().map(s => s.seccion)));
+  getSections(): string[] {
+    return Array.from(new Set(this.stickers().map(s => s.section)));
   }
 
-  getGrupos(): string[] {
-    return Array.from(new Set(this.stickers().map(s => s.grupo)));
+  getGroups(): string[] {
+    return Array.from(new Set(this.stickers().map(s => s.group)));
   }
 
   getCollapsedSections() {
@@ -85,25 +85,25 @@ export class AlbumService {
     return this.collapsedGroups();
   }
 
-  toggleSection(seccion: string): void {
+  toggleSection(section: string): void {
     this.collapsedSections.update(set => {
       const newSet = new Set(set);
-      if (newSet.has(seccion)) {
-        newSet.delete(seccion);
+      if (newSet.has(section)) {
+        newSet.delete(section);
       } else {
-        newSet.add(seccion);
+        newSet.add(section);
       }
       return newSet;
     });
   }
 
-  toggleGroup(grupo: string): void {
+  toggleGroup(group: string): void {
     this.collapsedGroups.update(set => {
       const newSet = new Set(set);
-      if (newSet.has(grupo)) {
-        newSet.delete(grupo);
+      if (newSet.has(group)) {
+        newSet.delete(group);
       } else {
-        newSet.add(grupo);
+        newSet.add(group);
       }
       return newSet;
     });
@@ -115,8 +115,8 @@ export class AlbumService {
   }
 
   collapseAll(): void {
-    this.collapsedSections.set(new Set(this.getSecciones()));
-    this.collapsedGroups.set(new Set(this.getGrupos()));
+    this.collapsedSections.set(new Set(this.getSections()));
+    this.collapsedGroups.set(new Set(this.getGroups()));
   }
 
   expandGroups(): void {
@@ -124,14 +124,14 @@ export class AlbumService {
   }
 
   collapseGroups(): void {
-    this.collapsedGroups.set(new Set(this.getGrupos()));
+    this.collapsedGroups.set(new Set(this.getGroups()));
   }
 
   exportAlbum(): string {
     const album: UserAlbum = {
       username: this.username(),
       stickers: this.stickers().reduce((acc, s) => {
-        acc[s.id] = { tengo: s.tengo, repetidas: s.repetidas };
+        acc[s.id] = { owned: s.owned, duplicates: s.duplicates };
         return acc;
       }, {} as Record<string, any>)
     };
@@ -147,7 +147,7 @@ export class AlbumService {
       this.stickers.update(current =>
         current.map(s => {
           const imported = album.stickers[s.id];
-          return imported ? { ...s, tengo: imported.tengo, repetidas: imported.repetidas } : s;
+          return imported ? { ...s, owned: imported.owned, duplicates: imported.duplicates } : s;
         })
       );
       this.saveToLocalStorage();
@@ -162,7 +162,7 @@ export class AlbumService {
     const album: UserAlbum = {
       username: this.username(),
       stickers: this.stickers().reduce((acc, s) => {
-        acc[s.id] = { tengo: s.tengo, repetidas: s.repetidas };
+        acc[s.id] = { owned: s.owned, duplicates: s.duplicates };
         return acc;
       }, {} as Record<string, any>)
     };
@@ -188,7 +188,7 @@ export class AlbumService {
       const album: UserAlbum = JSON.parse(saved);
       this.stickers.set(STICKERS_DATA.map(s => {
         const imported = album.stickers[s.id];
-        return imported ? { ...s, tengo: imported.tengo, repetidas: imported.repetidas } : { ...s };
+        return imported ? { ...s, owned: imported.owned, duplicates: imported.duplicates } : { ...s };
       }));
     } else {
       this.stickers.set(STICKERS_DATA.map(s => ({ ...s })));

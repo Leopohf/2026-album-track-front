@@ -19,7 +19,7 @@ import { StickerCardReact } from './StickerCardReact';
 export class StickerCardComponent {
   @Input({ required: true }) sticker!: Sticker;
   @Output() toggled = new EventEmitter<string>();
-  @Output() repeatChanged = new EventEmitter<{ id: string; cantidad: number }>();
+  @Output() repeatChanged = new EventEmitter<{ id: string; quantity: number }>();
 
   readonly StickerCardReact = StickerCardReact;
 
@@ -27,9 +27,9 @@ export class StickerCardComponent {
     return {
       sticker: this.sticker,
       onToggle: (id: string) => this.toggled.emit(id),
-      onUpdateRepetidas: (id: string, delta: number) => {
-        const nuevaCantidad = Math.max(0, this.sticker.repetidas + delta);
-        this.repeatChanged.emit({ id, cantidad: nuevaCantidad });
+      onUpdateDuplicates: (id: string, delta: number) => {
+        const newQuantity = Math.max(0, this.sticker.duplicates + delta);
+        this.repeatChanged.emit({ id, quantity: newQuantity });
       }
     };
   }

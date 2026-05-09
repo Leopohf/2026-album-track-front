@@ -24,7 +24,7 @@ import { FilterState } from '../../models/sticker.model';
 
       <div class="mb-8 flex items-center justify-between">
         <h2 class="text-2xl font-bold uppercase tracking-tighter">{{ sectionName() }}</h2>
-        <a routerLink="/album" class="text-xs uppercase hover:underline">Volver al álbum</a>
+        <a routerLink="/album" class="text-xs uppercase hover:underline">Back to album</a>
       </div>
 
       <app-sticker-grid 
@@ -44,20 +44,20 @@ export class SectionComponent implements OnInit {
 
   filteredStickers = computed(() => {
     const filters: FilterState = {
-      busqueda: '',
-      status: 'todas',
-      seccion: this.sectionName()
+      search: '',
+      status: 'all',
+      section: this.sectionName()
     };
     return this.albumService.getFiltered(filters);
   });
 
   ngOnInit() {
     this.route.params.subscribe(params => {
-      this.sectionName.set(params['seccion'] || '');
+      this.sectionName.set(params['section'] || '');
     });
   }
 
-  onRepeatChanged(event: { id: string; cantidad: number }) {
-    this.albumService.updateRepetidas(event.id, event.cantidad);
+  onRepeatChanged(event: { id: string; quantity: number }) {
+    this.albumService.updateDuplicates(event.id, event.quantity);
   }
 }

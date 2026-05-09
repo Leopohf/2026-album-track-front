@@ -25,11 +25,11 @@ import { FilterState } from '../../models/sticker.model';
       ></app-user-header>
 
       <section class="mb-12">
-        <h2 class="text-xl font-bold uppercase mb-6 tracking-widest border-l-4 border-ink pl-4">Gestión de Datos</h2>
+        <h2 class="text-xl font-bold uppercase mb-6 tracking-widest border-l-4 border-ink pl-4">Data Management</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div class="border border-border p-6">
-            <h3 class="text-sm font-bold uppercase mb-4">Exportar Álbum</h3>
-            <p class="text-xs text-muted mb-6 uppercase">Copia este código para respaldar tu progreso o compartirlo.</p>
+            <h3 class="text-sm font-bold uppercase mb-4">Export Album</h3>
+            <p class="text-xs text-muted mb-6 uppercase">Copy this code to back up your progress or share it.</p>
             <textarea 
               readonly 
               class="w-full h-32 bg-bg border border-border p-3 text-[10px] font-mono mb-4 focus:outline-none"
@@ -40,13 +40,13 @@ import { FilterState } from '../../models/sticker.model';
               (click)="copyToClipboard(exportArea)"
               class="w-full border border-ink text-ink text-xs px-4 py-3 uppercase font-bold hover:bg-ink hover:text-white transition-colors"
             >
-              Copiar al portapapeles
+              Copy to clipboard
             </button>
           </div>
 
           <div class="border border-border p-6">
-            <h3 class="text-sm font-bold uppercase mb-4">Importar Álbum</h3>
-            <p class="text-xs text-muted mb-6 uppercase">Pega el código JSON para restaurar tu progreso.</p>
+            <h3 class="text-sm font-bold uppercase mb-4">Import Album</h3>
+            <p class="text-xs text-muted mb-6 uppercase">Paste the JSON code to restore your progress.</p>
             <textarea 
               class="w-full h-32 bg-bg border border-border p-3 text-[10px] font-mono mb-4 focus:outline-none"
               [(ngModel)]="importJson"
@@ -57,23 +57,23 @@ import { FilterState } from '../../models/sticker.model';
               [disabled]="!importJson"
               class="w-full border border-ink text-ink text-xs px-4 py-3 uppercase font-bold hover:bg-ink hover:text-white transition-colors disabled:opacity-30"
             >
-              Restaurar Datos
+              Restore Data
             </button>
           </div>
         </div>
       </section>
 
       <section>
-        <h2 class="text-xl font-bold uppercase mb-6 tracking-widest border-l-4 border-ink pl-4">Láminas Repetidas</h2>
-        @if (repetidas().length > 0) {
+        <h2 class="text-xl font-bold uppercase mb-6 tracking-widest border-l-4 border-ink pl-4">Duplicate Stickers</h2>
+        @if (duplicates().length > 0) {
           <app-sticker-grid 
-            [stickers]="repetidas()"
+            [stickers]="duplicates()"
             (stickerToggled)="albumService.toggleSticker($event)"
             (stickerRepeatChanged)="onRepeatChanged($event)"
           ></app-sticker-grid>
         } @else {
           <div class="py-12 border border-dashed border-border text-center text-muted uppercase text-xs">
-            No tienes láminas repetidas aún
+            You don't have duplicate stickers yet
           </div>
         }
       </section>
@@ -87,27 +87,27 @@ export class ProfileComponent {
 
   exportData = computed(() => this.albumService.exportAlbum());
 
-  repetidas = computed(() => {
+  duplicates = computed(() => {
     const filters: FilterState = {
-      busqueda: '',
-      status: 'repetidas',
-      seccion: ''
+      search: '',
+      status: 'duplicates',
+      section: ''
     };
     return this.albumService.getFiltered(filters);
   });
 
-  onRepeatChanged(event: { id: string; cantidad: number }) {
-    this.albumService.updateRepetidas(event.id, event.cantidad);
+  onRepeatChanged(event: { id: string; quantity: number }) {
+    this.albumService.updateDuplicates(event.id, event.quantity);
   }
 
   copyToClipboard(area: HTMLTextAreaElement) {
     area.select();
     document.execCommand('copy');
-    alert('¡Copiado al portapapeles!');
+    alert('Copied to clipboard!');
   }
 
   importAlbum() {
-    if (confirm('Esto sobrescribirá tu progreso actual. ¿Continuar?')) {
+    if (confirm('This will overwrite your current progress. Continue?')) {
       this.albumService.importAlbum(this.importJson);
       this.importJson = '';
     }

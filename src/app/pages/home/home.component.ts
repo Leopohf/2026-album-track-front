@@ -10,14 +10,14 @@ import { AlbumService } from '../../services/album.service';
   imports: [CommonModule, FormsModule],
   template: `
     <div class="min-h-[80vh] flex flex-col items-center justify-center font-mono max-w-md mx-auto px-4 text-center">
-      <h1 class="text-4xl font-bold mb-2 uppercase tracking-tighter">Álbum Mundial 2026</h1>
-      <p class="text-sm text-muted uppercase mb-12 tracking-widest">Sistema de Registro de Láminas</p>
+      <h1 class="text-4xl font-bold mb-2 uppercase tracking-tighter">World Cup Album 2026</h1>
+      <p class="text-sm text-muted uppercase mb-12 tracking-widest">Sticker Tracking System</p>
 
       <div class="w-full space-y-4">
         <input 
           type="text" 
           [(ngModel)]="username"
-          placeholder="INGRESA TU NOMBRE..."
+          placeholder="ENTER YOUR NAME..."
           class="w-full bg-transparent border border-ink p-4 text-sm focus:outline-none uppercase text-center font-bold"
           (keyup.enter)="enterAlbum()"
         >
@@ -27,12 +27,12 @@ import { AlbumService } from '../../services/album.service';
           [disabled]="!username()"
           class="w-full border border-ink text-ink text-sm px-4 py-4 uppercase font-bold tracking-widest hover:bg-ink hover:text-white transition-colors duration-150 disabled:opacity-30"
         >
-          Entrar al álbum
+          Enter Album
         </button>
 
         @if (lastUser()) {
           <div class="pt-8 mt-8 border-t border-border">
-            <p class="text-[10px] text-muted uppercase mb-4">Continuar como:</p>
+            <p class="text-[10px] text-muted uppercase mb-4">Continue as:</p>
             <button 
               (click)="continueAs(lastUser()!)"
               class="text-sm font-bold uppercase hover:underline"

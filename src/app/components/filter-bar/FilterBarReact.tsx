@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FilterState } from '../../models/sticker.model';
 
 interface FilterBarProps {
-  secciones: string[];
+  sections: string[];
   initialFilters: FilterState;
   onFilterChange: (filters: FilterState) => void;
   onExpandAll: () => void;
@@ -12,14 +12,14 @@ interface FilterBarProps {
 }
 
 const TABS: { label: string; value: FilterState['status'] }[] = [
-  { label: 'TODAS', value: 'todas' },
-  { label: 'TENGO', value: 'tengo' },
-  { label: 'FALTAN', value: 'faltan' },
-  { label: 'REPETIDAS', value: 'repetidas' }
+  { label: 'ALL', value: 'all' },
+  { label: 'OWNED', value: 'owned' },
+  { label: 'MISSING', value: 'missing' },
+  { label: 'DUPLICATES', value: 'duplicates' }
 ];
 
 export const FilterBarReact: React.FC<FilterBarProps> = ({ 
-  secciones, 
+  sections, 
   initialFilters, 
   onFilterChange,
   onExpandAll,
@@ -48,21 +48,21 @@ export const FilterBarReact: React.FC<FilterBarProps> = ({
       <div className="flex flex-col md:flex-row gap-4">
         <input 
           type="text" 
-          name="busqueda"
-          value={filters.busqueda}
+          name="search"
+          value={filters.search}
           onChange={handleInputChange}
-          placeholder="BUSCAR POR NOMBRE O NÚMERO..."
+          placeholder="SEARCH BY NAME OR NUMBER..."
           className="flex-1 bg-transparent border border-border p-3 text-sm focus:outline-none focus:border-ink uppercase placeholder:text-muted/50"
         />
         <select 
-          name="seccion"
-          value={filters.seccion}
+          name="section"
+          value={filters.section}
           onChange={handleInputChange}
           className="bg-transparent border border-border p-3 text-sm focus:outline-none focus:border-ink uppercase"
         >
-          <option value="">TODAS LAS SECCIONES</option>
-          {secciones.map(seccion => (
-            <option key={seccion} value={seccion}>{seccion.toUpperCase()}</option>
+          <option value="">ALL SECTIONS</option>
+          {sections.map(section => (
+            <option key={section} value={section}>{section.toUpperCase()}</option>
           ))}
         </select>
       </div>
@@ -91,13 +91,13 @@ export const FilterBarReact: React.FC<FilterBarProps> = ({
               onClick={onExpandGroups}
               className="text-[10px] uppercase font-bold tracking-tighter text-muted hover:text-ink transition-colors flex items-center gap-1"
             >
-              <span>[+]</span> GRUPOS
+              <span>[+]</span> GROUPS
             </button>
             <button 
               onClick={onCollapseGroups}
               className="text-[10px] uppercase font-bold tracking-tighter text-muted hover:text-ink transition-colors flex items-center gap-1"
             >
-              <span>[-]</span> GRUPOS
+              <span>[-]</span> GROUPS
             </button>
           </div>
           <div className="flex gap-4">
@@ -105,13 +105,13 @@ export const FilterBarReact: React.FC<FilterBarProps> = ({
               onClick={onExpandAll}
               className="text-[10px] uppercase font-bold tracking-tighter text-muted hover:text-ink transition-colors flex items-center gap-1"
             >
-              <span>[+]</span> TODO
+              <span>[+]</span> ALL
             </button>
             <button 
               onClick={onCollapseAll}
               className="text-[10px] uppercase font-bold tracking-tighter text-muted hover:text-ink transition-colors flex items-center gap-1"
             >
-              <span>[-]</span> TODO
+              <span>[-]</span> ALL
             </button>
           </div>
         </div>

@@ -4,37 +4,37 @@ import { Sticker } from '../../models/sticker.model';
 interface StickerCardProps {
   sticker: Sticker;
   onToggle: (id: string) => void;
-  onUpdateRepetidas: (id: string, delta: number) => void;
+  onUpdateDuplicates: (id: string, delta: number) => void;
 }
 
 export const StickerCardReact: React.FC<StickerCardProps> = ({ 
   sticker, 
   onToggle, 
-  onUpdateRepetidas 
+  onUpdateDuplicates 
 }) => {
-  const isTengo = sticker.tengo;
-  const hasRepetidas = sticker.repetidas > 0;
+  const isOwned = sticker.owned;
+  const hasDuplicates = sticker.duplicates > 0;
 
-  const statusLabel = !isTengo 
-    ? 'Faltante' 
-    : (hasRepetidas ? 'Repetida' : 'Adquirida');
+  const statusLabel = !isOwned 
+    ? 'Missing' 
+    : (hasDuplicates ? 'Duplicate' : 'Owned');
 
   return (
     <div 
       className={`group border rounded p-3 font-mono transition-all duration-150 relative bg-surface hover:border-ink ${
-        !isTengo ? 'opacity-40 border-border' : 'border-ink'
+        !isOwned ? 'opacity-40 border-border' : 'border-ink'
       }`}
     >
       {/* ID & Number */}
       <div className="flex justify-between items-start mb-2">
         <span className="text-xs text-muted">{sticker.id}</span>
-        <span className="text-lg font-bold">#{sticker.numero}</span>
+        <span className="text-lg font-bold">#{sticker.number}</span>
       </div>
 
       {/* Name & Section */}
       <div className="mb-4 cursor-pointer" onClick={() => onToggle(sticker.id)}>
-        <h3 className="text-sm font-bold truncate leading-tight">{sticker.nombre}</h3>
-        <p className="text-[10px] uppercase text-muted tracking-widest">{sticker.seccion}</p>
+        <h3 className="text-sm font-bold truncate leading-tight">{sticker.name}</h3>
+        <p className="text-[10px] uppercase text-muted tracking-widest">{sticker.section}</p>
       </div>
 
       {/* Controls */}
@@ -46,17 +46,17 @@ export const StickerCardReact: React.FC<StickerCardProps> = ({
           {statusLabel}
         </button>
 
-        {isTengo && (
+        {isOwned && (
           <div className="flex items-center gap-2">
             <button 
-              onClick={() => onUpdateRepetidas(sticker.id, -1)}
+              onClick={() => onUpdateDuplicates(sticker.id, -1)}
               className="w-5 h-5 flex items-center justify-center border border-ink text-xs hover:bg-ink hover:text-surface"
             >
               -
             </button>
-            <span className="text-xs font-bold">{sticker.repetidas}</span>
+            <span className="text-xs font-bold">{sticker.duplicates}</span>
             <button 
-              onClick={() => onUpdateRepetidas(sticker.id, 1)}
+              onClick={() => onUpdateDuplicates(sticker.id, 1)}
               className="w-5 h-5 flex items-center justify-center border border-ink text-xs hover:bg-ink hover:text-surface"
             >
               +
@@ -65,10 +65,10 @@ export const StickerCardReact: React.FC<StickerCardProps> = ({
         )}
       </div>
 
-      {/* Badge Repetidas */}
-      {hasRepetidas && (
+      {/* Badge Duplicates */}
+      {hasDuplicates && (
         <span className="absolute -top-1 -right-1 bg-ink text-bg text-[10px] w-5 h-5 flex items-center justify-center font-bold">
-          ×{sticker.repetidas}
+          ×{sticker.duplicates}
         </span>
       )}
     </div>

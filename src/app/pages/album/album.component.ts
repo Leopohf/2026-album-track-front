@@ -29,7 +29,7 @@ import { FilterState } from '../../models/sticker.model';
       ></app-stats-panel>
 
       <app-filter-bar 
-        [secciones]="albumService.getSecciones()"
+        [sections]="albumService.getSections()"
         (filtersChanged)="onFiltersChanged($event)"
       ></app-filter-bar>
 
@@ -46,9 +46,9 @@ export class AlbumComponent {
   albumService = inject(AlbumService);
   
   filters = signal<FilterState>({
-    busqueda: '',
-    status: 'todas',
-    seccion: ''
+    search: '',
+    status: 'all',
+    section: ''
   });
 
   filteredStickers = computed(() => {
@@ -59,7 +59,7 @@ export class AlbumComponent {
     this.filters.set(newFilters);
   }
 
-  onRepeatChanged(event: { id: string; cantidad: number }) {
-    this.albumService.updateRepetidas(event.id, event.cantidad);
+  onRepeatChanged(event: { id: string; quantity: number }) {
+    this.albumService.updateDuplicates(event.id, event.quantity);
   }
 }

@@ -10,10 +10,10 @@ export const UserHeaderReact: React.FC<UserHeaderProps> = ({ username, stats }) 
   return (
     <header className="flex flex-col md:flex-row md:items-baseline justify-between mb-8 font-mono border-b border-border pb-4">
       <h1 className="text-4xl font-bold text-ink uppercase tracking-tighter">
-        {username || 'Invitado'}
+        {username || 'Guest'}
       </h1>
       <div className="text-sm text-muted uppercase">
-        Progreso: <span className="text-ink font-bold">{stats.tengo}</span> de {stats.total} láminas
+        Progress: <span className="text-ink font-bold">{stats.owned}</span> of {stats.total} stickers
       </div>
     </header>
   );

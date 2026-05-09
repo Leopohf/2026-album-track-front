@@ -21,7 +21,7 @@ export class StickerGridComponent {
   albumService = inject(AlbumService);
   @Input({ required: true }) stickers: Sticker[] = [];
   @Output() stickerToggled = new EventEmitter<string>();
-  @Output() stickerRepeatChanged = new EventEmitter<{ id: string; cantidad: number }>();
+  @Output() stickerRepeatChanged = new EventEmitter<{ id: string; quantity: number }>();
 
   readonly StickerGridReact = StickerGridReact;
 
@@ -30,11 +30,11 @@ export class StickerGridComponent {
       stickers: this.stickers,
       collapsedSections: this.albumService.getCollapsedSections(),
       collapsedGroups: this.albumService.getCollapsedGroups(),
-      onToggleSection: (seccion: string) => this.albumService.toggleSection(seccion),
-      onToggleGroup: (grupo: string) => this.albumService.toggleGroup(grupo),
+      onToggleSection: (section: string) => this.albumService.toggleSection(section),
+      onToggleGroup: (group: string) => this.albumService.toggleGroup(group),
       onToggled: (id: string) => this.stickerToggled.emit(id),
-      onRepeatChanged: (id: string, cantidad: number) => 
-        this.stickerRepeatChanged.emit({ id, cantidad })
+      onRepeatChanged: (id: string, quantity: number) => 
+        this.stickerRepeatChanged.emit({ id, quantity })
     };
   }
 }

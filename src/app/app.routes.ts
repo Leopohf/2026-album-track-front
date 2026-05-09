@@ -10,11 +10,11 @@ export const routes: Routes = [
     loadComponent: () => import('./pages/album/album.component').then(m => m.AlbumComponent)
   },
   {
-    path: 'album/:seccion',
+    path: 'album/:section',
     loadComponent: () => import('./pages/section/section.component').then(m => m.SectionComponent)
   },
   {
-    path: 'perfil',
+    path: 'profile',
     loadComponent: () => import('./pages/profile/profile.component').then(m => m.ProfileComponent)
   },
   {

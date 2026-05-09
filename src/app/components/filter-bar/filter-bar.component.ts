@@ -19,18 +19,18 @@ import { FilterBarReact } from './FilterBarReact';
 })
 export class FilterBarComponent {
   albumService = inject(AlbumService);
-  @Input() secciones: string[] = [];
+  @Input() sections: string[] = [];
   @Output() filtersChanged = new EventEmitter<FilterState>();
 
   readonly FilterBarReact = FilterBarReact;
 
   get reactProps() {
     return {
-      secciones: this.secciones,
+      sections: this.sections,
       initialFilters: {
-        busqueda: '',
-        status: 'todas',
-        seccion: ''
+        search: '',
+        status: 'all',
+        section: ''
       },
       onFilterChange: (filters: FilterState) => this.filtersChanged.emit(filters),
       onExpandAll: () => this.albumService.expandAll(),

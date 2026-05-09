@@ -12,7 +12,7 @@ export const StatsPanelReact: React.FC<StatsPanelProps> = ({ stats }) => {
       <div className="w-full h-1 bg-border mb-4">
         <div 
           className="h-1 bg-ink transition-all duration-500 ease-out" 
-          style={{ width: `${stats.progreso}%` }}
+          style={{ width: `${stats.progress}%` }}
         ></div>
       </div>
 
@@ -23,16 +23,16 @@ export const StatsPanelReact: React.FC<StatsPanelProps> = ({ stats }) => {
           <p className="text-2xl font-bold leading-none">{stats.total}</p>
         </div>
         <div className="border border-border p-4">
-          <p className="text-[10px] text-muted uppercase tracking-widest mb-1">Tengo</p>
-          <p className="text-2xl font-bold leading-none text-success">{stats.tengo}</p>
+          <p className="text-[10px] text-muted uppercase tracking-widest mb-1">Owned</p>
+          <p className="text-2xl font-bold leading-none text-success">{stats.owned}</p>
         </div>
         <div className="border border-border p-4">
-          <p className="text-[10px] text-muted uppercase tracking-widest mb-1">Faltan</p>
-          <p className="text-2xl font-bold leading-none">{stats.faltan}</p>
+          <p className="text-[10px] text-muted uppercase tracking-widest mb-1">Missing</p>
+          <p className="text-2xl font-bold leading-none">{stats.missing}</p>
         </div>
         <div className="border border-border p-4">
-          <p className="text-[10px] text-muted uppercase tracking-widest mb-1">Repetidas</p>
-          <p className="text-2xl font-bold leading-none">{stats.repetidas}</p>
+          <p className="text-[10px] text-muted uppercase tracking-widest mb-1">Duplicates</p>
+          <p className="text-2xl font-bold leading-none">{stats.duplicates}</p>
         </div>
       </div>
     </div>
