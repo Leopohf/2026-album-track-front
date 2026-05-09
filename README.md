@@ -16,9 +16,20 @@ A minimalist, high-performance web application to track your 2026 Panini World C
 - **User Management**: Simple username-based sessions stored locally.
 - **Sticker Collection**: Track owned stickers, missing ones, and duplicates. Enhanced UI with status labels (Missing, Owned, Duplicate) and outlined design.
 - **Advanced Filtering**: Filter by name, number, section, or status (Owned, Missing, Duplicates).
+- **Team-Centric View**: Stickers are grouped by team, with Federation Logos and Team Pictures prioritized in the layout.
 - **Progress Tracking**: Real-time progress bar and metrics (Total, Owned, Missing, Duplicates).
 - **Export/Import**: Backup or share your album state via JSON.
 - **Responsive Design**: Optimized for mobile and desktop using a minimalist "ink-on-paper" aesthetic.
+
+## Data Standards
+
+Every team in the application follows a strict structural standard to ensure consistency across the 48 sections:
+
+- **20 Stickers per Team**: Consistent size for all participants.
+- **Federation Logo (#1)**: Always typed as `escudo` and displayed first in the grid.
+- **Team Picture (#13)**: Always typed as `intro` and displayed second in the grid.
+- **Players**: All other stickers are typed as `jugador` and ordered numerically.
+- **Group Organization**: Teams are ordered by tournament group (Group A through Group L).
 
 ## Architecture
 
