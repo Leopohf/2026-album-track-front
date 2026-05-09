@@ -35,7 +35,7 @@ export class AlbumService {
     const total = allStickers.length;
     const owned = allStickers.filter(s => s.owned).length;
     const missing = total - owned;
-    const duplicates = allStickers.reduce((acc, s) => acc + s.duplicates, 0);
+    const duplicates = allStickers.reduce((acc, s) => acc + (Number(s.duplicates) || 0), 0);
     const progress = total > 0 ? (owned / total) * 100 : 0;
 
     return { total, owned, missing, duplicates, progress };
@@ -43,14 +43,15 @@ export class AlbumService {
 
   toggleSticker(id: string): void {
     this.stickers.update(stickers =>
-      stickers.map(s => s.id === id ? { ...s, owned: !s.owned, duplicates: !s.owned ? 0 : s.duplicates } : s)
+      stickers.map(s => s.id === id ? { ...s, owned: !s.owned, duplicates: !s.owned ? 0 : (Number(s.duplicates) || 0) } : s)
     );
     this.saveToLocalStorage();
   }
 
   updateDuplicates(id: string, quantity: number): void {
+    const safeQuantity = isNaN(quantity) ? 0 : Math.max(0, quantity);
     this.stickers.update(stickers =>
-      stickers.map(s => s.id === id ? { ...s, duplicates: Math.max(0, quantity) } : s)
+      stickers.map(s => s.id === id ? { ...s, duplicates: safeQuantity } : s)
     );
     this.saveToLocalStorage();
   }
@@ -147,7 +148,11 @@ export class AlbumService {
       this.stickers.update(current =>
         current.map(s => {
           const imported = album.stickers[s.id];
-          return imported ? { ...s, owned: imported.owned, duplicates: imported.duplicates } : s;
+          return imported ? { 
+            ...s, 
+            owned: !!imported.owned, 
+            duplicates: Math.max(0, Number(imported.duplicates) || 0) 
+          } : s;
         })
       );
       this.saveToLocalStorage();
@@ -162,7 +167,7 @@ export class AlbumService {
     const album: UserAlbum = {
       username: this.username(),
       stickers: this.stickers().reduce((acc, s) => {
-        acc[s.id] = { owned: s.owned, duplicates: s.duplicates };
+        acc[s.id] = { owned: s.owned, duplicates: Number(s.duplicates) || 0 };
         return acc;
       }, {} as Record<string, any>)
     };
@@ -188,7 +193,11 @@ export class AlbumService {
       const album: UserAlbum = JSON.parse(saved);
       this.stickers.set(STICKERS_DATA.map(s => {
         const imported = album.stickers[s.id];
-        return imported ? { ...s, owned: imported.owned, duplicates: imported.duplicates } : { ...s };
+        return imported ? { 
+          ...s, 
+          owned: !!imported.owned, 
+          duplicates: Math.max(0, Number(imported.duplicates) || 0) 
+        } : { ...s };
       }));
     } else {
       this.stickers.set(STICKERS_DATA.map(s => ({ ...s })));
