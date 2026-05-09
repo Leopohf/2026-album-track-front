@@ -71,6 +71,7 @@ import { ENGLAND_DATA } from './sections/england.data';
 import { CROATIA_DATA } from './sections/croatia.data';
 import { GHANA_DATA } from './sections/ghana.data';
 import { PANAMA_DATA } from './sections/panama.data';
+import { COCA_COLA_DATA } from './sections/coca-cola.data';
 
 export const STICKERS_DATA: Sticker[] = [
   // Group A
@@ -133,4 +134,6 @@ export const STICKERS_DATA: Sticker[] = [
   ...CROATIA_DATA,
   ...GHANA_DATA,
   ...PANAMA_DATA,
+  // Specials
+  ...COCA_COLA_DATA,
 ];

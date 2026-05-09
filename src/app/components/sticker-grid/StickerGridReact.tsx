@@ -37,8 +37,12 @@ export const StickerGridReact: React.FC<StickerGridProps> = ({
 
     const result: TournamentGroup[] = [];
     
-    // Sort Groups (A, B, C...)
-    const sortedGroupKeys = Array.from(tournamentGroupsMap.keys()).sort();
+    // Sort Groups (A, B, C...) ensuring "Coca-Cola" is at the end
+    const sortedGroupKeys = Array.from(tournamentGroupsMap.keys()).sort((a, b) => {
+      if (a === 'Coca-Cola') return 1;
+      if (b === 'Coca-Cola') return -1;
+      return a.localeCompare(b);
+    });
     
     sortedGroupKeys.forEach(groupName => {
       const teamsMap = tournamentGroupsMap.get(groupName)!;
@@ -102,27 +106,30 @@ export const StickerGridReact: React.FC<StickerGridProps> = ({
                 <div className="space-y-12 pt-4">
                   {group.teams.map((team) => {
                     const isTeamCollapsed = collapsedSections.has(team.name);
+                    const isRedundantHeader = team.name === group.name;
                     
                     return (
                       <div key={team.name} className="space-y-4">
-                        {/* Team Header */}
-                        <div 
-                          className="flex items-center gap-4 cursor-pointer group/team-header ml-4 sm:ml-8"
-                          onClick={() => onToggleSection(team.name)}
-                        >
-                          <button 
-                            className="text-[10px] font-mono text-muted border border-border/50 px-2 py-0.5 group-hover/team-header:border-ink group-hover/team-header:text-ink transition-all min-w-[90px] text-center"
+                        {/* Team Header - Hidden if redundant (matches group name) */}
+                        {!isRedundantHeader && (
+                          <div 
+                            className="flex items-center gap-4 cursor-pointer group/team-header ml-4 sm:ml-8"
+                            onClick={() => onToggleSection(team.name)}
                           >
-                            {isTeamCollapsed ? '[+] EXPAND' : '[-] COLLAPSE'}
-                          </button>
-                          <h3 className="font-mono text-xs uppercase tracking-[0.2em] text-muted whitespace-nowrap group-hover/team-header:text-ink transition-colors">
-                            {team.name}
-                          </h3>
-                          <div className="h-[1px] w-full bg-border/30 group-hover/team-header:bg-ink/30 transition-colors"></div>
-                        </div>
+                            <button 
+                              className="text-[10px] font-mono text-muted border border-border/50 px-2 py-0.5 group-hover/team-header:border-ink group-hover/team-header:text-ink transition-all min-w-[90px] text-center"
+                            >
+                              {isTeamCollapsed ? '[+] EXPAND' : '[-] COLLAPSE'}
+                            </button>
+                            <h3 className="font-mono text-xs uppercase tracking-[0.2em] text-muted whitespace-nowrap group-hover/team-header:text-ink transition-colors">
+                              {team.name}
+                            </h3>
+                            <div className="h-[1px] w-full bg-border/30 group-hover/team-header:bg-ink/30 transition-colors"></div>
+                          </div>
+                        )}
                         
                         {/* Stickers within Team */}
-                        <div className={`grid transition-all duration-300 ease-in-out ${isTeamCollapsed ? 'grid-rows-[0fr] opacity-0' : 'grid-rows-[1fr] opacity-100'}`}>
+                        <div className={`grid transition-all duration-300 ease-in-out ${(!isRedundantHeader && isTeamCollapsed) ? 'grid-rows-[0fr] opacity-0' : 'grid-rows-[1fr] opacity-100'}`}>
                           <div className="overflow-hidden">
                             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 pt-2 pb-1 ml-4 sm:ml-8">
                               {team.stickers.map((sticker) => (
