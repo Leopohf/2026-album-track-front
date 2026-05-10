@@ -14,7 +14,7 @@ export const AUSTRIA_DATA: Sticker[] = [
   {
     id: 'AUT-02',
     number: 2,
-    name: 'Austria Player 2',
+    name: 'ALEXANDER SCHLAGER',
     section: 'Austria',
     group: 'J',
     type: 'player',
@@ -24,7 +24,7 @@ export const AUSTRIA_DATA: Sticker[] = [
   {
     id: 'AUT-03',
     number: 3,
-    name: 'Austria Player 3',
+    name: 'PATRICK PENTZ',
     section: 'Austria',
     group: 'J',
     type: 'player',
@@ -34,7 +34,7 @@ export const AUSTRIA_DATA: Sticker[] = [
   {
     id: 'AUT-04',
     number: 4,
-    name: 'Austria Player 4',
+    name: 'DAVID ALABA',
     section: 'Austria',
     group: 'J',
     type: 'player',
@@ -44,7 +44,7 @@ export const AUSTRIA_DATA: Sticker[] = [
   {
     id: 'AUT-05',
     number: 5,
-    name: 'Austria Player 5',
+    name: 'KEVIN DANSO',
     section: 'Austria',
     group: 'J',
     type: 'player',
@@ -54,7 +54,7 @@ export const AUSTRIA_DATA: Sticker[] = [
   {
     id: 'AUT-06',
     number: 6,
-    name: 'Austria Player 6',
+    name: 'PHILIPP LIENHART',
     section: 'Austria',
     group: 'J',
     type: 'player',
@@ -64,7 +64,7 @@ export const AUSTRIA_DATA: Sticker[] = [
   {
     id: 'AUT-07',
     number: 7,
-    name: 'Austria Player 7',
+    name: 'STEFAN POSCH',
     section: 'Austria',
     group: 'J',
     type: 'player',
@@ -74,7 +74,7 @@ export const AUSTRIA_DATA: Sticker[] = [
   {
     id: 'AUT-08',
     number: 8,
-    name: 'Austria Player 8',
+    name: 'PHILLIPP MWENE',
     section: 'Austria',
     group: 'J',
     type: 'player',
@@ -84,7 +84,7 @@ export const AUSTRIA_DATA: Sticker[] = [
   {
     id: 'AUT-09',
     number: 9,
-    name: 'Austria Player 9',
+    name: 'ALEXANDER PRASS',
     section: 'Austria',
     group: 'J',
     type: 'player',
@@ -94,7 +94,7 @@ export const AUSTRIA_DATA: Sticker[] = [
   {
     id: 'AUT-10',
     number: 10,
-    name: 'Austria Player 10',
+    name: 'XAVER SCHLAGER',
     section: 'Austria',
     group: 'J',
     type: 'player',
@@ -104,7 +104,7 @@ export const AUSTRIA_DATA: Sticker[] = [
   {
     id: 'AUT-11',
     number: 11,
-    name: 'Austria Player 11',
+    name: 'MARCEL SABITZER',
     section: 'Austria',
     group: 'J',
     type: 'player',
@@ -114,7 +114,7 @@ export const AUSTRIA_DATA: Sticker[] = [
   {
     id: 'AUT-12',
     number: 12,
-    name: 'Austria Player 12',
+    name: 'KONRAD LAIMER',
     section: 'Austria',
     group: 'J',
     type: 'player',
@@ -134,7 +134,7 @@ export const AUSTRIA_DATA: Sticker[] = [
   {
     id: 'AUT-14',
     number: 14,
-    name: 'Austria Player 14',
+    name: 'FLORIAN GRILLITSCH',
     section: 'Austria',
     group: 'J',
     type: 'player',
@@ -144,7 +144,7 @@ export const AUSTRIA_DATA: Sticker[] = [
   {
     id: 'AUT-15',
     number: 15,
-    name: 'Austria Player 15',
+    name: 'NICOLAS SEIWALD',
     section: 'Austria',
     group: 'J',
     type: 'player',
@@ -154,7 +154,7 @@ export const AUSTRIA_DATA: Sticker[] = [
   {
     id: 'AUT-16',
     number: 16,
-    name: 'Austria Player 16',
+    name: 'ROMANO SCHMID',
     section: 'Austria',
     group: 'J',
     type: 'player',
@@ -164,7 +164,7 @@ export const AUSTRIA_DATA: Sticker[] = [
   {
     id: 'AUT-17',
     number: 17,
-    name: 'Austria Player 17',
+    name: 'PATRICK WIMMER',
     section: 'Austria',
     group: 'J',
     type: 'player',
@@ -174,7 +174,7 @@ export const AUSTRIA_DATA: Sticker[] = [
   {
     id: 'AUT-18',
     number: 18,
-    name: 'Austria Player 18',
+    name: 'CHRISTOPH BAUMGARTNER',
     section: 'Austria',
     group: 'J',
     type: 'player',
@@ -184,7 +184,7 @@ export const AUSTRIA_DATA: Sticker[] = [
   {
     id: 'AUT-19',
     number: 19,
-    name: 'Austria Player 19',
+    name: 'MICHAEL GREGORITSCH',
     section: 'Austria',
     group: 'J',
     type: 'player',
@@ -194,7 +194,7 @@ export const AUSTRIA_DATA: Sticker[] = [
   {
     id: 'AUT-20',
     number: 20,
-    name: 'Austria Player 20',
+    name: 'MARKO ARNAUTOVIĆ',
     section: 'Austria',
     group: 'J',
     type: 'player',

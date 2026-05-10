@@ -14,7 +14,7 @@ export const ALGERIA_DATA: Sticker[] = [
   {
     id: 'ALG-02',
     number: 2,
-    name: 'ALEXIS GUENDOUZI',
+    name: 'ALEXIS GUENDOUZ',
     section: 'Algeria',
     group: 'J',
     type: 'player',

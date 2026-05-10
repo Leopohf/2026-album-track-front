@@ -14,7 +14,7 @@ export const CZECHIA_DATA: Sticker[] = [
   {
     id: 'CZE-02',
     number: 2,
-    name: 'Matej Kovar',
+    name: 'MATEJ KOVÁŘ',
     section: 'Czechia',
     group: 'A',
     type: 'player',
@@ -24,7 +24,7 @@ export const CZECHIA_DATA: Sticker[] = [
   {
     id: 'CZE-03',
     number: 3,
-    name: 'Jindrich Stanek',
+    name: 'JINDŘICH STANĚK',
     section: 'Czechia',
     group: 'A',
     type: 'player',
@@ -34,7 +34,7 @@ export const CZECHIA_DATA: Sticker[] = [
   {
     id: 'CZE-04',
     number: 4,
-    name: 'Ladislav Krejci',
+    name: 'LADISLAV KREJČÍ',
     section: 'Czechia',
     group: 'A',
     type: 'player',
@@ -44,7 +44,7 @@ export const CZECHIA_DATA: Sticker[] = [
   {
     id: 'CZE-05',
     number: 5,
-    name: 'Vladimir Coufal',
+    name: 'VLADIMÍR COUFAL',
     section: 'Czechia',
     group: 'A',
     type: 'player',
@@ -54,7 +54,7 @@ export const CZECHIA_DATA: Sticker[] = [
   {
     id: 'CZE-06',
     number: 6,
-    name: 'Jaroslav Zeleny',
+    name: 'JAROSLAV ZELENÝ',
     section: 'Czechia',
     group: 'A',
     type: 'player',
@@ -64,7 +64,7 @@ export const CZECHIA_DATA: Sticker[] = [
   {
     id: 'CZE-07',
     number: 7,
-    name: 'Tomas Holes',
+    name: 'TOMÁŠ HOLEŠ',
     section: 'Czechia',
     group: 'A',
     type: 'player',
@@ -74,7 +74,7 @@ export const CZECHIA_DATA: Sticker[] = [
   {
     id: 'CZE-08',
     number: 8,
-    name: 'David Zima',
+    name: 'DAVID ZIMA',
     section: 'Czechia',
     group: 'A',
     type: 'player',
@@ -84,7 +84,7 @@ export const CZECHIA_DATA: Sticker[] = [
   {
     id: 'CZE-09',
     number: 9,
-    name: 'Michal Sadilek',
+    name: 'MICHAL SADÍLEK',
     section: 'Czechia',
     group: 'A',
     type: 'player',
@@ -94,7 +94,7 @@ export const CZECHIA_DATA: Sticker[] = [
   {
     id: 'CZE-10',
     number: 10,
-    name: 'Lukas Provod',
+    name: 'LUKÁŠ PROVOD',
     section: 'Czechia',
     group: 'A',
     type: 'player',
@@ -104,7 +104,7 @@ export const CZECHIA_DATA: Sticker[] = [
   {
     id: 'CZE-11',
     number: 11,
-    name: 'Lukas Cerv',
+    name: 'LUKÁŠ ČERV',
     section: 'Czechia',
     group: 'A',
     type: 'player',
@@ -114,7 +114,7 @@ export const CZECHIA_DATA: Sticker[] = [
   {
     id: 'CZE-12',
     number: 12,
-    name: 'Vaclav Cerny',
+    name: 'TOMÁŠ SOUČEK',
     section: 'Czechia',
     group: 'A',
     type: 'player',
@@ -134,7 +134,7 @@ export const CZECHIA_DATA: Sticker[] = [
   {
     id: 'CZE-14',
     number: 14,
-    name: 'Pavel Sulc',
+    name: 'PAVEL ŠULC',
     section: 'Czechia',
     group: 'A',
     type: 'player',
@@ -144,7 +144,7 @@ export const CZECHIA_DATA: Sticker[] = [
   {
     id: 'CZE-15',
     number: 15,
-    name: 'Matej Vydra',
+    name: 'MATEJ VYDRA',
     section: 'Czechia',
     group: 'A',
     type: 'player',
@@ -154,7 +154,7 @@ export const CZECHIA_DATA: Sticker[] = [
   {
     id: 'CZE-16',
     number: 16,
-    name: 'Vaclav Jurecka',
+    name: 'VASIL KUŠEJ',
     section: 'Czechia',
     group: 'A',
     type: 'player',
@@ -164,7 +164,7 @@ export const CZECHIA_DATA: Sticker[] = [
   {
     id: 'CZE-17',
     number: 17,
-    name: 'Tomas Chory',
+    name: 'TOMÁŠ CHORÝ',
     section: 'Czechia',
     group: 'A',
     type: 'player',
@@ -174,7 +174,7 @@ export const CZECHIA_DATA: Sticker[] = [
   {
     id: 'CZE-18',
     number: 18,
-    name: 'Adam Hlozek',
+    name: 'VÁCLAV ČERNÝ',
     section: 'Czechia',
     group: 'A',
     type: 'player',
@@ -184,7 +184,7 @@ export const CZECHIA_DATA: Sticker[] = [
   {
     id: 'CZE-19',
     number: 19,
-    name: 'Mojmir Chytil',
+    name: 'ADAM HLOŽEK',
     section: 'Czechia',
     group: 'A',
     type: 'player',
@@ -194,7 +194,7 @@ export const CZECHIA_DATA: Sticker[] = [
   {
     id: 'CZE-20',
     number: 20,
-    name: 'Unknown',
+    name: 'PATRIK SCHICK',
     section: 'Czechia',
     group: 'A',
     type: 'player',

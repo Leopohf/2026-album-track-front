@@ -14,7 +14,7 @@ export const SOUTH_AFRICA_DATA: Sticker[] = [
   {
     id: 'RSA-02',
     number: 2,
-    name: 'Unknown',
+    name: 'RONWEN WILLIAMS',
     section: 'South Africa',
     group: 'A',
     type: 'player',
@@ -54,7 +54,7 @@ export const SOUTH_AFRICA_DATA: Sticker[] = [
   {
     id: 'RSA-06',
     number: 6,
-    name: 'Unknown',
+    name: 'MBEKEZELI MBOKAZI',
     section: 'South Africa',
     group: 'A',
     type: 'player',
@@ -64,7 +64,7 @@ export const SOUTH_AFRICA_DATA: Sticker[] = [
   {
     id: 'RSA-07',
     number: 7,
-    name: 'Unknown',
+    name: 'KHULUMANI NDAMANE',
     section: 'South Africa',
     group: 'A',
     type: 'player',

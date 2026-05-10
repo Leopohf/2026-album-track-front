@@ -14,7 +14,7 @@ export const IRAQ_DATA: Sticker[] = [
   {
     id: 'IRQ-02',
     number: 2,
-    name: 'Iraq Player 2',
+    name: 'JALAL HASSAN',
     section: 'Iraq',
     group: 'I',
     type: 'player',
@@ -24,7 +24,7 @@ export const IRAQ_DATA: Sticker[] = [
   {
     id: 'IRQ-03',
     number: 3,
-    name: 'Iraq Player 3',
+    name: 'REBIN SULAKA',
     section: 'Iraq',
     group: 'I',
     type: 'player',
@@ -34,7 +34,7 @@ export const IRAQ_DATA: Sticker[] = [
   {
     id: 'IRQ-04',
     number: 4,
-    name: 'Iraq Player 4',
+    name: 'HUSSEIN ALI',
     section: 'Iraq',
     group: 'I',
     type: 'player',
@@ -44,7 +44,7 @@ export const IRAQ_DATA: Sticker[] = [
   {
     id: 'IRQ-05',
     number: 5,
-    name: 'Iraq Player 5',
+    name: 'AKAM HASHEM',
     section: 'Iraq',
     group: 'I',
     type: 'player',
@@ -54,7 +54,7 @@ export const IRAQ_DATA: Sticker[] = [
   {
     id: 'IRQ-06',
     number: 6,
-    name: 'Iraq Player 6',
+    name: 'MERCHAS DOSKI',
     section: 'Iraq',
     group: 'I',
     type: 'player',
@@ -64,7 +64,7 @@ export const IRAQ_DATA: Sticker[] = [
   {
     id: 'IRQ-07',
     number: 7,
-    name: 'Iraq Player 7',
+    name: 'ZAID TAHSEEN',
     section: 'Iraq',
     group: 'I',
     type: 'player',
@@ -74,7 +74,7 @@ export const IRAQ_DATA: Sticker[] = [
   {
     id: 'IRQ-08',
     number: 8,
-    name: 'Iraq Player 8',
+    name: 'MANAF YOUNIS',
     section: 'Iraq',
     group: 'I',
     type: 'player',
@@ -84,7 +84,7 @@ export const IRAQ_DATA: Sticker[] = [
   {
     id: 'IRQ-09',
     number: 9,
-    name: 'Iraq Player 9',
+    name: 'ZIDANE IQBAL',
     section: 'Iraq',
     group: 'I',
     type: 'player',
@@ -94,7 +94,7 @@ export const IRAQ_DATA: Sticker[] = [
   {
     id: 'IRQ-10',
     number: 10,
-    name: 'Iraq Player 10',
+    name: 'AMIR AL-AMMARI',
     section: 'Iraq',
     group: 'I',
     type: 'player',
@@ -104,7 +104,7 @@ export const IRAQ_DATA: Sticker[] = [
   {
     id: 'IRQ-11',
     number: 11,
-    name: 'Iraq Player 11',
+    name: 'IBRAHIM BAYESH',
     section: 'Iraq',
     group: 'I',
     type: 'player',
@@ -114,7 +114,7 @@ export const IRAQ_DATA: Sticker[] = [
   {
     id: 'IRQ-12',
     number: 12,
-    name: 'Iraq Player 12',
+    name: 'ALI JASIM',
     section: 'Iraq',
     group: 'I',
     type: 'player',
@@ -134,7 +134,7 @@ export const IRAQ_DATA: Sticker[] = [
   {
     id: 'IRQ-14',
     number: 14,
-    name: 'Iraq Player 14',
+    name: 'YOUSSEF AMYN',
     section: 'Iraq',
     group: 'I',
     type: 'player',
@@ -144,7 +144,7 @@ export const IRAQ_DATA: Sticker[] = [
   {
     id: 'IRQ-15',
     number: 15,
-    name: 'Iraq Player 15',
+    name: 'AYMAR SHER',
     section: 'Iraq',
     group: 'I',
     type: 'player',
@@ -154,7 +154,7 @@ export const IRAQ_DATA: Sticker[] = [
   {
     id: 'IRQ-16',
     number: 16,
-    name: 'Iraq Player 16',
+    name: 'MARKO FARJI',
     section: 'Iraq',
     group: 'I',
     type: 'player',
@@ -164,7 +164,7 @@ export const IRAQ_DATA: Sticker[] = [
   {
     id: 'IRQ-17',
     number: 17,
-    name: 'Iraq Player 17',
+    name: 'OSAMA RASHID',
     section: 'Iraq',
     group: 'I',
     type: 'player',
@@ -174,7 +174,7 @@ export const IRAQ_DATA: Sticker[] = [
   {
     id: 'IRQ-18',
     number: 18,
-    name: 'Iraq Player 18',
+    name: 'ALI AL-HAMADI',
     section: 'Iraq',
     group: 'I',
     type: 'player',
@@ -184,7 +184,7 @@ export const IRAQ_DATA: Sticker[] = [
   {
     id: 'IRQ-19',
     number: 19,
-    name: 'Iraq Player 19',
+    name: 'AYMEN HUSSEIN',
     section: 'Iraq',
     group: 'I',
     type: 'player',
@@ -194,7 +194,7 @@ export const IRAQ_DATA: Sticker[] = [
   {
     id: 'IRQ-20',
     number: 20,
-    name: 'Iraq Player 20',
+    name: 'MOHANAD ALI',
     section: 'Iraq',
     group: 'I',
     type: 'player',

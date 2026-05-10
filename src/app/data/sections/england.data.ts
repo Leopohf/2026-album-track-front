@@ -14,7 +14,7 @@ export const ENGLAND_DATA: Sticker[] = [
   {
     id: 'ENG-02',
     number: 2,
-    name: 'England Player 2',
+    name: 'JORDAN PICKFORD',
     section: 'England',
     group: 'L',
     type: 'player',
@@ -24,7 +24,7 @@ export const ENGLAND_DATA: Sticker[] = [
   {
     id: 'ENG-03',
     number: 3,
-    name: 'England Player 3',
+    name: 'JOHN STONES',
     section: 'England',
     group: 'L',
     type: 'player',
@@ -34,7 +34,7 @@ export const ENGLAND_DATA: Sticker[] = [
   {
     id: 'ENG-04',
     number: 4,
-    name: 'England Player 4',
+    name: 'MARC GUÉHI',
     section: 'England',
     group: 'L',
     type: 'player',
@@ -44,7 +44,7 @@ export const ENGLAND_DATA: Sticker[] = [
   {
     id: 'ENG-05',
     number: 5,
-    name: 'England Player 5',
+    name: 'EZRI KONSA',
     section: 'England',
     group: 'L',
     type: 'player',
@@ -54,7 +54,7 @@ export const ENGLAND_DATA: Sticker[] = [
   {
     id: 'ENG-06',
     number: 6,
-    name: 'England Player 6',
+    name: 'TRENT ALEXANDER-ARNOLD',
     section: 'England',
     group: 'L',
     type: 'player',
@@ -64,7 +64,7 @@ export const ENGLAND_DATA: Sticker[] = [
   {
     id: 'ENG-07',
     number: 7,
-    name: 'England Player 7',
+    name: 'REECE JAMES',
     section: 'England',
     group: 'L',
     type: 'player',
@@ -74,7 +74,7 @@ export const ENGLAND_DATA: Sticker[] = [
   {
     id: 'ENG-08',
     number: 8,
-    name: 'England Player 8',
+    name: 'DAN BURN',
     section: 'England',
     group: 'L',
     type: 'player',
@@ -84,7 +84,7 @@ export const ENGLAND_DATA: Sticker[] = [
   {
     id: 'ENG-09',
     number: 9,
-    name: 'England Player 9',
+    name: 'JORDAN HENDERSON',
     section: 'England',
     group: 'L',
     type: 'player',
@@ -94,7 +94,7 @@ export const ENGLAND_DATA: Sticker[] = [
   {
     id: 'ENG-10',
     number: 10,
-    name: 'England Player 10',
+    name: 'DECLAN RICE',
     section: 'England',
     group: 'L',
     type: 'player',
@@ -104,7 +104,7 @@ export const ENGLAND_DATA: Sticker[] = [
   {
     id: 'ENG-11',
     number: 11,
-    name: 'England Player 11',
+    name: 'JUDE BELLINGHAM',
     section: 'England',
     group: 'L',
     type: 'player',
@@ -114,7 +114,7 @@ export const ENGLAND_DATA: Sticker[] = [
   {
     id: 'ENG-12',
     number: 12,
-    name: 'England Player 12',
+    name: 'COLE PALMER',
     section: 'England',
     group: 'L',
     type: 'player',
@@ -134,7 +134,7 @@ export const ENGLAND_DATA: Sticker[] = [
   {
     id: 'ENG-14',
     number: 14,
-    name: 'England Player 14',
+    name: 'MORGAN ROGERS',
     section: 'England',
     group: 'L',
     type: 'player',
@@ -144,7 +144,7 @@ export const ENGLAND_DATA: Sticker[] = [
   {
     id: 'ENG-15',
     number: 15,
-    name: 'England Player 15',
+    name: 'ANTHONY GORDON',
     section: 'England',
     group: 'L',
     type: 'player',
@@ -154,7 +154,7 @@ export const ENGLAND_DATA: Sticker[] = [
   {
     id: 'ENG-16',
     number: 16,
-    name: 'England Player 16',
+    name: 'PHIL FODEN',
     section: 'England',
     group: 'L',
     type: 'player',
@@ -164,7 +164,7 @@ export const ENGLAND_DATA: Sticker[] = [
   {
     id: 'ENG-17',
     number: 17,
-    name: 'England Player 17',
+    name: 'BUKAYO SAKA',
     section: 'England',
     group: 'L',
     type: 'player',
@@ -174,7 +174,7 @@ export const ENGLAND_DATA: Sticker[] = [
   {
     id: 'ENG-18',
     number: 18,
-    name: 'England Player 18',
+    name: 'HARRY KANE',
     section: 'England',
     group: 'L',
     type: 'player',
@@ -184,7 +184,7 @@ export const ENGLAND_DATA: Sticker[] = [
   {
     id: 'ENG-19',
     number: 19,
-    name: 'England Player 19',
+    name: 'MARCUS RASHFORD',
     section: 'England',
     group: 'L',
     type: 'player',
@@ -194,7 +194,7 @@ export const ENGLAND_DATA: Sticker[] = [
   {
     id: 'ENG-20',
     number: 20,
-    name: 'England Player 20',
+    name: 'OLLIE WATKINS',
     section: 'England',
     group: 'L',
     type: 'player',

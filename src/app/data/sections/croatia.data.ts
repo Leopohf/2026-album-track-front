@@ -14,7 +14,7 @@ export const CROATIA_DATA: Sticker[] = [
   {
     id: 'CRO-02',
     number: 2,
-    name: 'Croatia Player 2',
+    name: 'DOMINIK LIVAKOVIĆ',
     section: 'Croatia',
     group: 'L',
     type: 'player',
@@ -24,7 +24,7 @@ export const CROATIA_DATA: Sticker[] = [
   {
     id: 'CRO-03',
     number: 3,
-    name: 'Croatia Player 3',
+    name: 'DUJE ĆALETA-CAR',
     section: 'Croatia',
     group: 'L',
     type: 'player',
@@ -34,7 +34,7 @@ export const CROATIA_DATA: Sticker[] = [
   {
     id: 'CRO-04',
     number: 4,
-    name: 'Croatia Player 4',
+    name: 'JOŠKO GVARDIOL',
     section: 'Croatia',
     group: 'L',
     type: 'player',
@@ -44,7 +44,7 @@ export const CROATIA_DATA: Sticker[] = [
   {
     id: 'CRO-05',
     number: 5,
-    name: 'Croatia Player 5',
+    name: 'JOSIP STANIŠIĆ',
     section: 'Croatia',
     group: 'L',
     type: 'player',
@@ -54,7 +54,7 @@ export const CROATIA_DATA: Sticker[] = [
   {
     id: 'CRO-06',
     number: 6,
-    name: 'Croatia Player 6',
+    name: 'LUKA VUŠKOVIĆ',
     section: 'Croatia',
     group: 'L',
     type: 'player',
@@ -64,7 +64,7 @@ export const CROATIA_DATA: Sticker[] = [
   {
     id: 'CRO-07',
     number: 7,
-    name: 'Croatia Player 7',
+    name: 'JOSIP ŠUTALO',
     section: 'Croatia',
     group: 'L',
     type: 'player',
@@ -74,7 +74,7 @@ export const CROATIA_DATA: Sticker[] = [
   {
     id: 'CRO-08',
     number: 8,
-    name: 'Croatia Player 8',
+    name: 'KRISTIJAN JAKIĆ',
     section: 'Croatia',
     group: 'L',
     type: 'player',
@@ -84,7 +84,7 @@ export const CROATIA_DATA: Sticker[] = [
   {
     id: 'CRO-09',
     number: 9,
-    name: 'Croatia Player 9',
+    name: 'LUKA MODRIĆ',
     section: 'Croatia',
     group: 'L',
     type: 'player',
@@ -94,7 +94,7 @@ export const CROATIA_DATA: Sticker[] = [
   {
     id: 'CRO-10',
     number: 10,
-    name: 'Croatia Player 10',
+    name: 'MATEO KOVAČIĆ',
     section: 'Croatia',
     group: 'L',
     type: 'player',
@@ -104,7 +104,7 @@ export const CROATIA_DATA: Sticker[] = [
   {
     id: 'CRO-11',
     number: 11,
-    name: 'Croatia Player 11',
+    name: 'MARTIN BATURINA',
     section: 'Croatia',
     group: 'L',
     type: 'player',
@@ -114,7 +114,7 @@ export const CROATIA_DATA: Sticker[] = [
   {
     id: 'CRO-12',
     number: 12,
-    name: 'Croatia Player 12',
+    name: 'LOVRO MAJER',
     section: 'Croatia',
     group: 'L',
     type: 'player',
@@ -134,7 +134,7 @@ export const CROATIA_DATA: Sticker[] = [
   {
     id: 'CRO-14',
     number: 14,
-    name: 'Croatia Player 14',
+    name: 'MARIO PAŠALIĆ',
     section: 'Croatia',
     group: 'L',
     type: 'player',
@@ -144,7 +144,7 @@ export const CROATIA_DATA: Sticker[] = [
   {
     id: 'CRO-15',
     number: 15,
-    name: 'Croatia Player 15',
+    name: 'PETAR SUČIĆ',
     section: 'Croatia',
     group: 'L',
     type: 'player',
@@ -154,7 +154,7 @@ export const CROATIA_DATA: Sticker[] = [
   {
     id: 'CRO-16',
     number: 16,
-    name: 'Croatia Player 16',
+    name: 'IVAN PERIŠIĆ',
     section: 'Croatia',
     group: 'L',
     type: 'player',
@@ -164,7 +164,7 @@ export const CROATIA_DATA: Sticker[] = [
   {
     id: 'CRO-17',
     number: 17,
-    name: 'Croatia Player 17',
+    name: 'MARCO PAŠALIĆ',
     section: 'Croatia',
     group: 'L',
     type: 'player',
@@ -174,7 +174,7 @@ export const CROATIA_DATA: Sticker[] = [
   {
     id: 'CRO-18',
     number: 18,
-    name: 'Croatia Player 18',
+    name: 'ANTE BUDIMIR',
     section: 'Croatia',
     group: 'L',
     type: 'player',
@@ -184,7 +184,7 @@ export const CROATIA_DATA: Sticker[] = [
   {
     id: 'CRO-19',
     number: 19,
-    name: 'Croatia Player 19',
+    name: 'ANDREJ KRAMARIĆ',
     section: 'Croatia',
     group: 'L',
     type: 'player',
@@ -194,7 +194,7 @@ export const CROATIA_DATA: Sticker[] = [
   {
     id: 'CRO-20',
     number: 20,
-    name: 'Croatia Player 20',
+    name: 'FRANJO IVANOVIĆ',
     section: 'Croatia',
     group: 'L',
     type: 'player',

@@ -134,7 +134,7 @@ export const ARGENTINA_DATA: Sticker[] = [
   {
     id: 'ARG-14',
     number: 14,
-    name: 'FRANCO MASTANTUONO',
+    name: 'NICO PAZ',
     section: 'Argentina',
     group: 'J',
     type: 'player',
@@ -144,7 +144,7 @@ export const ARGENTINA_DATA: Sticker[] = [
   {
     id: 'ARG-15',
     number: 15,
-    name: 'NICO GONZÁLEZ',
+    name: 'FRANCO MASTANTUONO',
     section: 'Argentina',
     group: 'J',
     type: 'player',
@@ -154,7 +154,7 @@ export const ARGENTINA_DATA: Sticker[] = [
   {
     id: 'ARG-16',
     number: 16,
-    name: 'Argentina Player 16',
+    name: 'NICO GONZÁLEZ',
     section: 'Argentina',
     group: 'J',
     type: 'player',

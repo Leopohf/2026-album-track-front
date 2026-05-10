@@ -14,7 +14,7 @@ export const SCOTLAND_DATA: Sticker[] = [
   {
     id: 'SCO-02',
     number: 2,
-    name: 'Angus Gunn',
+    name: 'ANGUS GUNN',
     section: 'Scotland',
     group: 'C',
     type: 'player',
@@ -24,7 +24,7 @@ export const SCOTLAND_DATA: Sticker[] = [
   {
     id: 'SCO-03',
     number: 3,
-    name: 'Jack Hendry',
+    name: 'JACK HENDRY',
     section: 'Scotland',
     group: 'C',
     type: 'player',
@@ -34,7 +34,7 @@ export const SCOTLAND_DATA: Sticker[] = [
   {
     id: 'SCO-04',
     number: 4,
-    name: 'Kieran Tierney',
+    name: 'KIERAN TIERNEY',
     section: 'Scotland',
     group: 'C',
     type: 'player',
@@ -44,7 +44,7 @@ export const SCOTLAND_DATA: Sticker[] = [
   {
     id: 'SCO-05',
     number: 5,
-    name: 'Aaron Hickey',
+    name: 'AARON HICKEY',
     section: 'Scotland',
     group: 'C',
     type: 'player',
@@ -54,7 +54,7 @@ export const SCOTLAND_DATA: Sticker[] = [
   {
     id: 'SCO-06',
     number: 6,
-    name: 'Andrew Robertson',
+    name: 'ANDREW ROBERTSON',
     section: 'Scotland',
     group: 'C',
     type: 'player',
@@ -64,7 +64,7 @@ export const SCOTLAND_DATA: Sticker[] = [
   {
     id: 'SCO-07',
     number: 7,
-    name: 'Scott McKenna',
+    name: 'SCOTT MCKENNA',
     section: 'Scotland',
     group: 'C',
     type: 'player',
@@ -74,7 +74,7 @@ export const SCOTLAND_DATA: Sticker[] = [
   {
     id: 'SCO-08',
     number: 8,
-    name: 'John Souttar',
+    name: 'JOHN SOUTTAR',
     section: 'Scotland',
     group: 'C',
     type: 'player',
@@ -84,7 +84,7 @@ export const SCOTLAND_DATA: Sticker[] = [
   {
     id: 'SCO-09',
     number: 9,
-    name: 'Anthony Ralston',
+    name: 'ANTHONY RALSTON',
     section: 'Scotland',
     group: 'C',
     type: 'player',
@@ -94,7 +94,7 @@ export const SCOTLAND_DATA: Sticker[] = [
   {
     id: 'SCO-10',
     number: 10,
-    name: 'Grant Hanley',
+    name: 'GRANT HANLEY',
     section: 'Scotland',
     group: 'C',
     type: 'player',
@@ -104,7 +104,7 @@ export const SCOTLAND_DATA: Sticker[] = [
   {
     id: 'SCO-11',
     number: 11,
-    name: 'Scott McTominay',
+    name: 'SCOTT MCTOMINAY',
     section: 'Scotland',
     group: 'C',
     type: 'player',
@@ -114,7 +114,7 @@ export const SCOTLAND_DATA: Sticker[] = [
   {
     id: 'SCO-12',
     number: 12,
-    name: 'Billy Gilmour',
+    name: 'BILLY GILMOUR',
     section: 'Scotland',
     group: 'C',
     type: 'player',
@@ -134,7 +134,7 @@ export const SCOTLAND_DATA: Sticker[] = [
   {
     id: 'SCO-14',
     number: 14,
-    name: 'Lewis Ferguson',
+    name: 'LEWIS FERGUSON',
     section: 'Scotland',
     group: 'C',
     type: 'player',
@@ -144,7 +144,7 @@ export const SCOTLAND_DATA: Sticker[] = [
   {
     id: 'SCO-15',
     number: 15,
-    name: 'Ryan Christie',
+    name: 'RYAN CHRISTIE',
     section: 'Scotland',
     group: 'C',
     type: 'player',
@@ -154,7 +154,7 @@ export const SCOTLAND_DATA: Sticker[] = [
   {
     id: 'SCO-16',
     number: 16,
-    name: 'Kenny McLean',
+    name: 'KENNY MCLEAN',
     section: 'Scotland',
     group: 'C',
     type: 'player',
@@ -164,7 +164,7 @@ export const SCOTLAND_DATA: Sticker[] = [
   {
     id: 'SCO-17',
     number: 17,
-    name: 'John McGinn',
+    name: 'JOHN MCGINN',
     section: 'Scotland',
     group: 'C',
     type: 'player',
@@ -174,7 +174,7 @@ export const SCOTLAND_DATA: Sticker[] = [
   {
     id: 'SCO-18',
     number: 18,
-    name: 'Lyndon Dykes',
+    name: 'LYNDON DYKES',
     section: 'Scotland',
     group: 'C',
     type: 'player',
@@ -184,7 +184,7 @@ export const SCOTLAND_DATA: Sticker[] = [
   {
     id: 'SCO-19',
     number: 19,
-    name: 'Ché Adams',
+    name: 'CHÉ ADAMS',
     section: 'Scotland',
     group: 'C',
     type: 'player',
@@ -194,7 +194,7 @@ export const SCOTLAND_DATA: Sticker[] = [
   {
     id: 'SCO-20',
     number: 20,
-    name: 'Ben Gannon-Doak',
+    name: 'BEN GANNON-DOAK',
     section: 'Scotland',
     group: 'C',
     type: 'player',

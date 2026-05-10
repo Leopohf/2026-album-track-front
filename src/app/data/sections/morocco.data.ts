@@ -14,7 +14,7 @@ export const MOROCCO_DATA: Sticker[] = [
   {
     id: 'MAR-02',
     number: 2,
-    name: 'Yassine Bounou',
+    name: 'YASSINE BOUNOU',
     section: 'Morocco',
     group: 'C',
     type: 'player',
@@ -24,7 +24,7 @@ export const MOROCCO_DATA: Sticker[] = [
   {
     id: 'MAR-03',
     number: 3,
-    name: 'Munir El Kajoui',
+    name: 'MUNIR EL KAJOUI',
     section: 'Morocco',
     group: 'C',
     type: 'player',
@@ -34,7 +34,7 @@ export const MOROCCO_DATA: Sticker[] = [
   {
     id: 'MAR-04',
     number: 4,
-    name: 'Achraf Hakimi',
+    name: 'ACHRAF HAKIMI',
     section: 'Morocco',
     group: 'C',
     type: 'player',
@@ -44,7 +44,7 @@ export const MOROCCO_DATA: Sticker[] = [
   {
     id: 'MAR-05',
     number: 5,
-    name: 'Noussair Mazraoui',
+    name: 'NOUSSAIR MAZRAOUI',
     section: 'Morocco',
     group: 'C',
     type: 'player',
@@ -54,7 +54,7 @@ export const MOROCCO_DATA: Sticker[] = [
   {
     id: 'MAR-06',
     number: 6,
-    name: 'Nayef Aguerd',
+    name: 'NAYEF AGUERD',
     section: 'Morocco',
     group: 'C',
     type: 'player',
@@ -64,7 +64,7 @@ export const MOROCCO_DATA: Sticker[] = [
   {
     id: 'MAR-07',
     number: 7,
-    name: 'Romain Saïss',
+    name: 'ROMAIN SAÏSS',
     section: 'Morocco',
     group: 'C',
     type: 'player',
@@ -74,7 +74,7 @@ export const MOROCCO_DATA: Sticker[] = [
   {
     id: 'MAR-08',
     number: 8,
-    name: 'Jawad El Yamiq',
+    name: 'JAWAD EL VAMIQ',
     section: 'Morocco',
     group: 'C',
     type: 'player',
@@ -84,7 +84,7 @@ export const MOROCCO_DATA: Sticker[] = [
   {
     id: 'MAR-09',
     number: 9,
-    name: 'Adam Masina',
+    name: 'ADAM MASINA',
     section: 'Morocco',
     group: 'C',
     type: 'player',
@@ -94,7 +94,7 @@ export const MOROCCO_DATA: Sticker[] = [
   {
     id: 'MAR-10',
     number: 10,
-    name: 'Sofyan Amrabat',
+    name: 'SOFYAN AMRABAT',
     section: 'Morocco',
     group: 'C',
     type: 'player',
@@ -104,7 +104,7 @@ export const MOROCCO_DATA: Sticker[] = [
   {
     id: 'MAR-11',
     number: 11,
-    name: 'Azzedine Ounahi',
+    name: 'AZZEDINE OUNAHI',
     section: 'Morocco',
     group: 'C',
     type: 'player',
@@ -114,7 +114,7 @@ export const MOROCCO_DATA: Sticker[] = [
   {
     id: 'MAR-12',
     number: 12,
-    name: 'Eliesse Ben Seghir',
+    name: 'ELIESSE BEN SEGHIR',
     section: 'Morocco',
     group: 'C',
     type: 'player',
@@ -134,7 +134,7 @@ export const MOROCCO_DATA: Sticker[] = [
   {
     id: 'MAR-14',
     number: 14,
-    name: 'Bilal El Khannouss',
+    name: 'BILAL EL KHANNOUSS',
     section: 'Morocco',
     group: 'C',
     type: 'player',
@@ -144,7 +144,7 @@ export const MOROCCO_DATA: Sticker[] = [
   {
     id: 'MAR-15',
     number: 15,
-    name: 'Ismael Saibari',
+    name: 'ISMAEL SAIBARI',
     section: 'Morocco',
     group: 'C',
     type: 'player',
@@ -154,7 +154,7 @@ export const MOROCCO_DATA: Sticker[] = [
   {
     id: 'MAR-16',
     number: 16,
-    name: 'Youssef En-Nesyri',
+    name: 'VOUSSEF EN-NESYRI',
     section: 'Morocco',
     group: 'C',
     type: 'player',
@@ -164,7 +164,7 @@ export const MOROCCO_DATA: Sticker[] = [
   {
     id: 'MAR-17',
     number: 17,
-    name: 'Abde Ezzalzouli',
+    name: 'ABDE EZZALZOULI',
     section: 'Morocco',
     group: 'C',
     type: 'player',
@@ -174,7 +174,7 @@ export const MOROCCO_DATA: Sticker[] = [
   {
     id: 'MAR-18',
     number: 18,
-    name: 'Soufiane Rahimi',
+    name: 'SOUFIANE RAHIMI',
     section: 'Morocco',
     group: 'C',
     type: 'player',
@@ -184,7 +184,7 @@ export const MOROCCO_DATA: Sticker[] = [
   {
     id: 'MAR-19',
     number: 19,
-    name: 'Brahim Díaz',
+    name: 'BRAHIM DÍAZ',
     section: 'Morocco',
     group: 'C',
     type: 'player',
@@ -194,7 +194,7 @@ export const MOROCCO_DATA: Sticker[] = [
   {
     id: 'MAR-20',
     number: 20,
-    name: 'Ayoub El Kaabi',
+    name: 'AYOUB EL KAABI',
     section: 'Morocco',
     group: 'C',
     type: 'player',

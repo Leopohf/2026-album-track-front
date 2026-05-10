@@ -14,7 +14,7 @@ export const COTE_DIVOIRE_DATA: Sticker[] = [
   {
     id: 'CIV-02',
     number: 2,
-    name: "Côte d'Ivoire Player 2",
+    name: 'YAHIA FOFANA',
     section: "Côte d'Ivoire",
     group: 'E',
     type: 'player',
@@ -24,7 +24,7 @@ export const COTE_DIVOIRE_DATA: Sticker[] = [
   {
     id: 'CIV-03',
     number: 3,
-    name: "Côte d'Ivoire Player 3",
+    name: 'GHISLAIN KONAN',
     section: "Côte d'Ivoire",
     group: 'E',
     type: 'player',
@@ -34,7 +34,7 @@ export const COTE_DIVOIRE_DATA: Sticker[] = [
   {
     id: 'CIV-04',
     number: 4,
-    name: "Côte d'Ivoire Player 4",
+    name: 'WILFRIED SINGO',
     section: "Côte d'Ivoire",
     group: 'E',
     type: 'player',
@@ -44,7 +44,7 @@ export const COTE_DIVOIRE_DATA: Sticker[] = [
   {
     id: 'CIV-05',
     number: 5,
-    name: "Côte d'Ivoire Player 5",
+    name: 'ODILON KOSSOUNOU',
     section: "Côte d'Ivoire",
     group: 'E',
     type: 'player',
@@ -54,7 +54,7 @@ export const COTE_DIVOIRE_DATA: Sticker[] = [
   {
     id: 'CIV-06',
     number: 6,
-    name: "Côte d'Ivoire Player 6",
+    name: 'EVAN NDICKA',
     section: "Côte d'Ivoire",
     group: 'E',
     type: 'player',
@@ -64,7 +64,7 @@ export const COTE_DIVOIRE_DATA: Sticker[] = [
   {
     id: 'CIV-07',
     number: 7,
-    name: "Côte d'Ivoire Player 7",
+    name: 'WILLY BOLY',
     section: "Côte d'Ivoire",
     group: 'E',
     type: 'player',
@@ -74,7 +74,7 @@ export const COTE_DIVOIRE_DATA: Sticker[] = [
   {
     id: 'CIV-08',
     number: 8,
-    name: "Côte d'Ivoire Player 8",
+    name: 'EMMANUEL AGBADOU',
     section: "Côte d'Ivoire",
     group: 'E',
     type: 'player',
@@ -84,7 +84,7 @@ export const COTE_DIVOIRE_DATA: Sticker[] = [
   {
     id: 'CIV-09',
     number: 9,
-    name: "Côte d'Ivoire Player 9",
+    name: 'OUSMANE DIOMANDE',
     section: "Côte d'Ivoire",
     group: 'E',
     type: 'player',
@@ -94,7 +94,7 @@ export const COTE_DIVOIRE_DATA: Sticker[] = [
   {
     id: 'CIV-10',
     number: 10,
-    name: "Côte d'Ivoire Player 10",
+    name: 'FRANCK KESSIÉ',
     section: "Côte d'Ivoire",
     group: 'E',
     type: 'player',
@@ -104,7 +104,7 @@ export const COTE_DIVOIRE_DATA: Sticker[] = [
   {
     id: 'CIV-11',
     number: 11,
-    name: "Côte d'Ivoire Player 11",
+    name: 'SEKO FOFANA',
     section: "Côte d'Ivoire",
     group: 'E',
     type: 'player',
@@ -114,7 +114,7 @@ export const COTE_DIVOIRE_DATA: Sticker[] = [
   {
     id: 'CIV-12',
     number: 12,
-    name: "Côte d'Ivoire Player 12",
+    name: 'IBRAHIM SANGARÉ',
     section: "Côte d'Ivoire",
     group: 'E',
     type: 'player',
@@ -134,7 +134,7 @@ export const COTE_DIVOIRE_DATA: Sticker[] = [
   {
     id: 'CIV-14',
     number: 14,
-    name: "Côte d'Ivoire Player 14",
+    name: 'JEAN-PHILIPPE GBAMIN',
     section: "Côte d'Ivoire",
     group: 'E',
     type: 'player',
@@ -144,7 +144,7 @@ export const COTE_DIVOIRE_DATA: Sticker[] = [
   {
     id: 'CIV-15',
     number: 15,
-    name: "Côte d'Ivoire Player 15",
+    name: 'AMAD H DIALLO',
     section: "Côte d'Ivoire",
     group: 'E',
     type: 'player',
@@ -154,7 +154,7 @@ export const COTE_DIVOIRE_DATA: Sticker[] = [
   {
     id: 'CIV-16',
     number: 16,
-    name: "Côte d'Ivoire Player 16",
+    name: 'SÉBASTIEN HALLER',
     section: "Côte d'Ivoire",
     group: 'E',
     type: 'player',
@@ -164,7 +164,7 @@ export const COTE_DIVOIRE_DATA: Sticker[] = [
   {
     id: 'CIV-17',
     number: 17,
-    name: "Côte d'Ivoire Player 17",
+    name: 'SIMON ADINGRA',
     section: "Côte d'Ivoire",
     group: 'E',
     type: 'player',
@@ -174,7 +174,7 @@ export const COTE_DIVOIRE_DATA: Sticker[] = [
   {
     id: 'CIV-18',
     number: 18,
-    name: "Côte d'Ivoire Player 18",
+    name: 'VAN DIOMANDE',
     section: "Côte d'Ivoire",
     group: 'E',
     type: 'player',
@@ -184,7 +184,7 @@ export const COTE_DIVOIRE_DATA: Sticker[] = [
   {
     id: 'CIV-19',
     number: 19,
-    name: "Côte d'Ivoire Player 19",
+    name: 'EVANN GUESSAND',
     section: "Côte d'Ivoire",
     group: 'E',
     type: 'player',
@@ -194,7 +194,7 @@ export const COTE_DIVOIRE_DATA: Sticker[] = [
   {
     id: 'CIV-20',
     number: 20,
-    name: "Côte d'Ivoire Player 20",
+    name: 'OUMAR DIAKITÉ',
     section: "Côte d'Ivoire",
     group: 'E',
     type: 'player',

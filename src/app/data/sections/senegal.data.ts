@@ -14,7 +14,7 @@ export const SENEGAL_DATA: Sticker[] = [
   {
     id: 'SEN-02',
     number: 2,
-    name: 'Senegal Player 2',
+    name: 'ÉDOUARD MENDY',
     section: 'Senegal',
     group: 'I',
     type: 'player',
@@ -24,7 +24,7 @@ export const SENEGAL_DATA: Sticker[] = [
   {
     id: 'SEN-03',
     number: 3,
-    name: 'Senegal Player 3',
+    name: 'YEHVANN DIOUF',
     section: 'Senegal',
     group: 'I',
     type: 'player',
@@ -34,7 +34,7 @@ export const SENEGAL_DATA: Sticker[] = [
   {
     id: 'SEN-04',
     number: 4,
-    name: 'Senegal Player 4',
+    name: 'MOUSSA NIAKHATÉ',
     section: 'Senegal',
     group: 'I',
     type: 'player',
@@ -44,7 +44,7 @@ export const SENEGAL_DATA: Sticker[] = [
   {
     id: 'SEN-05',
     number: 5,
-    name: 'Senegal Player 5',
+    name: 'ABDULAYE SECK',
     section: 'Senegal',
     group: 'I',
     type: 'player',
@@ -54,7 +54,7 @@ export const SENEGAL_DATA: Sticker[] = [
   {
     id: 'SEN-06',
     number: 6,
-    name: 'Senegal Player 6',
+    name: 'ISMAIL JAKOBS',
     section: 'Senegal',
     group: 'I',
     type: 'player',
@@ -64,7 +64,7 @@ export const SENEGAL_DATA: Sticker[] = [
   {
     id: 'SEN-07',
     number: 7,
-    name: 'Senegal Player 7',
+    name: 'EL HADJI MALICK DIOUF',
     section: 'Senegal',
     group: 'I',
     type: 'player',
@@ -74,7 +74,7 @@ export const SENEGAL_DATA: Sticker[] = [
   {
     id: 'SEN-08',
     number: 8,
-    name: 'Senegal Player 8',
+    name: 'KALIDOU KOULIBALY',
     section: 'Senegal',
     group: 'I',
     type: 'player',
@@ -84,7 +84,7 @@ export const SENEGAL_DATA: Sticker[] = [
   {
     id: 'SEN-09',
     number: 9,
-    name: 'Senegal Player 9',
+    name: 'IDRISSA GANA GUEVE',
     section: 'Senegal',
     group: 'I',
     type: 'player',
@@ -94,7 +94,7 @@ export const SENEGAL_DATA: Sticker[] = [
   {
     id: 'SEN-10',
     number: 10,
-    name: 'Senegal Player 10',
+    name: 'PAPE MATAR SARR',
     section: 'Senegal',
     group: 'I',
     type: 'player',
@@ -104,7 +104,7 @@ export const SENEGAL_DATA: Sticker[] = [
   {
     id: 'SEN-11',
     number: 11,
-    name: 'Senegal Player 11',
+    name: 'PAPE GUEVE',
     section: 'Senegal',
     group: 'I',
     type: 'player',
@@ -114,7 +114,7 @@ export const SENEGAL_DATA: Sticker[] = [
   {
     id: 'SEN-12',
     number: 12,
-    name: 'Senegal Player 12',
+    name: 'HABIB DIARRA',
     section: 'Senegal',
     group: 'I',
     type: 'player',
@@ -134,7 +134,7 @@ export const SENEGAL_DATA: Sticker[] = [
   {
     id: 'SEN-14',
     number: 14,
-    name: 'Senegal Player 14',
+    name: 'LAMINE CAMARA',
     section: 'Senegal',
     group: 'I',
     type: 'player',
@@ -144,7 +144,7 @@ export const SENEGAL_DATA: Sticker[] = [
   {
     id: 'SEN-15',
     number: 15,
-    name: 'Senegal Player 15',
+    name: 'SADIO MANÉ',
     section: 'Senegal',
     group: 'I',
     type: 'player',
@@ -154,7 +154,7 @@ export const SENEGAL_DATA: Sticker[] = [
   {
     id: 'SEN-16',
     number: 16,
-    name: 'Senegal Player 16',
+    name: 'ISMAILA SARR',
     section: 'Senegal',
     group: 'I',
     type: 'player',
@@ -164,7 +164,7 @@ export const SENEGAL_DATA: Sticker[] = [
   {
     id: 'SEN-17',
     number: 17,
-    name: 'Senegal Player 17',
+    name: 'BOULAYE DIA',
     section: 'Senegal',
     group: 'I',
     type: 'player',
@@ -174,7 +174,7 @@ export const SENEGAL_DATA: Sticker[] = [
   {
     id: 'SEN-18',
     number: 18,
-    name: 'Senegal Player 18',
+    name: 'ILIMAN NDIAVE',
     section: 'Senegal',
     group: 'I',
     type: 'player',
@@ -184,7 +184,7 @@ export const SENEGAL_DATA: Sticker[] = [
   {
     id: 'SEN-19',
     number: 19,
-    name: 'Senegal Player 19',
+    name: 'NICOLAS JACKSON',
     section: 'Senegal',
     group: 'I',
     type: 'player',
@@ -194,7 +194,7 @@ export const SENEGAL_DATA: Sticker[] = [
   {
     id: 'SEN-20',
     number: 20,
-    name: 'Senegal Player 20',
+    name: 'KRÉPIN DIATTA',
     section: 'Senegal',
     group: 'I',
     type: 'player',

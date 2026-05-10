@@ -14,7 +14,7 @@ export const QATAR_DATA: Sticker[] = [
   {
     id: 'QAT-02',
     number: 2,
-    name: 'Qatar Player 2',
+    name: 'MESHAAL BARSHAM',
     section: 'Qatar',
     group: 'B',
     type: 'player',
@@ -24,7 +24,7 @@ export const QATAR_DATA: Sticker[] = [
   {
     id: 'QAT-03',
     number: 3,
-    name: 'Qatar Player 3',
+    name: 'SULTAN AL-BRAKE',
     section: 'Qatar',
     group: 'B',
     type: 'player',
@@ -34,7 +34,7 @@ export const QATAR_DATA: Sticker[] = [
   {
     id: 'QAT-04',
     number: 4,
-    name: 'Qatar Player 4',
+    name: 'LUCAS MENDES',
     section: 'Qatar',
     group: 'B',
     type: 'player',
@@ -44,7 +44,7 @@ export const QATAR_DATA: Sticker[] = [
   {
     id: 'QAT-05',
     number: 5,
-    name: 'Qatar Player 5',
+    name: 'HOMAM AHMED',
     section: 'Qatar',
     group: 'B',
     type: 'player',
@@ -54,7 +54,7 @@ export const QATAR_DATA: Sticker[] = [
   {
     id: 'QAT-06',
     number: 6,
-    name: 'Qatar Player 6',
+    name: 'BOUALEM KHOUKHI',
     section: 'Qatar',
     group: 'B',
     type: 'player',
@@ -64,7 +64,7 @@ export const QATAR_DATA: Sticker[] = [
   {
     id: 'QAT-07',
     number: 7,
-    name: 'Qatar Player 7',
+    name: 'PEDRO MIGUEL',
     section: 'Qatar',
     group: 'B',
     type: 'player',
@@ -74,7 +74,7 @@ export const QATAR_DATA: Sticker[] = [
   {
     id: 'QAT-08',
     number: 8,
-    name: 'Qatar Player 8',
+    name: 'TAREK SALMAN',
     section: 'Qatar',
     group: 'B',
     type: 'player',
@@ -84,7 +84,7 @@ export const QATAR_DATA: Sticker[] = [
   {
     id: 'QAT-09',
     number: 9,
-    name: 'Qatar Player 9',
+    name: 'MOHAMMED MANNAI',
     section: 'Qatar',
     group: 'B',
     type: 'player',
@@ -94,7 +94,7 @@ export const QATAR_DATA: Sticker[] = [
   {
     id: 'QAT-10',
     number: 10,
-    name: 'Qatar Player 10',
+    name: 'KARIM BOUDIAF',
     section: 'Qatar',
     group: 'B',
     type: 'player',
@@ -104,7 +104,7 @@ export const QATAR_DATA: Sticker[] = [
   {
     id: 'QAT-11',
     number: 11,
-    name: 'Qatar Player 11',
+    name: 'ASSIM MADIBO',
     section: 'Qatar',
     group: 'B',
     type: 'player',
@@ -114,7 +114,7 @@ export const QATAR_DATA: Sticker[] = [
   {
     id: 'QAT-12',
     number: 12,
-    name: 'Qatar Player 12',
+    name: 'HAMED FATEHI',
     section: 'Qatar',
     group: 'B',
     type: 'player',
@@ -134,7 +134,7 @@ export const QATAR_DATA: Sticker[] = [
   {
     id: 'QAT-14',
     number: 14,
-    name: 'Qatar Player 14',
+    name: 'MOHAMMED WAAD',
     section: 'Qatar',
     group: 'B',
     type: 'player',
@@ -144,7 +144,7 @@ export const QATAR_DATA: Sticker[] = [
   {
     id: 'QAT-15',
     number: 15,
-    name: 'Qatar Player 15',
+    name: 'ABDULAZIZ HATEM',
     section: 'Qatar',
     group: 'B',
     type: 'player',
@@ -154,7 +154,7 @@ export const QATAR_DATA: Sticker[] = [
   {
     id: 'QAT-16',
     number: 16,
-    name: 'Qatar Player 16',
+    name: 'HASSAN AL-HAYDOS',
     section: 'Qatar',
     group: 'B',
     type: 'player',
@@ -164,7 +164,7 @@ export const QATAR_DATA: Sticker[] = [
   {
     id: 'QAT-17',
     number: 17,
-    name: 'Qatar Player 17',
+    name: 'EDMILSON JUNIOR',
     section: 'Qatar',
     group: 'B',
     type: 'player',
@@ -174,7 +174,7 @@ export const QATAR_DATA: Sticker[] = [
   {
     id: 'QAT-18',
     number: 18,
-    name: 'Qatar Player 18',
+    name: 'AKRAM HASSAN AFIF',
     section: 'Qatar',
     group: 'B',
     type: 'player',
@@ -184,7 +184,7 @@ export const QATAR_DATA: Sticker[] = [
   {
     id: 'QAT-19',
     number: 19,
-    name: 'Qatar Player 19',
+    name: 'AHMED AL-GANEHI',
     section: 'Qatar',
     group: 'B',
     type: 'player',
@@ -194,7 +194,7 @@ export const QATAR_DATA: Sticker[] = [
   {
     id: 'QAT-20',
     number: 20,
-    name: 'Qatar Player 20',
+    name: 'ALMOEZ ALI',
     section: 'Qatar',
     group: 'B',
     type: 'player',

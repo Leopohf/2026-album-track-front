@@ -14,7 +14,7 @@ export const BOSNIA_HERZEGOVINA_DATA: Sticker[] = [
   {
     id: 'BIH-02',
     number: 2,
-    name: 'Nihad Mujakić',
+    name: 'NIKOLA VASILJ',
     section: 'Bosnia-Herzegovina',
     group: 'B',
     type: 'player',
@@ -24,7 +24,7 @@ export const BOSNIA_HERZEGOVINA_DATA: Sticker[] = [
   {
     id: 'BIH-03',
     number: 3,
-    name: 'Amar Dedić',
+    name: 'AMAR DEDIĆ',
     section: 'Bosnia-Herzegovina',
     group: 'B',
     type: 'player',
@@ -34,7 +34,7 @@ export const BOSNIA_HERZEGOVINA_DATA: Sticker[] = [
   {
     id: 'BIH-04',
     number: 4,
-    name: 'Sead Kolašinac',
+    name: 'SEAD KOLAŠINAC',
     section: 'Bosnia-Herzegovina',
     group: 'B',
     type: 'player',
@@ -44,7 +44,7 @@ export const BOSNIA_HERZEGOVINA_DATA: Sticker[] = [
   {
     id: 'BIH-05',
     number: 5,
-    name: 'Tarik Muharemović',
+    name: 'TARIK MUHAREMOVIĆ',
     section: 'Bosnia-Herzegovina',
     group: 'B',
     type: 'player',
@@ -54,7 +54,7 @@ export const BOSNIA_HERZEGOVINA_DATA: Sticker[] = [
   {
     id: 'BIH-06',
     number: 6,
-    name: 'Armin Gigović',
+    name: 'NIHAD MUJAKIĆ',
     section: 'Bosnia-Herzegovina',
     group: 'B',
     type: 'player',
@@ -64,7 +64,7 @@ export const BOSNIA_HERZEGOVINA_DATA: Sticker[] = [
   {
     id: 'BIH-07',
     number: 7,
-    name: 'Nikola Katić',
+    name: 'NIKOLA KATIĆ',
     section: 'Bosnia-Herzegovina',
     group: 'B',
     type: 'player',
@@ -74,7 +74,7 @@ export const BOSNIA_HERZEGOVINA_DATA: Sticker[] = [
   {
     id: 'BIH-08',
     number: 8,
-    name: 'Amir Hadžiahmetović',
+    name: 'AMIR HADŽIAHMETOVIĆ',
     section: 'Bosnia-Herzegovina',
     group: 'B',
     type: 'player',
@@ -84,7 +84,7 @@ export const BOSNIA_HERZEGOVINA_DATA: Sticker[] = [
   {
     id: 'BIH-09',
     number: 9,
-    name: 'Benjamin Tahirović',
+    name: 'BENJAMIN TAHIROVIĆ',
     section: 'Bosnia-Herzegovina',
     group: 'B',
     type: 'player',
@@ -94,7 +94,7 @@ export const BOSNIA_HERZEGOVINA_DATA: Sticker[] = [
   {
     id: 'BIH-10',
     number: 10,
-    name: 'Armin Gojak',
+    name: 'ARMIN GIGOVIĆ',
     section: 'Bosnia-Herzegovina',
     group: 'B',
     type: 'player',
@@ -104,7 +104,7 @@ export const BOSNIA_HERZEGOVINA_DATA: Sticker[] = [
   {
     id: 'BIH-11',
     number: 11,
-    name: 'Ivan Šunjić',
+    name: 'IVAN ŠUNJIĆ',
     section: 'Bosnia-Herzegovina',
     group: 'B',
     type: 'player',
@@ -114,7 +114,7 @@ export const BOSNIA_HERZEGOVINA_DATA: Sticker[] = [
   {
     id: 'BIH-12',
     number: 12,
-    name: 'Ivan Bašić',
+    name: 'IVAN BAŠIĆ',
     section: 'Bosnia-Herzegovina',
     group: 'B',
     type: 'player',
@@ -134,7 +134,7 @@ export const BOSNIA_HERZEGOVINA_DATA: Sticker[] = [
   {
     id: 'BIH-14',
     number: 14,
-    name: 'Dženis Burnić',
+    name: 'DŽENIS BURNIĆ',
     section: 'Bosnia-Herzegovina',
     group: 'B',
     type: 'player',
@@ -144,7 +144,7 @@ export const BOSNIA_HERZEGOVINA_DATA: Sticker[] = [
   {
     id: 'BIH-15',
     number: 15,
-    name: 'Esmir Bajraktarević',
+    name: 'ESMIR BAJRAKTAREVIĆ',
     section: 'Bosnia-Herzegovina',
     group: 'B',
     type: 'player',
@@ -154,7 +154,7 @@ export const BOSNIA_HERZEGOVINA_DATA: Sticker[] = [
   {
     id: 'BIH-16',
     number: 16,
-    name: 'Amar Memić',
+    name: 'AMAR MEMIĆ',
     section: 'Bosnia-Herzegovina',
     group: 'B',
     type: 'player',
@@ -164,7 +164,7 @@ export const BOSNIA_HERZEGOVINA_DATA: Sticker[] = [
   {
     id: 'BIH-17',
     number: 17,
-    name: 'Ermedin Demirović',
+    name: 'ERMEDIN DEMIROVIĆ',
     section: 'Bosnia-Herzegovina',
     group: 'B',
     type: 'player',
@@ -174,7 +174,7 @@ export const BOSNIA_HERZEGOVINA_DATA: Sticker[] = [
   {
     id: 'BIH-18',
     number: 18,
-    name: 'Edin Džeko',
+    name: 'EDIN DŽEKO',
     section: 'Bosnia-Herzegovina',
     group: 'B',
     type: 'player',
@@ -184,7 +184,7 @@ export const BOSNIA_HERZEGOVINA_DATA: Sticker[] = [
   {
     id: 'BIH-19',
     number: 19,
-    name: 'Samir Baždar',
+    name: 'SAMED BAŽDAR',
     section: 'Bosnia-Herzegovina',
     group: 'B',
     type: 'player',
@@ -194,7 +194,7 @@ export const BOSNIA_HERZEGOVINA_DATA: Sticker[] = [
   {
     id: 'BIH-20',
     number: 20,
-    name: 'Haris Tabaković',
+    name: 'HARIS TABAKOVIĆ',
     section: 'Bosnia-Herzegovina',
     group: 'B',
     type: 'player',

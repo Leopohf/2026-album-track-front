@@ -14,7 +14,7 @@ export const CONGO_DR_DATA: Sticker[] = [
   {
     id: 'COD-02',
     number: 2,
-    name: 'Congo DR Player 2',
+    name: 'LIONEL MPASI',
     section: 'Congo DR',
     group: 'K',
     type: 'player',
@@ -24,7 +24,7 @@ export const CONGO_DR_DATA: Sticker[] = [
   {
     id: 'COD-03',
     number: 3,
-    name: 'Congo DR Player 3',
+    name: 'AARON WAN-BISSAKA',
     section: 'Congo DR',
     group: 'K',
     type: 'player',
@@ -34,7 +34,7 @@ export const CONGO_DR_DATA: Sticker[] = [
   {
     id: 'COD-04',
     number: 4,
-    name: 'Congo DR Player 4',
+    name: 'AXEL TUANZEBE',
     section: 'Congo DR',
     group: 'K',
     type: 'player',
@@ -44,7 +44,7 @@ export const CONGO_DR_DATA: Sticker[] = [
   {
     id: 'COD-05',
     number: 5,
-    name: 'Congo DR Player 5',
+    name: 'ARTHUR MASUAKU',
     section: 'Congo DR',
     group: 'K',
     type: 'player',
@@ -54,7 +54,7 @@ export const CONGO_DR_DATA: Sticker[] = [
   {
     id: 'COD-06',
     number: 6,
-    name: 'Congo DR Player 6',
+    name: 'CHANCEL MBEMBA',
     section: 'Congo DR',
     group: 'K',
     type: 'player',
@@ -64,7 +64,7 @@ export const CONGO_DR_DATA: Sticker[] = [
   {
     id: 'COD-07',
     number: 7,
-    name: 'Congo DR Player 7',
+    name: 'JORIS KAYEMBE',
     section: 'Congo DR',
     group: 'K',
     type: 'player',
@@ -74,7 +74,7 @@ export const CONGO_DR_DATA: Sticker[] = [
   {
     id: 'COD-08',
     number: 8,
-    name: 'Congo DR Player 8',
+    name: 'CHARLES PICKEL',
     section: 'Congo DR',
     group: 'K',
     type: 'player',
@@ -84,7 +84,7 @@ export const CONGO_DR_DATA: Sticker[] = [
   {
     id: 'COD-09',
     number: 9,
-    name: 'Congo DR Player 9',
+    name: "NGAL'AYEL MUKAU",
     section: 'Congo DR',
     group: 'K',
     type: 'player',
@@ -94,7 +94,7 @@ export const CONGO_DR_DATA: Sticker[] = [
   {
     id: 'COD-10',
     number: 10,
-    name: 'Congo DR Player 10',
+    name: 'EDO KAYEMBE',
     section: 'Congo DR',
     group: 'K',
     type: 'player',
@@ -104,7 +104,7 @@ export const CONGO_DR_DATA: Sticker[] = [
   {
     id: 'COD-11',
     number: 11,
-    name: 'Congo DR Player 11',
+    name: 'SAMUEL MOUTOUSSAMY',
     section: 'Congo DR',
     group: 'K',
     type: 'player',
@@ -114,7 +114,7 @@ export const CONGO_DR_DATA: Sticker[] = [
   {
     id: 'COD-12',
     number: 12,
-    name: 'Congo DR Player 12',
+    name: 'NOAH SADIKI',
     section: 'Congo DR',
     group: 'K',
     type: 'player',
@@ -134,7 +134,7 @@ export const CONGO_DR_DATA: Sticker[] = [
   {
     id: 'COD-14',
     number: 14,
-    name: 'Congo DR Player 14',
+    name: 'THÉO BONGONDA',
     section: 'Congo DR',
     group: 'K',
     type: 'player',
@@ -144,7 +144,7 @@ export const CONGO_DR_DATA: Sticker[] = [
   {
     id: 'COD-15',
     number: 15,
-    name: 'Congo DR Player 15',
+    name: 'MESCHACK ELIA',
     section: 'Congo DR',
     group: 'K',
     type: 'player',
@@ -154,7 +154,7 @@ export const CONGO_DR_DATA: Sticker[] = [
   {
     id: 'COD-16',
     number: 16,
-    name: 'Congo DR Player 16',
+    name: 'YOANE WISSA',
     section: 'Congo DR',
     group: 'K',
     type: 'player',
@@ -164,7 +164,7 @@ export const CONGO_DR_DATA: Sticker[] = [
   {
     id: 'COD-17',
     number: 17,
-    name: 'Congo DR Player 17',
+    name: 'BRIAN CIPENGA',
     section: 'Congo DR',
     group: 'K',
     type: 'player',
@@ -174,7 +174,7 @@ export const CONGO_DR_DATA: Sticker[] = [
   {
     id: 'COD-18',
     number: 18,
-    name: 'Congo DR Player 18',
+    name: 'FISTON MAYELE',
     section: 'Congo DR',
     group: 'K',
     type: 'player',
@@ -184,7 +184,7 @@ export const CONGO_DR_DATA: Sticker[] = [
   {
     id: 'COD-19',
     number: 19,
-    name: 'Congo DR Player 19',
+    name: 'CÉDRIC BAKAMBU',
     section: 'Congo DR',
     group: 'K',
     type: 'player',
@@ -194,7 +194,7 @@ export const CONGO_DR_DATA: Sticker[] = [
   {
     id: 'COD-20',
     number: 20,
-    name: 'Congo DR Player 20',
+    name: 'NATHANAËL MBUKU',
     section: 'Congo DR',
     group: 'K',
     type: 'player',

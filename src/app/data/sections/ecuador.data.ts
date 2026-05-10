@@ -14,7 +14,7 @@ export const ECUADOR_DATA: Sticker[] = [
   {
     id: 'ECU-02',
     number: 2,
-    name: 'Ecuador Player 2',
+    name: 'HERNÁN GALÍNDEZ',
     section: 'Ecuador',
     group: 'E',
     type: 'player',
@@ -24,7 +24,7 @@ export const ECUADOR_DATA: Sticker[] = [
   {
     id: 'ECU-03',
     number: 3,
-    name: 'Ecuador Player 3',
+    name: 'GONZALO VALLE',
     section: 'Ecuador',
     group: 'E',
     type: 'player',
@@ -34,7 +34,7 @@ export const ECUADOR_DATA: Sticker[] = [
   {
     id: 'ECU-04',
     number: 4,
-    name: 'Ecuador Player 4',
+    name: 'PIERO HINCAPIÉ',
     section: 'Ecuador',
     group: 'E',
     type: 'player',
@@ -44,7 +44,7 @@ export const ECUADOR_DATA: Sticker[] = [
   {
     id: 'ECU-05',
     number: 5,
-    name: 'Ecuador Player 5',
+    name: 'PERVIS ESTUPIÑÁN',
     section: 'Ecuador',
     group: 'E',
     type: 'player',
@@ -54,7 +54,7 @@ export const ECUADOR_DATA: Sticker[] = [
   {
     id: 'ECU-06',
     number: 6,
-    name: 'Ecuador Player 6',
+    name: 'WILLIAN PACHO',
     section: 'Ecuador',
     group: 'E',
     type: 'player',
@@ -64,7 +64,7 @@ export const ECUADOR_DATA: Sticker[] = [
   {
     id: 'ECU-07',
     number: 7,
-    name: 'Ecuador Player 7',
+    name: 'ÁNGELO PRECIADO',
     section: 'Ecuador',
     group: 'E',
     type: 'player',
@@ -74,7 +74,7 @@ export const ECUADOR_DATA: Sticker[] = [
   {
     id: 'ECU-08',
     number: 8,
-    name: 'Ecuador Player 8',
+    name: 'JOEL ORDÓÑEZ',
     section: 'Ecuador',
     group: 'E',
     type: 'player',
@@ -84,7 +84,7 @@ export const ECUADOR_DATA: Sticker[] = [
   {
     id: 'ECU-09',
     number: 9,
-    name: 'Ecuador Player 9',
+    name: 'MOISÉS CAICEDO',
     section: 'Ecuador',
     group: 'E',
     type: 'player',
@@ -94,7 +94,7 @@ export const ECUADOR_DATA: Sticker[] = [
   {
     id: 'ECU-10',
     number: 10,
-    name: 'Ecuador Player 10',
+    name: 'ALAN FRANCO',
     section: 'Ecuador',
     group: 'E',
     type: 'player',
@@ -104,7 +104,7 @@ export const ECUADOR_DATA: Sticker[] = [
   {
     id: 'ECU-11',
     number: 11,
-    name: 'Ecuador Player 11',
+    name: 'KENDRY PÁEZ',
     section: 'Ecuador',
     group: 'E',
     type: 'player',
@@ -114,7 +114,7 @@ export const ECUADOR_DATA: Sticker[] = [
   {
     id: 'ECU-12',
     number: 12,
-    name: 'Ecuador Player 12',
+    name: 'PEDRO VITE',
     section: 'Ecuador',
     group: 'E',
     type: 'player',
@@ -134,7 +134,7 @@ export const ECUADOR_DATA: Sticker[] = [
   {
     id: 'ECU-14',
     number: 14,
-    name: 'Ecuador Player 14',
+    name: 'JOHN YEBOAH',
     section: 'Ecuador',
     group: 'E',
     type: 'player',
@@ -144,7 +144,7 @@ export const ECUADOR_DATA: Sticker[] = [
   {
     id: 'ECU-15',
     number: 15,
-    name: 'Ecuador Player 15',
+    name: 'LEONARDO CAMPANA',
     section: 'Ecuador',
     group: 'E',
     type: 'player',
@@ -154,7 +154,7 @@ export const ECUADOR_DATA: Sticker[] = [
   {
     id: 'ECU-16',
     number: 16,
-    name: 'Ecuador Player 16',
+    name: 'GONZALO PLATA',
     section: 'Ecuador',
     group: 'E',
     type: 'player',
@@ -164,7 +164,7 @@ export const ECUADOR_DATA: Sticker[] = [
   {
     id: 'ECU-17',
     number: 17,
-    name: 'Ecuador Player 17',
+    name: 'NILSON ANGULO',
     section: 'Ecuador',
     group: 'E',
     type: 'player',
@@ -174,7 +174,7 @@ export const ECUADOR_DATA: Sticker[] = [
   {
     id: 'ECU-18',
     number: 18,
-    name: 'Ecuador Player 18',
+    name: 'ALAN MINDA',
     section: 'Ecuador',
     group: 'E',
     type: 'player',
@@ -184,7 +184,7 @@ export const ECUADOR_DATA: Sticker[] = [
   {
     id: 'ECU-19',
     number: 19,
-    name: 'Ecuador Player 19',
+    name: 'KEVIN RODRÍGUEZ',
     section: 'Ecuador',
     group: 'E',
     type: 'player',
@@ -194,7 +194,7 @@ export const ECUADOR_DATA: Sticker[] = [
   {
     id: 'ECU-20',
     number: 20,
-    name: 'Ecuador Player 20',
+    name: 'ENNER VALENCIA',
     section: 'Ecuador',
     group: 'E',
     type: 'player',

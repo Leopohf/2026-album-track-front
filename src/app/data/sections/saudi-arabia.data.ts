@@ -14,7 +14,7 @@ export const SAUDI_ARABIA_DATA: Sticker[] = [
   {
     id: 'KSA-02',
     number: 2,
-    name: 'Saudi Arabia Player 2',
+    name: 'NAWAF ALAQIDI',
     section: 'Saudi Arabia',
     group: 'H',
     type: 'player',
@@ -24,7 +24,7 @@ export const SAUDI_ARABIA_DATA: Sticker[] = [
   {
     id: 'KSA-03',
     number: 3,
-    name: 'Saudi Arabia Player 3',
+    name: 'ABDULRAHMAN ALSANBI',
     section: 'Saudi Arabia',
     group: 'H',
     type: 'player',
@@ -34,7 +34,7 @@ export const SAUDI_ARABIA_DATA: Sticker[] = [
   {
     id: 'KSA-04',
     number: 4,
-    name: 'Saudi Arabia Player 4',
+    name: 'SAUD ABDULHAMID',
     section: 'Saudi Arabia',
     group: 'H',
     type: 'player',
@@ -44,7 +44,7 @@ export const SAUDI_ARABIA_DATA: Sticker[] = [
   {
     id: 'KSA-05',
     number: 5,
-    name: 'Saudi Arabia Player 5',
+    name: 'NAWAF BUWASHL',
     section: 'Saudi Arabia',
     group: 'H',
     type: 'player',
@@ -54,7 +54,7 @@ export const SAUDI_ARABIA_DATA: Sticker[] = [
   {
     id: 'KSA-06',
     number: 6,
-    name: 'Saudi Arabia Player 6',
+    name: 'JEHAD THIKRI',
     section: 'Saudi Arabia',
     group: 'H',
     type: 'player',
@@ -64,7 +64,7 @@ export const SAUDI_ARABIA_DATA: Sticker[] = [
   {
     id: 'KSA-07',
     number: 7,
-    name: 'Saudi Arabia Player 7',
+    name: 'MOTEB ALHARBI',
     section: 'Saudi Arabia',
     group: 'H',
     type: 'player',
@@ -74,7 +74,7 @@ export const SAUDI_ARABIA_DATA: Sticker[] = [
   {
     id: 'KSA-08',
     number: 8,
-    name: 'Saudi Arabia Player 8',
+    name: 'HASSAN ALTAMBAKTI',
     section: 'Saudi Arabia',
     group: 'H',
     type: 'player',
@@ -84,7 +84,7 @@ export const SAUDI_ARABIA_DATA: Sticker[] = [
   {
     id: 'KSA-09',
     number: 9,
-    name: 'Saudi Arabia Player 9',
+    name: 'MUSAB ALJUWAVR',
     section: 'Saudi Arabia',
     group: 'H',
     type: 'player',
@@ -94,7 +94,7 @@ export const SAUDI_ARABIA_DATA: Sticker[] = [
   {
     id: 'KSA-10',
     number: 10,
-    name: 'Saudi Arabia Player 10',
+    name: 'ZIYAD ALJOHANI',
     section: 'Saudi Arabia',
     group: 'H',
     type: 'player',
@@ -104,7 +104,7 @@ export const SAUDI_ARABIA_DATA: Sticker[] = [
   {
     id: 'KSA-11',
     number: 11,
-    name: 'Saudi Arabia Player 11',
+    name: 'ABDULLAH ALKHAIBARI',
     section: 'Saudi Arabia',
     group: 'H',
     type: 'player',
@@ -114,7 +114,7 @@ export const SAUDI_ARABIA_DATA: Sticker[] = [
   {
     id: 'KSA-12',
     number: 12,
-    name: 'Saudi Arabia Player 12',
+    name: 'NASSER ALDAWSARI',
     section: 'Saudi Arabia',
     group: 'H',
     type: 'player',
@@ -134,7 +134,7 @@ export const SAUDI_ARABIA_DATA: Sticker[] = [
   {
     id: 'KSA-14',
     number: 14,
-    name: 'Saudi Arabia Player 14',
+    name: 'SALEH ABU ALSHAMAT',
     section: 'Saudi Arabia',
     group: 'H',
     type: 'player',
@@ -144,7 +144,7 @@ export const SAUDI_ARABIA_DATA: Sticker[] = [
   {
     id: 'KSA-15',
     number: 15,
-    name: 'Saudi Arabia Player 15',
+    name: 'MARWAN ALSAHAFI',
     section: 'Saudi Arabia',
     group: 'H',
     type: 'player',
@@ -154,7 +154,7 @@ export const SAUDI_ARABIA_DATA: Sticker[] = [
   {
     id: 'KSA-16',
     number: 16,
-    name: 'Saudi Arabia Player 16',
+    name: 'SALEM ALDAWSARI',
     section: 'Saudi Arabia',
     group: 'H',
     type: 'player',
@@ -164,7 +164,7 @@ export const SAUDI_ARABIA_DATA: Sticker[] = [
   {
     id: 'KSA-17',
     number: 17,
-    name: 'Saudi Arabia Player 17',
+    name: 'ABDULRAHMAN ALOBUD',
     section: 'Saudi Arabia',
     group: 'H',
     type: 'player',
@@ -174,7 +174,7 @@ export const SAUDI_ARABIA_DATA: Sticker[] = [
   {
     id: 'KSA-18',
     number: 18,
-    name: 'Saudi Arabia Player 18',
+    name: 'FERAS ALBRIKAN',
     section: 'Saudi Arabia',
     group: 'H',
     type: 'player',
@@ -184,7 +184,7 @@ export const SAUDI_ARABIA_DATA: Sticker[] = [
   {
     id: 'KSA-19',
     number: 19,
-    name: 'Saudi Arabia Player 19',
+    name: 'SALEH ALSHEHRI',
     section: 'Saudi Arabia',
     group: 'H',
     type: 'player',
@@ -194,7 +194,7 @@ export const SAUDI_ARABIA_DATA: Sticker[] = [
   {
     id: 'KSA-20',
     number: 20,
-    name: 'Saudi Arabia Player 20',
+    name: 'ABDULLAH ALHAMDAN',
     section: 'Saudi Arabia',
     group: 'H',
     type: 'player',

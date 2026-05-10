@@ -14,7 +14,7 @@ export const FRANCE_DATA: Sticker[] = [
   {
     id: 'FRA-02',
     number: 2,
-    name: 'France Player 2',
+    name: 'MIKE MAIGNAN',
     section: 'France',
     group: 'I',
     type: 'player',
@@ -24,7 +24,7 @@ export const FRANCE_DATA: Sticker[] = [
   {
     id: 'FRA-03',
     number: 3,
-    name: 'France Player 3',
+    name: 'THÉO HERNÁNDEZ',
     section: 'France',
     group: 'I',
     type: 'player',
@@ -34,7 +34,7 @@ export const FRANCE_DATA: Sticker[] = [
   {
     id: 'FRA-04',
     number: 4,
-    name: 'France Player 4',
+    name: 'WILLIAM SALIBA',
     section: 'France',
     group: 'I',
     type: 'player',
@@ -44,7 +44,7 @@ export const FRANCE_DATA: Sticker[] = [
   {
     id: 'FRA-05',
     number: 5,
-    name: 'France Player 5',
+    name: 'JULES KOUNDÉ',
     section: 'France',
     group: 'I',
     type: 'player',
@@ -54,7 +54,7 @@ export const FRANCE_DATA: Sticker[] = [
   {
     id: 'FRA-06',
     number: 6,
-    name: 'France Player 6',
+    name: 'IBRAHIMA KONATÉ',
     section: 'France',
     group: 'I',
     type: 'player',
@@ -64,7 +64,7 @@ export const FRANCE_DATA: Sticker[] = [
   {
     id: 'FRA-07',
     number: 7,
-    name: 'France Player 7',
+    name: 'DAYOT UPAMECANO',
     section: 'France',
     group: 'I',
     type: 'player',
@@ -74,7 +74,7 @@ export const FRANCE_DATA: Sticker[] = [
   {
     id: 'FRA-08',
     number: 8,
-    name: 'France Player 8',
+    name: 'LUCAS DIGNE',
     section: 'France',
     group: 'I',
     type: 'player',
@@ -84,7 +84,7 @@ export const FRANCE_DATA: Sticker[] = [
   {
     id: 'FRA-09',
     number: 9,
-    name: 'France Player 9',
+    name: 'AURÉLIEN TCHOUAMÉNI',
     section: 'France',
     group: 'I',
     type: 'player',
@@ -94,7 +94,7 @@ export const FRANCE_DATA: Sticker[] = [
   {
     id: 'FRA-10',
     number: 10,
-    name: 'France Player 10',
+    name: 'EDUARDO CAMAVINGA',
     section: 'France',
     group: 'I',
     type: 'player',
@@ -104,7 +104,7 @@ export const FRANCE_DATA: Sticker[] = [
   {
     id: 'FRA-11',
     number: 11,
-    name: 'France Player 11',
+    name: 'MANU KONÉ',
     section: 'France',
     group: 'I',
     type: 'player',
@@ -114,7 +114,7 @@ export const FRANCE_DATA: Sticker[] = [
   {
     id: 'FRA-12',
     number: 12,
-    name: 'France Player 12',
+    name: 'ADRIEN RABIOT',
     section: 'France',
     group: 'I',
     type: 'player',
@@ -134,7 +134,7 @@ export const FRANCE_DATA: Sticker[] = [
   {
     id: 'FRA-14',
     number: 14,
-    name: 'France Player 14',
+    name: 'MICHAEL OLISE',
     section: 'France',
     group: 'I',
     type: 'player',
@@ -144,7 +144,7 @@ export const FRANCE_DATA: Sticker[] = [
   {
     id: 'FRA-15',
     number: 15,
-    name: 'France Player 15',
+    name: 'OUSMANE DEMBÉLÉ',
     section: 'France',
     group: 'I',
     type: 'player',
@@ -154,7 +154,7 @@ export const FRANCE_DATA: Sticker[] = [
   {
     id: 'FRA-16',
     number: 16,
-    name: 'France Player 16',
+    name: 'BRADLEY BARCOLA',
     section: 'France',
     group: 'I',
     type: 'player',
@@ -164,7 +164,7 @@ export const FRANCE_DATA: Sticker[] = [
   {
     id: 'FRA-17',
     number: 17,
-    name: 'France Player 17',
+    name: 'DÉSIRÉ DOUÉ',
     section: 'France',
     group: 'I',
     type: 'player',
@@ -174,7 +174,7 @@ export const FRANCE_DATA: Sticker[] = [
   {
     id: 'FRA-18',
     number: 18,
-    name: 'France Player 18',
+    name: 'KINGSLEY COMAN',
     section: 'France',
     group: 'I',
     type: 'player',
@@ -184,7 +184,7 @@ export const FRANCE_DATA: Sticker[] = [
   {
     id: 'FRA-19',
     number: 19,
-    name: 'France Player 19',
+    name: 'HUGO EKITIKÉ',
     section: 'France',
     group: 'I',
     type: 'player',
@@ -194,7 +194,7 @@ export const FRANCE_DATA: Sticker[] = [
   {
     id: 'FRA-20',
     number: 20,
-    name: 'France Player 20',
+    name: 'KYLIAN MBAPPÉ',
     section: 'France',
     group: 'I',
     type: 'player',

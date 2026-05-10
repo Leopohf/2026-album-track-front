@@ -14,7 +14,7 @@ export const CABO_VERDE_DATA: Sticker[] = [
   {
     id: 'CPV-02',
     number: 2,
-    name: 'Cabo Verde Player 2',
+    name: 'VOZINHA',
     section: 'Cabo Verde',
     group: 'H',
     type: 'player',
@@ -24,7 +24,7 @@ export const CABO_VERDE_DATA: Sticker[] = [
   {
     id: 'CPV-03',
     number: 3,
-    name: 'Cabo Verde Player 3',
+    name: 'LOGAN COSTA',
     section: 'Cabo Verde',
     group: 'H',
     type: 'player',
@@ -34,7 +34,7 @@ export const CABO_VERDE_DATA: Sticker[] = [
   {
     id: 'CPV-04',
     number: 4,
-    name: 'Cabo Verde Player 4',
+    name: 'PICO',
     section: 'Cabo Verde',
     group: 'H',
     type: 'player',
@@ -44,7 +44,7 @@ export const CABO_VERDE_DATA: Sticker[] = [
   {
     id: 'CPV-05',
     number: 5,
-    name: 'Cabo Verde Player 5',
+    name: 'DINEV',
     section: 'Cabo Verde',
     group: 'H',
     type: 'player',
@@ -54,7 +54,7 @@ export const CABO_VERDE_DATA: Sticker[] = [
   {
     id: 'CPV-06',
     number: 6,
-    name: 'Cabo Verde Player 6',
+    name: 'STEVEN MOREIRA',
     section: 'Cabo Verde',
     group: 'H',
     type: 'player',
@@ -64,7 +64,7 @@ export const CABO_VERDE_DATA: Sticker[] = [
   {
     id: 'CPV-07',
     number: 7,
-    name: 'Cabo Verde Player 7',
+    name: 'WAGNER PINA',
     section: 'Cabo Verde',
     group: 'H',
     type: 'player',
@@ -74,7 +74,7 @@ export const CABO_VERDE_DATA: Sticker[] = [
   {
     id: 'CPV-08',
     number: 8,
-    name: 'Cabo Verde Player 8',
+    name: 'JOÃO PAULO',
     section: 'Cabo Verde',
     group: 'H',
     type: 'player',
@@ -84,7 +84,7 @@ export const CABO_VERDE_DATA: Sticker[] = [
   {
     id: 'CPV-09',
     number: 9,
-    name: 'Cabo Verde Player 9',
+    name: 'VANNICK SEMEDO',
     section: 'Cabo Verde',
     group: 'H',
     type: 'player',
@@ -94,7 +94,7 @@ export const CABO_VERDE_DATA: Sticker[] = [
   {
     id: 'CPV-10',
     number: 10,
-    name: 'Cabo Verde Player 10',
+    name: 'KEVIN PINA',
     section: 'Cabo Verde',
     group: 'H',
     type: 'player',
@@ -104,7 +104,7 @@ export const CABO_VERDE_DATA: Sticker[] = [
   {
     id: 'CPV-11',
     number: 11,
-    name: 'Cabo Verde Player 11',
+    name: 'PATRICK ANDRADE',
     section: 'Cabo Verde',
     group: 'H',
     type: 'player',
@@ -114,7 +114,7 @@ export const CABO_VERDE_DATA: Sticker[] = [
   {
     id: 'CPV-12',
     number: 12,
-    name: 'Cabo Verde Player 12',
+    name: 'JAMIRO MONTEIRO',
     section: 'Cabo Verde',
     group: 'H',
     type: 'player',
@@ -134,7 +134,7 @@ export const CABO_VERDE_DATA: Sticker[] = [
   {
     id: 'CPV-14',
     number: 14,
-    name: 'Cabo Verde Player 14',
+    name: 'DEROY DUARTE',
     section: 'Cabo Verde',
     group: 'H',
     type: 'player',
@@ -144,7 +144,7 @@ export const CABO_VERDE_DATA: Sticker[] = [
   {
     id: 'CPV-15',
     number: 15,
-    name: 'Cabo Verde Player 15',
+    name: 'GARRY RODRIGUES',
     section: 'Cabo Verde',
     group: 'H',
     type: 'player',
@@ -154,7 +154,7 @@ export const CABO_VERDE_DATA: Sticker[] = [
   {
     id: 'CPV-16',
     number: 16,
-    name: 'Cabo Verde Player 16',
+    name: 'JOVANE CABRAL',
     section: 'Cabo Verde',
     group: 'H',
     type: 'player',
@@ -164,7 +164,7 @@ export const CABO_VERDE_DATA: Sticker[] = [
   {
     id: 'CPV-17',
     number: 17,
-    name: 'Cabo Verde Player 17',
+    name: 'RYAN MENDES',
     section: 'Cabo Verde',
     group: 'H',
     type: 'player',
@@ -174,7 +174,7 @@ export const CABO_VERDE_DATA: Sticker[] = [
   {
     id: 'CPV-18',
     number: 18,
-    name: 'Cabo Verde Player 18',
+    name: 'DAILON LIVRAMENTO',
     section: 'Cabo Verde',
     group: 'H',
     type: 'player',
@@ -184,7 +184,7 @@ export const CABO_VERDE_DATA: Sticker[] = [
   {
     id: 'CPV-19',
     number: 19,
-    name: 'Cabo Verde Player 19',
+    name: 'WILLY SEMEDO',
     section: 'Cabo Verde',
     group: 'H',
     type: 'player',
@@ -194,7 +194,7 @@ export const CABO_VERDE_DATA: Sticker[] = [
   {
     id: 'CPV-20',
     number: 20,
-    name: 'Cabo Verde Player 20',
+    name: 'BEBÉ',
     section: 'Cabo Verde',
     group: 'H',
     type: 'player',

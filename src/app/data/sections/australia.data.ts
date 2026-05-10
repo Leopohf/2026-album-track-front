@@ -14,7 +14,7 @@ export const AUSTRALIA_DATA: Sticker[] = [
   {
     id: 'AUS-02',
     number: 2,
-    name: 'Mathew Ryan',
+    name: 'MATHEW RYAN',
     section: 'Australia',
     group: 'D',
     type: 'player',
@@ -24,7 +24,7 @@ export const AUSTRALIA_DATA: Sticker[] = [
   {
     id: 'AUS-03',
     number: 3,
-    name: 'Joe Gauci',
+    name: 'JOE GAUCI',
     section: 'Australia',
     group: 'D',
     type: 'player',
@@ -34,7 +34,7 @@ export const AUSTRALIA_DATA: Sticker[] = [
   {
     id: 'AUS-04',
     number: 4,
-    name: 'Harry Souttar',
+    name: 'HARRY SOUTTAR',
     section: 'Australia',
     group: 'D',
     type: 'player',
@@ -44,7 +44,7 @@ export const AUSTRALIA_DATA: Sticker[] = [
   {
     id: 'AUS-05',
     number: 5,
-    name: 'Alessandro Circati',
+    name: 'ALESSANDRO CIRCATI',
     section: 'Australia',
     group: 'D',
     type: 'player',
@@ -54,7 +54,7 @@ export const AUSTRALIA_DATA: Sticker[] = [
   {
     id: 'AUS-06',
     number: 6,
-    name: 'Jordan Bos',
+    name: 'JORDAN BOS',
     section: 'Australia',
     group: 'D',
     type: 'player',
@@ -64,7 +64,7 @@ export const AUSTRALIA_DATA: Sticker[] = [
   {
     id: 'AUS-07',
     number: 7,
-    name: 'Aziz Behich',
+    name: 'AZIZ BEHICH',
     section: 'Australia',
     group: 'D',
     type: 'player',
@@ -74,7 +74,7 @@ export const AUSTRALIA_DATA: Sticker[] = [
   {
     id: 'AUS-08',
     number: 8,
-    name: 'Cameron Burgess',
+    name: 'CAMERON BURGESS',
     section: 'Australia',
     group: 'D',
     type: 'player',
@@ -84,7 +84,7 @@ export const AUSTRALIA_DATA: Sticker[] = [
   {
     id: 'AUS-09',
     number: 9,
-    name: 'Lewis Miller',
+    name: 'LEWIS MILLER',
     section: 'Australia',
     group: 'D',
     type: 'player',
@@ -94,7 +94,7 @@ export const AUSTRALIA_DATA: Sticker[] = [
   {
     id: 'AUS-10',
     number: 10,
-    name: 'Milos Degenek',
+    name: 'MILOS DEGENEK',
     section: 'Australia',
     group: 'D',
     type: 'player',
@@ -104,7 +104,7 @@ export const AUSTRALIA_DATA: Sticker[] = [
   {
     id: 'AUS-11',
     number: 11,
-    name: 'Jackson Irvine',
+    name: 'JACKSON IRVINE',
     section: 'Australia',
     group: 'D',
     type: 'player',
@@ -114,7 +114,7 @@ export const AUSTRALIA_DATA: Sticker[] = [
   {
     id: 'AUS-12',
     number: 12,
-    name: 'Riley McGree',
+    name: 'RILEY MCGREE',
     section: 'Australia',
     group: 'D',
     type: 'player',
@@ -134,7 +134,7 @@ export const AUSTRALIA_DATA: Sticker[] = [
   {
     id: 'AUS-14',
     number: 14,
-    name: "Aiden O'Neill",
+    name: "AIDEN O'NEILL",
     section: 'Australia',
     group: 'D',
     type: 'player',
@@ -144,7 +144,7 @@ export const AUSTRALIA_DATA: Sticker[] = [
   {
     id: 'AUS-15',
     number: 15,
-    name: 'Connor Metcalfe',
+    name: 'CONNOR METCALFE',
     section: 'Australia',
     group: 'D',
     type: 'player',
@@ -154,7 +154,7 @@ export const AUSTRALIA_DATA: Sticker[] = [
   {
     id: 'AUS-16',
     number: 16,
-    name: 'Patrick Vazbek',
+    name: 'PATRICK VAZBEK',
     section: 'Australia',
     group: 'D',
     type: 'player',
@@ -164,7 +164,7 @@ export const AUSTRALIA_DATA: Sticker[] = [
   {
     id: 'AUS-17',
     number: 17,
-    name: 'Craig Goodwin',
+    name: 'CRAIG GOODWIN',
     section: 'Australia',
     group: 'D',
     type: 'player',
@@ -174,7 +174,7 @@ export const AUSTRALIA_DATA: Sticker[] = [
   {
     id: 'AUS-18',
     number: 18,
-    name: 'Kusini Vengi',
+    name: 'KUSINI VENGI',
     section: 'Australia',
     group: 'D',
     type: 'player',
@@ -184,7 +184,7 @@ export const AUSTRALIA_DATA: Sticker[] = [
   {
     id: 'AUS-19',
     number: 19,
-    name: 'Nestory Irankunda',
+    name: 'NESTORY IRANKUNDA',
     section: 'Australia',
     group: 'D',
     type: 'player',
@@ -194,7 +194,7 @@ export const AUSTRALIA_DATA: Sticker[] = [
   {
     id: 'AUS-20',
     number: 20,
-    name: 'Mohamed Touré',
+    name: 'MOHAMED TOURÉ',
     section: 'Australia',
     group: 'D',
     type: 'player',

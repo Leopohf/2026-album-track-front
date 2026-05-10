@@ -14,7 +14,7 @@ export const CANADA_DATA: Sticker[] = [
   {
     id: 'CAN-02',
     number: 2,
-    name: 'Dayne St. Clair',
+    name: 'DAYNE ST. CLAIR',
     section: 'Canada',
     group: 'B',
     type: 'player',
@@ -24,7 +24,7 @@ export const CANADA_DATA: Sticker[] = [
   {
     id: 'CAN-03',
     number: 3,
-    name: 'Alphonso Davies',
+    name: 'ALPHONSO DAVIES',
     section: 'Canada',
     group: 'B',
     type: 'player',
@@ -34,7 +34,7 @@ export const CANADA_DATA: Sticker[] = [
   {
     id: 'CAN-04',
     number: 4,
-    name: 'Alistair Johnston',
+    name: 'ALISTAIR JOHNSTON',
     section: 'Canada',
     group: 'B',
     type: 'player',
@@ -44,7 +44,7 @@ export const CANADA_DATA: Sticker[] = [
   {
     id: 'CAN-05',
     number: 5,
-    name: 'Samuel Adekugbe',
+    name: 'SAMUEL ADEKUGBE',
     section: 'Canada',
     group: 'B',
     type: 'player',
@@ -54,7 +54,7 @@ export const CANADA_DATA: Sticker[] = [
   {
     id: 'CAN-06',
     number: 6,
-    name: 'Richie Larvea',
+    name: 'RICHIE LARYEA',
     section: 'Canada',
     group: 'B',
     type: 'player',
@@ -64,7 +64,7 @@ export const CANADA_DATA: Sticker[] = [
   {
     id: 'CAN-07',
     number: 7,
-    name: 'Derek Cornelius',
+    name: 'DEREK CORNELIUS',
     section: 'Canada',
     group: 'B',
     type: 'player',
@@ -74,7 +74,7 @@ export const CANADA_DATA: Sticker[] = [
   {
     id: 'CAN-08',
     number: 8,
-    name: 'Moïse Bombito',
+    name: 'MOÏSE BOMBITO',
     section: 'Canada',
     group: 'B',
     type: 'player',
@@ -84,7 +84,7 @@ export const CANADA_DATA: Sticker[] = [
   {
     id: 'CAN-09',
     number: 9,
-    name: 'Kamal Miller',
+    name: 'KAMAL MILLER',
     section: 'Canada',
     group: 'B',
     type: 'player',
@@ -94,7 +94,7 @@ export const CANADA_DATA: Sticker[] = [
   {
     id: 'CAN-10',
     number: 10,
-    name: 'Stephen Eustaquio',
+    name: 'STEPHEN EUSTÁQUIO',
     section: 'Canada',
     group: 'B',
     type: 'player',
@@ -104,7 +104,7 @@ export const CANADA_DATA: Sticker[] = [
   {
     id: 'CAN-11',
     number: 11,
-    name: 'Ismaël Koné',
+    name: 'ISMAËL KONÉ',
     section: 'Canada',
     group: 'B',
     type: 'player',
@@ -114,7 +114,7 @@ export const CANADA_DATA: Sticker[] = [
   {
     id: 'CAN-12',
     number: 12,
-    name: 'Jonathan Osorio',
+    name: 'JONATHAN OSORIO',
     section: 'Canada',
     group: 'B',
     type: 'player',
@@ -134,7 +134,7 @@ export const CANADA_DATA: Sticker[] = [
   {
     id: 'CAN-14',
     number: 14,
-    name: 'Jacob Shaffelburg',
+    name: 'JACOB SHAFFELBURG',
     section: 'Canada',
     group: 'B',
     type: 'player',
@@ -144,7 +144,7 @@ export const CANADA_DATA: Sticker[] = [
   {
     id: 'CAN-15',
     number: 15,
-    name: 'Mathieu Choinière',
+    name: 'MATHIEU CHOINIÈRE',
     section: 'Canada',
     group: 'B',
     type: 'player',
@@ -154,7 +154,7 @@ export const CANADA_DATA: Sticker[] = [
   {
     id: 'CAN-16',
     number: 16,
-    name: 'Niko Sigur',
+    name: 'NIKO SIGUR',
     section: 'Canada',
     group: 'B',
     type: 'player',
@@ -164,7 +164,7 @@ export const CANADA_DATA: Sticker[] = [
   {
     id: 'CAN-17',
     number: 17,
-    name: 'Tajon Buchanan',
+    name: 'TAJON BUCHANAN',
     section: 'Canada',
     group: 'B',
     type: 'player',
@@ -174,7 +174,7 @@ export const CANADA_DATA: Sticker[] = [
   {
     id: 'CAN-18',
     number: 18,
-    name: 'Liam Millar',
+    name: 'LIAM MILLAR',
     section: 'Canada',
     group: 'B',
     type: 'player',
@@ -184,7 +184,7 @@ export const CANADA_DATA: Sticker[] = [
   {
     id: 'CAN-19',
     number: 19,
-    name: 'Cyle Larin',
+    name: 'CYLE LARIN',
     section: 'Canada',
     group: 'B',
     type: 'player',
@@ -194,7 +194,7 @@ export const CANADA_DATA: Sticker[] = [
   {
     id: 'CAN-20',
     number: 20,
-    name: 'Jonathan David',
+    name: 'JONATHAN DAVID',
     section: 'Canada',
     group: 'B',
     type: 'player',

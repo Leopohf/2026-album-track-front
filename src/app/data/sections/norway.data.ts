@@ -14,7 +14,7 @@ export const NORWAY_DATA: Sticker[] = [
   {
     id: 'NOR-02',
     number: 2,
-    name: 'Norway Player 2',
+    name: 'ØRJAN NYLAND',
     section: 'Norway',
     group: 'I',
     type: 'player',
@@ -24,7 +24,7 @@ export const NORWAY_DATA: Sticker[] = [
   {
     id: 'NOR-03',
     number: 3,
-    name: 'Norway Player 3',
+    name: 'JULIAN RYERSON',
     section: 'Norway',
     group: 'I',
     type: 'player',
@@ -34,7 +34,7 @@ export const NORWAY_DATA: Sticker[] = [
   {
     id: 'NOR-04',
     number: 4,
-    name: 'Norway Player 4',
+    name: 'LEO ØSTIGÅRD',
     section: 'Norway',
     group: 'I',
     type: 'player',
@@ -44,7 +44,7 @@ export const NORWAY_DATA: Sticker[] = [
   {
     id: 'NOR-05',
     number: 5,
-    name: 'Norway Player 5',
+    name: 'KRISTOFFER VASSBAKK AJER',
     section: 'Norway',
     group: 'I',
     type: 'player',
@@ -54,7 +54,7 @@ export const NORWAY_DATA: Sticker[] = [
   {
     id: 'NOR-06',
     number: 6,
-    name: 'Norway Player 6',
+    name: 'MARCUS HOLMGREN PEDERSEN',
     section: 'Norway',
     group: 'I',
     type: 'player',
@@ -64,7 +64,7 @@ export const NORWAY_DATA: Sticker[] = [
   {
     id: 'NOR-07',
     number: 7,
-    name: 'Norway Player 7',
+    name: 'DAVID MØLLER WOLFE',
     section: 'Norway',
     group: 'I',
     type: 'player',
@@ -74,7 +74,7 @@ export const NORWAY_DATA: Sticker[] = [
   {
     id: 'NOR-08',
     number: 8,
-    name: 'Norway Player 8',
+    name: 'TORBJØRN HEGGEM',
     section: 'Norway',
     group: 'I',
     type: 'player',
@@ -84,7 +84,7 @@ export const NORWAY_DATA: Sticker[] = [
   {
     id: 'NOR-09',
     number: 9,
-    name: 'Norway Player 9',
+    name: 'MORTEN THORSBY',
     section: 'Norway',
     group: 'I',
     type: 'player',
@@ -94,7 +94,7 @@ export const NORWAY_DATA: Sticker[] = [
   {
     id: 'NOR-10',
     number: 10,
-    name: 'Norway Player 10',
+    name: 'MARTIN ØDEGAARD',
     section: 'Norway',
     group: 'I',
     type: 'player',
@@ -104,7 +104,7 @@ export const NORWAY_DATA: Sticker[] = [
   {
     id: 'NOR-11',
     number: 11,
-    name: 'Norway Player 11',
+    name: 'SANDER BERGE',
     section: 'Norway',
     group: 'I',
     type: 'player',
@@ -114,7 +114,7 @@ export const NORWAY_DATA: Sticker[] = [
   {
     id: 'NOR-12',
     number: 12,
-    name: 'Norway Player 12',
+    name: 'ANDREAS SCHJELDERUP',
     section: 'Norway',
     group: 'I',
     type: 'player',
@@ -134,7 +134,7 @@ export const NORWAY_DATA: Sticker[] = [
   {
     id: 'NOR-14',
     number: 14,
-    name: 'Norway Player 14',
+    name: 'PATRICK BERG',
     section: 'Norway',
     group: 'I',
     type: 'player',
@@ -144,7 +144,7 @@ export const NORWAY_DATA: Sticker[] = [
   {
     id: 'NOR-15',
     number: 15,
-    name: 'Norway Player 15',
+    name: 'ERLING HAALAND',
     section: 'Norway',
     group: 'I',
     type: 'player',
@@ -154,7 +154,7 @@ export const NORWAY_DATA: Sticker[] = [
   {
     id: 'NOR-16',
     number: 16,
-    name: 'Norway Player 16',
+    name: 'ALEXANDER SØRLOTH',
     section: 'Norway',
     group: 'I',
     type: 'player',
@@ -164,7 +164,7 @@ export const NORWAY_DATA: Sticker[] = [
   {
     id: 'NOR-17',
     number: 17,
-    name: 'Norway Player 17',
+    name: 'ARON DØNNUM',
     section: 'Norway',
     group: 'I',
     type: 'player',
@@ -174,7 +174,7 @@ export const NORWAY_DATA: Sticker[] = [
   {
     id: 'NOR-18',
     number: 18,
-    name: 'Norway Player 18',
+    name: 'JØRGEN STRAND LARSEN',
     section: 'Norway',
     group: 'I',
     type: 'player',
@@ -184,7 +184,7 @@ export const NORWAY_DATA: Sticker[] = [
   {
     id: 'NOR-19',
     number: 19,
-    name: 'Norway Player 19',
+    name: 'ANTONIO NUSA',
     section: 'Norway',
     group: 'I',
     type: 'player',
@@ -194,7 +194,7 @@ export const NORWAY_DATA: Sticker[] = [
   {
     id: 'NOR-20',
     number: 20,
-    name: 'Norway Player 20',
+    name: 'OSCAR BOBB',
     section: 'Norway',
     group: 'I',
     type: 'player',

@@ -14,7 +14,7 @@ export const PANAMA_DATA: Sticker[] = [
   {
     id: 'PAN-02',
     number: 2,
-    name: 'Panama Player 2',
+    name: 'ORLANDO MOSQUERA',
     section: 'Panama',
     group: 'L',
     type: 'player',
@@ -24,7 +24,7 @@ export const PANAMA_DATA: Sticker[] = [
   {
     id: 'PAN-03',
     number: 3,
-    name: 'Panama Player 3',
+    name: 'LUIS MEJÍA',
     section: 'Panama',
     group: 'L',
     type: 'player',
@@ -34,7 +34,7 @@ export const PANAMA_DATA: Sticker[] = [
   {
     id: 'PAN-04',
     number: 4,
-    name: 'Panama Player 4',
+    name: 'FIDEL ESCOBAR',
     section: 'Panama',
     group: 'L',
     type: 'player',
@@ -44,7 +44,7 @@ export const PANAMA_DATA: Sticker[] = [
   {
     id: 'PAN-05',
     number: 5,
-    name: 'Panama Player 5',
+    name: 'ANDRÉS ANDRADE',
     section: 'Panama',
     group: 'L',
     type: 'player',
@@ -54,7 +54,7 @@ export const PANAMA_DATA: Sticker[] = [
   {
     id: 'PAN-06',
     number: 6,
-    name: 'Panama Player 6',
+    name: 'MICHAEL AMIR MURILLO',
     section: 'Panama',
     group: 'L',
     type: 'player',
@@ -64,7 +64,7 @@ export const PANAMA_DATA: Sticker[] = [
   {
     id: 'PAN-07',
     number: 7,
-    name: 'Panama Player 7',
+    name: 'ERIC DAVIS',
     section: 'Panama',
     group: 'L',
     type: 'player',
@@ -74,7 +74,7 @@ export const PANAMA_DATA: Sticker[] = [
   {
     id: 'PAN-08',
     number: 8,
-    name: 'Panama Player 8',
+    name: 'JOSÉ CÓRDOBA',
     section: 'Panama',
     group: 'L',
     type: 'player',
@@ -84,7 +84,7 @@ export const PANAMA_DATA: Sticker[] = [
   {
     id: 'PAN-09',
     number: 9,
-    name: 'Panama Player 9',
+    name: 'CÉSAR BLACKMAN',
     section: 'Panama',
     group: 'L',
     type: 'player',
@@ -94,7 +94,7 @@ export const PANAMA_DATA: Sticker[] = [
   {
     id: 'PAN-10',
     number: 10,
-    name: 'Panama Player 10',
+    name: 'CRISTIAN MARTÍNEZ',
     section: 'Panama',
     group: 'L',
     type: 'player',
@@ -104,7 +104,7 @@ export const PANAMA_DATA: Sticker[] = [
   {
     id: 'PAN-11',
     number: 11,
-    name: 'Panama Player 11',
+    name: 'ANÍBAL GODOV',
     section: 'Panama',
     group: 'L',
     type: 'player',
@@ -114,7 +114,7 @@ export const PANAMA_DATA: Sticker[] = [
   {
     id: 'PAN-12',
     number: 12,
-    name: 'Panama Player 12',
+    name: 'ADALBERTO CARRASQUILLA',
     section: 'Panama',
     group: 'L',
     type: 'player',
@@ -134,7 +134,7 @@ export const PANAMA_DATA: Sticker[] = [
   {
     id: 'PAN-14',
     number: 14,
-    name: 'Panama Player 14',
+    name: 'ÉDGAR BÁRCENAS',
     section: 'Panama',
     group: 'L',
     type: 'player',
@@ -144,7 +144,7 @@ export const PANAMA_DATA: Sticker[] = [
   {
     id: 'PAN-15',
     number: 15,
-    name: 'Panama Player 15',
+    name: 'CARLOS HARVEY',
     section: 'Panama',
     group: 'L',
     type: 'player',
@@ -154,7 +154,7 @@ export const PANAMA_DATA: Sticker[] = [
   {
     id: 'PAN-16',
     number: 16,
-    name: 'Panama Player 16',
+    name: 'ISMAEL DÍAZ',
     section: 'Panama',
     group: 'L',
     type: 'player',
@@ -164,7 +164,7 @@ export const PANAMA_DATA: Sticker[] = [
   {
     id: 'PAN-17',
     number: 17,
-    name: 'Panama Player 17',
+    name: 'JOSÉ FAJARDO',
     section: 'Panama',
     group: 'L',
     type: 'player',
@@ -174,7 +174,7 @@ export const PANAMA_DATA: Sticker[] = [
   {
     id: 'PAN-18',
     number: 18,
-    name: 'Panama Player 18',
+    name: 'CECILIO WATERMAN',
     section: 'Panama',
     group: 'L',
     type: 'player',
@@ -184,7 +184,7 @@ export const PANAMA_DATA: Sticker[] = [
   {
     id: 'PAN-19',
     number: 19,
-    name: 'Panama Player 19',
+    name: 'JOSÉ LUIS RODRÍGUEZ',
     section: 'Panama',
     group: 'L',
     type: 'player',
@@ -194,7 +194,7 @@ export const PANAMA_DATA: Sticker[] = [
   {
     id: 'PAN-20',
     number: 20,
-    name: 'Panama Player 20',
+    name: 'ALBERTO QUINTERO',
     section: 'Panama',
     group: 'L',
     type: 'player',

@@ -14,7 +14,7 @@ export const BRAZIL_DATA: Sticker[] = [
   {
     id: 'BRA-02',
     number: 2,
-    name: 'Alisson',
+    name: 'ALISSON',
     section: 'Brazil',
     group: 'C',
     type: 'player',
@@ -24,7 +24,7 @@ export const BRAZIL_DATA: Sticker[] = [
   {
     id: 'BRA-03',
     number: 3,
-    name: 'Bento',
+    name: 'BENTO',
     section: 'Brazil',
     group: 'C',
     type: 'player',
@@ -34,7 +34,7 @@ export const BRAZIL_DATA: Sticker[] = [
   {
     id: 'BRA-04',
     number: 4,
-    name: 'Marquinhos',
+    name: 'MARQUINHOS',
     section: 'Brazil',
     group: 'C',
     type: 'player',
@@ -44,7 +44,7 @@ export const BRAZIL_DATA: Sticker[] = [
   {
     id: 'BRA-05',
     number: 5,
-    name: 'Eder Militao',
+    name: 'ÉDER MILITÃO',
     section: 'Brazil',
     group: 'C',
     type: 'player',
@@ -54,7 +54,7 @@ export const BRAZIL_DATA: Sticker[] = [
   {
     id: 'BRA-06',
     number: 6,
-    name: 'Gabriel Magalhaes',
+    name: 'GABRIEL MAGALHÃES',
     section: 'Brazil',
     group: 'C',
     type: 'player',
@@ -64,7 +64,7 @@ export const BRAZIL_DATA: Sticker[] = [
   {
     id: 'BRA-07',
     number: 7,
-    name: 'Danilo',
+    name: 'DANILO',
     section: 'Brazil',
     group: 'C',
     type: 'player',
@@ -74,7 +74,7 @@ export const BRAZIL_DATA: Sticker[] = [
   {
     id: 'BRA-08',
     number: 8,
-    name: 'Wesley',
+    name: 'WESLEY',
     section: 'Brazil',
     group: 'C',
     type: 'player',
@@ -84,7 +84,7 @@ export const BRAZIL_DATA: Sticker[] = [
   {
     id: 'BRA-09',
     number: 9,
-    name: 'Lucas Paqueta',
+    name: 'LUCAS PAQUETÁ',
     section: 'Brazil',
     group: 'C',
     type: 'player',
@@ -94,7 +94,7 @@ export const BRAZIL_DATA: Sticker[] = [
   {
     id: 'BRA-10',
     number: 10,
-    name: 'Casemiro',
+    name: 'CASEMIRO',
     section: 'Brazil',
     group: 'C',
     type: 'player',
@@ -104,7 +104,7 @@ export const BRAZIL_DATA: Sticker[] = [
   {
     id: 'BRA-11',
     number: 11,
-    name: 'Bruno Guimaraes',
+    name: 'BRUNO GUIMARÃES',
     section: 'Brazil',
     group: 'C',
     type: 'player',
@@ -114,7 +114,7 @@ export const BRAZIL_DATA: Sticker[] = [
   {
     id: 'BRA-12',
     number: 12,
-    name: 'Luiz Henrique',
+    name: 'LUIZ HENRIQUE',
     section: 'Brazil',
     group: 'C',
     type: 'player',
@@ -134,7 +134,7 @@ export const BRAZIL_DATA: Sticker[] = [
   {
     id: 'BRA-14',
     number: 14,
-    name: 'Vinicius Junior',
+    name: 'VINÍCIUS JÚNIOR',
     section: 'Brazil',
     group: 'C',
     type: 'player',
@@ -144,7 +144,7 @@ export const BRAZIL_DATA: Sticker[] = [
   {
     id: 'BRA-15',
     number: 15,
-    name: 'Rodrygo',
+    name: 'RODRYGO',
     section: 'Brazil',
     group: 'C',
     type: 'player',
@@ -154,7 +154,7 @@ export const BRAZIL_DATA: Sticker[] = [
   {
     id: 'BRA-16',
     number: 16,
-    name: 'Joao Pedro',
+    name: 'JOÃO PEDRO',
     section: 'Brazil',
     group: 'C',
     type: 'player',
@@ -164,7 +164,7 @@ export const BRAZIL_DATA: Sticker[] = [
   {
     id: 'BRA-17',
     number: 17,
-    name: 'Matheus Cunha',
+    name: 'MATHEUS CUNHA',
     section: 'Brazil',
     group: 'C',
     type: 'player',
@@ -174,7 +174,7 @@ export const BRAZIL_DATA: Sticker[] = [
   {
     id: 'BRA-18',
     number: 18,
-    name: 'Gabriel Martinelli',
+    name: 'GABRIEL MARTINELLI',
     section: 'Brazil',
     group: 'C',
     type: 'player',
@@ -184,7 +184,7 @@ export const BRAZIL_DATA: Sticker[] = [
   {
     id: 'BRA-19',
     number: 19,
-    name: 'Raphinha',
+    name: 'RAPHINHA',
     section: 'Brazil',
     group: 'C',
     type: 'player',
@@ -194,7 +194,7 @@ export const BRAZIL_DATA: Sticker[] = [
   {
     id: 'BRA-20',
     number: 20,
-    name: 'Estevao',
+    name: 'ESTÊVÃO',
     section: 'Brazil',
     group: 'C',
     type: 'player',

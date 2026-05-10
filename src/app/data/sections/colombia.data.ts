@@ -14,7 +14,7 @@ export const COLOMBIA_DATA: Sticker[] = [
   {
     id: 'COL-02',
     number: 2,
-    name: 'Colombia Player 2',
+    name: 'CAMILO VARGAS',
     section: 'Colombia',
     group: 'K',
     type: 'player',
@@ -24,7 +24,7 @@ export const COLOMBIA_DATA: Sticker[] = [
   {
     id: 'COL-03',
     number: 3,
-    name: 'Colombia Player 3',
+    name: 'DAVID OSPINA',
     section: 'Colombia',
     group: 'K',
     type: 'player',
@@ -34,7 +34,7 @@ export const COLOMBIA_DATA: Sticker[] = [
   {
     id: 'COL-04',
     number: 4,
-    name: 'Colombia Player 4',
+    name: 'DÁVINSON SÁNCHEZ',
     section: 'Colombia',
     group: 'K',
     type: 'player',
@@ -44,7 +44,7 @@ export const COLOMBIA_DATA: Sticker[] = [
   {
     id: 'COL-05',
     number: 5,
-    name: 'Colombia Player 5',
+    name: 'YERRY MINA',
     section: 'Colombia',
     group: 'K',
     type: 'player',
@@ -54,7 +54,7 @@ export const COLOMBIA_DATA: Sticker[] = [
   {
     id: 'COL-06',
     number: 6,
-    name: 'Colombia Player 6',
+    name: 'DANIEL MUÑOZ',
     section: 'Colombia',
     group: 'K',
     type: 'player',
@@ -64,7 +64,7 @@ export const COLOMBIA_DATA: Sticker[] = [
   {
     id: 'COL-07',
     number: 7,
-    name: 'Colombia Player 7',
+    name: 'JOHAN MOJICA',
     section: 'Colombia',
     group: 'K',
     type: 'player',
@@ -74,7 +74,7 @@ export const COLOMBIA_DATA: Sticker[] = [
   {
     id: 'COL-08',
     number: 8,
-    name: 'Colombia Player 8',
+    name: 'JHON LUCUMÍ',
     section: 'Colombia',
     group: 'K',
     type: 'player',
@@ -84,7 +84,7 @@ export const COLOMBIA_DATA: Sticker[] = [
   {
     id: 'COL-09',
     number: 9,
-    name: 'Colombia Player 9',
+    name: 'SANTIAGO ARIAS',
     section: 'Colombia',
     group: 'K',
     type: 'player',
@@ -94,7 +94,7 @@ export const COLOMBIA_DATA: Sticker[] = [
   {
     id: 'COL-10',
     number: 10,
-    name: 'Colombia Player 10',
+    name: 'JEFFERSON LERMA',
     section: 'Colombia',
     group: 'K',
     type: 'player',
@@ -104,7 +104,7 @@ export const COLOMBIA_DATA: Sticker[] = [
   {
     id: 'COL-11',
     number: 11,
-    name: 'Colombia Player 11',
+    name: 'KEVIN CASTAÑO',
     section: 'Colombia',
     group: 'K',
     type: 'player',
@@ -114,7 +114,7 @@ export const COLOMBIA_DATA: Sticker[] = [
   {
     id: 'COL-12',
     number: 12,
-    name: 'Colombia Player 12',
+    name: 'RICHARD RÍOS',
     section: 'Colombia',
     group: 'K',
     type: 'player',
@@ -134,7 +134,7 @@ export const COLOMBIA_DATA: Sticker[] = [
   {
     id: 'COL-14',
     number: 14,
-    name: 'Colombia Player 14',
+    name: 'JAMES RODRÍGUEZ',
     section: 'Colombia',
     group: 'K',
     type: 'player',
@@ -144,7 +144,7 @@ export const COLOMBIA_DATA: Sticker[] = [
   {
     id: 'COL-15',
     number: 15,
-    name: 'Colombia Player 15',
+    name: 'JUAN FERNANDO QUINTERO',
     section: 'Colombia',
     group: 'K',
     type: 'player',
@@ -154,7 +154,7 @@ export const COLOMBIA_DATA: Sticker[] = [
   {
     id: 'COL-16',
     number: 16,
-    name: 'Colombia Player 16',
+    name: 'JORGE CARRASCAL',
     section: 'Colombia',
     group: 'K',
     type: 'player',
@@ -164,7 +164,7 @@ export const COLOMBIA_DATA: Sticker[] = [
   {
     id: 'COL-17',
     number: 17,
-    name: 'Colombia Player 17',
+    name: 'JHON ARIAS',
     section: 'Colombia',
     group: 'K',
     type: 'player',
@@ -174,7 +174,7 @@ export const COLOMBIA_DATA: Sticker[] = [
   {
     id: 'COL-18',
     number: 18,
-    name: 'Colombia Player 18',
+    name: 'JHON CÓRDOBA',
     section: 'Colombia',
     group: 'K',
     type: 'player',
@@ -184,7 +184,7 @@ export const COLOMBIA_DATA: Sticker[] = [
   {
     id: 'COL-19',
     number: 19,
-    name: 'Colombia Player 19',
+    name: 'LUIS SUÁREZ',
     section: 'Colombia',
     group: 'K',
     type: 'player',
@@ -194,7 +194,7 @@ export const COLOMBIA_DATA: Sticker[] = [
   {
     id: 'COL-20',
     number: 20,
-    name: 'Colombia Player 20',
+    name: 'LUIS DÍAZ',
     section: 'Colombia',
     group: 'K',
     type: 'player',

@@ -14,7 +14,7 @@ export const CURACAO_DATA: Sticker[] = [
   {
     id: 'CUW-02',
     number: 2,
-    name: 'Curaçao Player 2',
+    name: 'ELOY ROOM',
     section: 'Curaçao',
     group: 'E',
     type: 'player',
@@ -24,7 +24,7 @@ export const CURACAO_DATA: Sticker[] = [
   {
     id: 'CUW-03',
     number: 3,
-    name: 'Curaçao Player 3',
+    name: 'ARMANDO OBISPO',
     section: 'Curaçao',
     group: 'E',
     type: 'player',
@@ -34,7 +34,7 @@ export const CURACAO_DATA: Sticker[] = [
   {
     id: 'CUW-04',
     number: 4,
-    name: 'Curaçao Player 4',
+    name: 'SHEREL FLORANUS',
     section: 'Curaçao',
     group: 'E',
     type: 'player',
@@ -44,7 +44,7 @@ export const CURACAO_DATA: Sticker[] = [
   {
     id: 'CUW-05',
     number: 5,
-    name: 'Curaçao Player 5',
+    name: 'JURIËN GAARI',
     section: 'Curaçao',
     group: 'E',
     type: 'player',
@@ -54,7 +54,7 @@ export const CURACAO_DATA: Sticker[] = [
   {
     id: 'CUW-06',
     number: 6,
-    name: 'Curaçao Player 6',
+    name: 'JOSHUA BRENET',
     section: 'Curaçao',
     group: 'E',
     type: 'player',
@@ -64,7 +64,7 @@ export const CURACAO_DATA: Sticker[] = [
   {
     id: 'CUW-07',
     number: 7,
-    name: 'Curaçao Player 7',
+    name: 'ROSHON VAN EIJMA',
     section: 'Curaçao',
     group: 'E',
     type: 'player',
@@ -74,7 +74,7 @@ export const CURACAO_DATA: Sticker[] = [
   {
     id: 'CUW-08',
     number: 8,
-    name: 'Curaçao Player 8',
+    name: 'SHURANDY SAMBO',
     section: 'Curaçao',
     group: 'E',
     type: 'player',
@@ -84,7 +84,7 @@ export const CURACAO_DATA: Sticker[] = [
   {
     id: 'CUW-09',
     number: 9,
-    name: 'Curaçao Player 9',
+    name: 'LIVANO COMENENCIA',
     section: 'Curaçao',
     group: 'E',
     type: 'player',
@@ -94,7 +94,7 @@ export const CURACAO_DATA: Sticker[] = [
   {
     id: 'CUW-10',
     number: 10,
-    name: 'Curaçao Player 10',
+    name: 'GODFRIED ROEMERATOE',
     section: 'Curaçao',
     group: 'E',
     type: 'player',
@@ -104,7 +104,7 @@ export const CURACAO_DATA: Sticker[] = [
   {
     id: 'CUW-11',
     number: 11,
-    name: 'Curaçao Player 11',
+    name: 'JUNINHO BACUNA',
     section: 'Curaçao',
     group: 'E',
     type: 'player',
@@ -114,7 +114,7 @@ export const CURACAO_DATA: Sticker[] = [
   {
     id: 'CUW-12',
     number: 12,
-    name: 'Curaçao Player 12',
+    name: 'LEANDRO BACUNA',
     section: 'Curaçao',
     group: 'E',
     type: 'player',
@@ -134,7 +134,7 @@ export const CURACAO_DATA: Sticker[] = [
   {
     id: 'CUW-14',
     number: 14,
-    name: 'Curaçao Player 14',
+    name: 'TAHITH CHONG',
     section: 'Curaçao',
     group: 'E',
     type: 'player',
@@ -144,7 +144,7 @@ export const CURACAO_DATA: Sticker[] = [
   {
     id: 'CUW-15',
     number: 15,
-    name: 'Curaçao Player 15',
+    name: 'KENJI GORRÉ',
     section: 'Curaçao',
     group: 'E',
     type: 'player',
@@ -154,7 +154,7 @@ export const CURACAO_DATA: Sticker[] = [
   {
     id: 'CUW-16',
     number: 16,
-    name: 'Curaçao Player 16',
+    name: 'JEARL MARGARITHA',
     section: 'Curaçao',
     group: 'E',
     type: 'player',
@@ -164,7 +164,7 @@ export const CURACAO_DATA: Sticker[] = [
   {
     id: 'CUW-17',
     number: 17,
-    name: 'Curaçao Player 17',
+    name: 'JÜRGEN LOCADIA',
     section: 'Curaçao',
     group: 'E',
     type: 'player',
@@ -174,7 +174,7 @@ export const CURACAO_DATA: Sticker[] = [
   {
     id: 'CUW-18',
     number: 18,
-    name: 'Curaçao Player 18',
+    name: 'JEREMY ANTONISSE',
     section: 'Curaçao',
     group: 'E',
     type: 'player',
@@ -184,7 +184,7 @@ export const CURACAO_DATA: Sticker[] = [
   {
     id: 'CUW-19',
     number: 19,
-    name: 'Curaçao Player 19',
+    name: 'GERVANE KASTANEER',
     section: 'Curaçao',
     group: 'E',
     type: 'player',
@@ -194,7 +194,7 @@ export const CURACAO_DATA: Sticker[] = [
   {
     id: 'CUW-20',
     number: 20,
-    name: 'Curaçao Player 20',
+    name: 'SONTJE HANSEN',
     section: 'Curaçao',
     group: 'E',
     type: 'player',

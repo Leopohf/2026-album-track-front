@@ -14,7 +14,7 @@ export const EGYPT_DATA: Sticker[] = [
   {
     id: 'EGY-02',
     number: 2,
-    name: 'Egypt Player 2',
+    name: 'MOHAMED ELSHENAWY',
     section: 'Egypt',
     group: 'G',
     type: 'player',
@@ -24,7 +24,7 @@ export const EGYPT_DATA: Sticker[] = [
   {
     id: 'EGY-03',
     number: 3,
-    name: 'Egypt Player 3',
+    name: 'MOHAMED HANY',
     section: 'Egypt',
     group: 'G',
     type: 'player',
@@ -34,7 +34,7 @@ export const EGYPT_DATA: Sticker[] = [
   {
     id: 'EGY-04',
     number: 4,
-    name: 'Egypt Player 4',
+    name: 'MOHAMED HAMDY',
     section: 'Egypt',
     group: 'G',
     type: 'player',
@@ -44,7 +44,7 @@ export const EGYPT_DATA: Sticker[] = [
   {
     id: 'EGY-05',
     number: 5,
-    name: 'Egypt Player 5',
+    name: 'YASSER IBRAHIM',
     section: 'Egypt',
     group: 'G',
     type: 'player',
@@ -54,7 +54,7 @@ export const EGYPT_DATA: Sticker[] = [
   {
     id: 'EGY-06',
     number: 6,
-    name: 'Egypt Player 6',
+    name: 'KHALED SOBHI',
     section: 'Egypt',
     group: 'G',
     type: 'player',
@@ -64,7 +64,7 @@ export const EGYPT_DATA: Sticker[] = [
   {
     id: 'EGY-07',
     number: 7,
-    name: 'Egypt Player 7',
+    name: 'RAMY RABIA',
     section: 'Egypt',
     group: 'G',
     type: 'player',
@@ -74,7 +74,7 @@ export const EGYPT_DATA: Sticker[] = [
   {
     id: 'EGY-08',
     number: 8,
-    name: 'Egypt Player 8',
+    name: 'HOSSAM ABDELMAGUID',
     section: 'Egypt',
     group: 'G',
     type: 'player',
@@ -84,7 +84,7 @@ export const EGYPT_DATA: Sticker[] = [
   {
     id: 'EGY-09',
     number: 9,
-    name: 'Egypt Player 9',
+    name: 'AHMED FATOUH',
     section: 'Egypt',
     group: 'G',
     type: 'player',
@@ -94,7 +94,7 @@ export const EGYPT_DATA: Sticker[] = [
   {
     id: 'EGY-10',
     number: 10,
-    name: 'Egypt Player 10',
+    name: 'MARWAN ATTIA',
     section: 'Egypt',
     group: 'G',
     type: 'player',
@@ -104,7 +104,7 @@ export const EGYPT_DATA: Sticker[] = [
   {
     id: 'EGY-11',
     number: 11,
-    name: 'Egypt Player 11',
+    name: 'ZIZO',
     section: 'Egypt',
     group: 'G',
     type: 'player',
@@ -114,7 +114,7 @@ export const EGYPT_DATA: Sticker[] = [
   {
     id: 'EGY-12',
     number: 12,
-    name: 'Egypt Player 12',
+    name: 'HAMDY FATHY',
     section: 'Egypt',
     group: 'G',
     type: 'player',
@@ -134,7 +134,7 @@ export const EGYPT_DATA: Sticker[] = [
   {
     id: 'EGY-14',
     number: 14,
-    name: 'Egypt Player 14',
+    name: 'MOHANAD LASHEEN',
     section: 'Egypt',
     group: 'G',
     type: 'player',
@@ -144,7 +144,7 @@ export const EGYPT_DATA: Sticker[] = [
   {
     id: 'EGY-15',
     number: 15,
-    name: 'Egypt Player 15',
+    name: 'EMAM ASHOUR',
     section: 'Egypt',
     group: 'G',
     type: 'player',
@@ -154,7 +154,7 @@ export const EGYPT_DATA: Sticker[] = [
   {
     id: 'EGY-16',
     number: 16,
-    name: 'Egypt Player 16',
+    name: 'OSAMA FAISAL',
     section: 'Egypt',
     group: 'G',
     type: 'player',
@@ -164,7 +164,7 @@ export const EGYPT_DATA: Sticker[] = [
   {
     id: 'EGY-17',
     number: 17,
-    name: 'Egypt Player 17',
+    name: 'MOHAMED SALAH',
     section: 'Egypt',
     group: 'G',
     type: 'player',
@@ -174,7 +174,7 @@ export const EGYPT_DATA: Sticker[] = [
   {
     id: 'EGY-18',
     number: 18,
-    name: 'Egypt Player 18',
+    name: 'MOSTAFA MOHAMED',
     section: 'Egypt',
     group: 'G',
     type: 'player',
@@ -184,7 +184,7 @@ export const EGYPT_DATA: Sticker[] = [
   {
     id: 'EGY-19',
     number: 19,
-    name: 'Egypt Player 19',
+    name: 'TREZEGUET',
     section: 'Egypt',
     group: 'G',
     type: 'player',
@@ -194,7 +194,7 @@ export const EGYPT_DATA: Sticker[] = [
   {
     id: 'EGY-20',
     number: 20,
-    name: 'Egypt Player 20',
+    name: 'OMAR MARMOUSH',
     section: 'Egypt',
     group: 'G',
     type: 'player',

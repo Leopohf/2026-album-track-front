@@ -14,7 +14,7 @@ export const JAPAN_DATA: Sticker[] = [
   {
     id: 'JPN-02',
     number: 2,
-    name: 'Japan Player 2',
+    name: 'ZION SUZUKI',
     section: 'Japan',
     group: 'F',
     type: 'player',
@@ -24,7 +24,7 @@ export const JAPAN_DATA: Sticker[] = [
   {
     id: 'JPN-03',
     number: 3,
-    name: 'Japan Player 3',
+    name: 'HENRY HEROKI MOCHIZUKI',
     section: 'Japan',
     group: 'F',
     type: 'player',
@@ -34,7 +34,7 @@ export const JAPAN_DATA: Sticker[] = [
   {
     id: 'JPN-04',
     number: 4,
-    name: 'Japan Player 4',
+    name: 'AYUMU SEKO',
     section: 'Japan',
     group: 'F',
     type: 'player',
@@ -44,7 +44,7 @@ export const JAPAN_DATA: Sticker[] = [
   {
     id: 'JPN-05',
     number: 5,
-    name: 'Japan Player 5',
+    name: 'JUNNOSUKE SUZUKI',
     section: 'Japan',
     group: 'F',
     type: 'player',
@@ -54,7 +54,7 @@ export const JAPAN_DATA: Sticker[] = [
   {
     id: 'JPN-06',
     number: 6,
-    name: 'Japan Player 6',
+    name: 'SHOGO TANIGUCHI',
     section: 'Japan',
     group: 'F',
     type: 'player',
@@ -64,7 +64,7 @@ export const JAPAN_DATA: Sticker[] = [
   {
     id: 'JPN-07',
     number: 7,
-    name: 'Japan Player 7',
+    name: 'TSUYOSHI WATANABE',
     section: 'Japan',
     group: 'F',
     type: 'player',
@@ -74,7 +74,7 @@ export const JAPAN_DATA: Sticker[] = [
   {
     id: 'JPN-08',
     number: 8,
-    name: 'Japan Player 8',
+    name: 'KAISHU SANO',
     section: 'Japan',
     group: 'F',
     type: 'player',
@@ -84,7 +84,7 @@ export const JAPAN_DATA: Sticker[] = [
   {
     id: 'JPN-09',
     number: 9,
-    name: 'Japan Player 9',
+    name: 'YUKI SOMA',
     section: 'Japan',
     group: 'F',
     type: 'player',
@@ -94,7 +94,7 @@ export const JAPAN_DATA: Sticker[] = [
   {
     id: 'JPN-10',
     number: 10,
-    name: 'Japan Player 10',
+    name: 'AO TANAKA',
     section: 'Japan',
     group: 'F',
     type: 'player',
@@ -104,7 +104,7 @@ export const JAPAN_DATA: Sticker[] = [
   {
     id: 'JPN-11',
     number: 11,
-    name: 'Japan Player 11',
+    name: 'DAICHI KAMADA',
     section: 'Japan',
     group: 'F',
     type: 'player',
@@ -114,7 +114,7 @@ export const JAPAN_DATA: Sticker[] = [
   {
     id: 'JPN-12',
     number: 12,
-    name: 'Japan Player 12',
+    name: 'TAKEFUSA KUBO',
     section: 'Japan',
     group: 'F',
     type: 'player',
@@ -134,7 +134,7 @@ export const JAPAN_DATA: Sticker[] = [
   {
     id: 'JPN-14',
     number: 14,
-    name: 'Japan Player 14',
+    name: 'RITSU DOAN',
     section: 'Japan',
     group: 'F',
     type: 'player',
@@ -144,7 +144,7 @@ export const JAPAN_DATA: Sticker[] = [
   {
     id: 'JPN-15',
     number: 15,
-    name: 'Japan Player 15',
+    name: 'KEITO NAKAMURA',
     section: 'Japan',
     group: 'F',
     type: 'player',
@@ -154,7 +154,7 @@ export const JAPAN_DATA: Sticker[] = [
   {
     id: 'JPN-16',
     number: 16,
-    name: 'Japan Player 16',
+    name: 'TAKUMI MINAMINO',
     section: 'Japan',
     group: 'F',
     type: 'player',
@@ -164,7 +164,7 @@ export const JAPAN_DATA: Sticker[] = [
   {
     id: 'JPN-17',
     number: 17,
-    name: 'Japan Player 17',
+    name: 'SHUTO MACHINO',
     section: 'Japan',
     group: 'F',
     type: 'player',
@@ -174,7 +174,7 @@ export const JAPAN_DATA: Sticker[] = [
   {
     id: 'JPN-18',
     number: 18,
-    name: 'Japan Player 18',
+    name: 'JUNYA ITO',
     section: 'Japan',
     group: 'F',
     type: 'player',
@@ -184,7 +184,7 @@ export const JAPAN_DATA: Sticker[] = [
   {
     id: 'JPN-19',
     number: 19,
-    name: 'Japan Player 19',
+    name: 'KOKI OGAWA',
     section: 'Japan',
     group: 'F',
     type: 'player',
@@ -194,7 +194,7 @@ export const JAPAN_DATA: Sticker[] = [
   {
     id: 'JPN-20',
     number: 20,
-    name: 'Japan Player 20',
+    name: 'AYASE UEDA',
     section: 'Japan',
     group: 'F',
     type: 'player',

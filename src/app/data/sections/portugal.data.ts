@@ -14,7 +14,7 @@ export const PORTUGAL_DATA: Sticker[] = [
   {
     id: 'POR-02',
     number: 2,
-    name: 'Portugal Player 2',
+    name: 'DIOGO COSTA',
     section: 'Portugal',
     group: 'K',
     type: 'player',
@@ -24,7 +24,7 @@ export const PORTUGAL_DATA: Sticker[] = [
   {
     id: 'POR-03',
     number: 3,
-    name: 'Portugal Player 3',
+    name: 'JOSÉ SÁ',
     section: 'Portugal',
     group: 'K',
     type: 'player',
@@ -34,7 +34,7 @@ export const PORTUGAL_DATA: Sticker[] = [
   {
     id: 'POR-04',
     number: 4,
-    name: 'Portugal Player 4',
+    name: 'RÚBEN DIAS',
     section: 'Portugal',
     group: 'K',
     type: 'player',
@@ -44,7 +44,7 @@ export const PORTUGAL_DATA: Sticker[] = [
   {
     id: 'POR-05',
     number: 5,
-    name: 'Portugal Player 5',
+    name: 'JOÃO CANCELO',
     section: 'Portugal',
     group: 'K',
     type: 'player',
@@ -54,7 +54,7 @@ export const PORTUGAL_DATA: Sticker[] = [
   {
     id: 'POR-06',
     number: 6,
-    name: 'Portugal Player 6',
+    name: 'DIOGO DALOT',
     section: 'Portugal',
     group: 'K',
     type: 'player',
@@ -64,7 +64,7 @@ export const PORTUGAL_DATA: Sticker[] = [
   {
     id: 'POR-07',
     number: 7,
-    name: 'Portugal Player 7',
+    name: 'NUNO MENDES',
     section: 'Portugal',
     group: 'K',
     type: 'player',
@@ -74,7 +74,7 @@ export const PORTUGAL_DATA: Sticker[] = [
   {
     id: 'POR-08',
     number: 8,
-    name: 'Portugal Player 8',
+    name: 'GONÇALO INÁCIO',
     section: 'Portugal',
     group: 'K',
     type: 'player',
@@ -84,7 +84,7 @@ export const PORTUGAL_DATA: Sticker[] = [
   {
     id: 'POR-09',
     number: 9,
-    name: 'Portugal Player 9',
+    name: 'BERNARDO SILVA',
     section: 'Portugal',
     group: 'K',
     type: 'player',
@@ -94,7 +94,7 @@ export const PORTUGAL_DATA: Sticker[] = [
   {
     id: 'POR-10',
     number: 10,
-    name: 'Portugal Player 10',
+    name: 'BRUNO FERNANDES',
     section: 'Portugal',
     group: 'K',
     type: 'player',
@@ -104,7 +104,7 @@ export const PORTUGAL_DATA: Sticker[] = [
   {
     id: 'POR-11',
     number: 11,
-    name: 'Portugal Player 11',
+    name: 'RÚBEN NEVES',
     section: 'Portugal',
     group: 'K',
     type: 'player',
@@ -114,7 +114,7 @@ export const PORTUGAL_DATA: Sticker[] = [
   {
     id: 'POR-12',
     number: 12,
-    name: 'Portugal Player 12',
+    name: 'VITINHA',
     section: 'Portugal',
     group: 'K',
     type: 'player',
@@ -134,7 +134,7 @@ export const PORTUGAL_DATA: Sticker[] = [
   {
     id: 'POR-14',
     number: 14,
-    name: 'Portugal Player 14',
+    name: 'JOÃO NEVES',
     section: 'Portugal',
     group: 'K',
     type: 'player',
@@ -144,7 +144,7 @@ export const PORTUGAL_DATA: Sticker[] = [
   {
     id: 'POR-15',
     number: 15,
-    name: 'Portugal Player 15',
+    name: 'CRISTIANO RONALDO',
     section: 'Portugal',
     group: 'K',
     type: 'player',
@@ -154,7 +154,7 @@ export const PORTUGAL_DATA: Sticker[] = [
   {
     id: 'POR-16',
     number: 16,
-    name: 'Portugal Player 16',
+    name: 'FRANCISCO TRINCÃO',
     section: 'Portugal',
     group: 'K',
     type: 'player',
@@ -164,7 +164,7 @@ export const PORTUGAL_DATA: Sticker[] = [
   {
     id: 'POR-17',
     number: 17,
-    name: 'Portugal Player 17',
+    name: 'JOÃO FÉLIX',
     section: 'Portugal',
     group: 'K',
     type: 'player',
@@ -174,7 +174,7 @@ export const PORTUGAL_DATA: Sticker[] = [
   {
     id: 'POR-18',
     number: 18,
-    name: 'Portugal Player 18',
+    name: 'GONÇALO RAMOS',
     section: 'Portugal',
     group: 'K',
     type: 'player',
@@ -184,7 +184,7 @@ export const PORTUGAL_DATA: Sticker[] = [
   {
     id: 'POR-19',
     number: 19,
-    name: 'Portugal Player 19',
+    name: 'PEDRO NETO',
     section: 'Portugal',
     group: 'K',
     type: 'player',
@@ -194,7 +194,7 @@ export const PORTUGAL_DATA: Sticker[] = [
   {
     id: 'POR-20',
     number: 20,
-    name: 'Portugal Player 20',
+    name: 'RAFAEL LEÃO',
     section: 'Portugal',
     group: 'K',
     type: 'player',

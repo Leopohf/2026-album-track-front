@@ -14,7 +14,7 @@ export const TUNISIA_DATA: Sticker[] = [
   {
     id: 'TUN-02',
     number: 2,
-    name: 'Tunisia Player 2',
+    name: 'BECHIR BEN SAÏD',
     section: 'Tunisia',
     group: 'F',
     type: 'player',
@@ -24,7 +24,7 @@ export const TUNISIA_DATA: Sticker[] = [
   {
     id: 'TUN-03',
     number: 3,
-    name: 'Tunisia Player 3',
+    name: 'AVMEN DAHMEN',
     section: 'Tunisia',
     group: 'F',
     type: 'player',
@@ -34,7 +34,7 @@ export const TUNISIA_DATA: Sticker[] = [
   {
     id: 'TUN-04',
     number: 4,
-    name: 'Tunisia Player 4',
+    name: 'YAN VALERY',
     section: 'Tunisia',
     group: 'F',
     type: 'player',
@@ -44,7 +44,7 @@ export const TUNISIA_DATA: Sticker[] = [
   {
     id: 'TUN-05',
     number: 5,
-    name: 'Tunisia Player 5',
+    name: 'MONTASSAR TALBI',
     section: 'Tunisia',
     group: 'F',
     type: 'player',
@@ -54,7 +54,7 @@ export const TUNISIA_DATA: Sticker[] = [
   {
     id: 'TUN-06',
     number: 6,
-    name: 'Tunisia Player 6',
+    name: 'YASSINE MERIAH',
     section: 'Tunisia',
     group: 'F',
     type: 'player',
@@ -64,7 +64,7 @@ export const TUNISIA_DATA: Sticker[] = [
   {
     id: 'TUN-07',
     number: 7,
-    name: 'Tunisia Player 7',
+    name: 'ALI ABDI',
     section: 'Tunisia',
     group: 'F',
     type: 'player',
@@ -74,7 +74,7 @@ export const TUNISIA_DATA: Sticker[] = [
   {
     id: 'TUN-08',
     number: 8,
-    name: 'Tunisia Player 8',
+    name: 'DYLAN BRONN',
     section: 'Tunisia',
     group: 'F',
     type: 'player',
@@ -84,7 +84,7 @@ export const TUNISIA_DATA: Sticker[] = [
   {
     id: 'TUN-09',
     number: 9,
-    name: 'Tunisia Player 9',
+    name: 'ELLYES SKHIRI',
     section: 'Tunisia',
     group: 'F',
     type: 'player',
@@ -94,7 +94,7 @@ export const TUNISIA_DATA: Sticker[] = [
   {
     id: 'TUN-10',
     number: 10,
-    name: 'Tunisia Player 10',
+    name: 'AÏSSA LAÏDOUNI',
     section: 'Tunisia',
     group: 'F',
     type: 'player',
@@ -104,7 +104,7 @@ export const TUNISIA_DATA: Sticker[] = [
   {
     id: 'TUN-11',
     number: 11,
-    name: 'Tunisia Player 11',
+    name: 'FERJANI SASSI',
     section: 'Tunisia',
     group: 'F',
     type: 'player',
@@ -114,7 +114,7 @@ export const TUNISIA_DATA: Sticker[] = [
   {
     id: 'TUN-12',
     number: 12,
-    name: 'Tunisia Player 12',
+    name: 'MOHAMED ALI BEN ROMDHANE',
     section: 'Tunisia',
     group: 'F',
     type: 'player',
@@ -134,7 +134,7 @@ export const TUNISIA_DATA: Sticker[] = [
   {
     id: 'TUN-14',
     number: 14,
-    name: 'Tunisia Player 14',
+    name: 'HANNIBAL MEJBRI',
     section: 'Tunisia',
     group: 'F',
     type: 'player',
@@ -144,7 +144,7 @@ export const TUNISIA_DATA: Sticker[] = [
   {
     id: 'TUN-15',
     number: 15,
-    name: 'Tunisia Player 15',
+    name: 'ELIAS ACHOURI',
     section: 'Tunisia',
     group: 'F',
     type: 'player',
@@ -154,7 +154,7 @@ export const TUNISIA_DATA: Sticker[] = [
   {
     id: 'TUN-16',
     number: 16,
-    name: 'Tunisia Player 16',
+    name: 'ELIAS SAAD',
     section: 'Tunisia',
     group: 'F',
     type: 'player',
@@ -164,7 +164,7 @@ export const TUNISIA_DATA: Sticker[] = [
   {
     id: 'TUN-17',
     number: 17,
-    name: 'Tunisia Player 17',
+    name: 'HAZEM MASTOURI',
     section: 'Tunisia',
     group: 'F',
     type: 'player',
@@ -174,7 +174,7 @@ export const TUNISIA_DATA: Sticker[] = [
   {
     id: 'TUN-18',
     number: 18,
-    name: 'Tunisia Player 18',
+    name: 'ISMAËL GHARBI',
     section: 'Tunisia',
     group: 'F',
     type: 'player',
@@ -184,7 +184,7 @@ export const TUNISIA_DATA: Sticker[] = [
   {
     id: 'TUN-19',
     number: 19,
-    name: 'Tunisia Player 19',
+    name: 'SAYFALLAH LTAIEF',
     section: 'Tunisia',
     group: 'F',
     type: 'player',
@@ -194,7 +194,7 @@ export const TUNISIA_DATA: Sticker[] = [
   {
     id: 'TUN-20',
     number: 20,
-    name: 'Tunisia Player 20',
+    name: 'NAÏM SLITI',
     section: 'Tunisia',
     group: 'F',
     type: 'player',

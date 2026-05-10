@@ -14,7 +14,7 @@ export const GHANA_DATA: Sticker[] = [
   {
     id: 'GHA-02',
     number: 2,
-    name: 'Ghana Player 2',
+    name: 'LAWRENCE ATI ZIGI',
     section: 'Ghana',
     group: 'L',
     type: 'player',
@@ -24,7 +24,7 @@ export const GHANA_DATA: Sticker[] = [
   {
     id: 'GHA-03',
     number: 3,
-    name: 'Ghana Player 3',
+    name: 'TARIQ LAMPTEV',
     section: 'Ghana',
     group: 'L',
     type: 'player',
@@ -34,7 +34,7 @@ export const GHANA_DATA: Sticker[] = [
   {
     id: 'GHA-04',
     number: 4,
-    name: 'Ghana Player 4',
+    name: 'MOHAMMED SALISU',
     section: 'Ghana',
     group: 'L',
     type: 'player',
@@ -44,7 +44,7 @@ export const GHANA_DATA: Sticker[] = [
   {
     id: 'GHA-05',
     number: 5,
-    name: 'Ghana Player 5',
+    name: 'ALIDU SEIDU',
     section: 'Ghana',
     group: 'L',
     type: 'player',
@@ -54,7 +54,7 @@ export const GHANA_DATA: Sticker[] = [
   {
     id: 'GHA-06',
     number: 6,
-    name: 'Ghana Player 6',
+    name: 'ALEXANDER DJIKU',
     section: 'Ghana',
     group: 'L',
     type: 'player',
@@ -64,7 +64,7 @@ export const GHANA_DATA: Sticker[] = [
   {
     id: 'GHA-07',
     number: 7,
-    name: 'Ghana Player 7',
+    name: 'GIDEON MENSAH',
     section: 'Ghana',
     group: 'L',
     type: 'player',
@@ -74,7 +74,7 @@ export const GHANA_DATA: Sticker[] = [
   {
     id: 'GHA-08',
     number: 8,
-    name: 'Ghana Player 8',
+    name: 'CALEB VIRENKVI',
     section: 'Ghana',
     group: 'L',
     type: 'player',
@@ -84,7 +84,7 @@ export const GHANA_DATA: Sticker[] = [
   {
     id: 'GHA-09',
     number: 9,
-    name: 'Ghana Player 9',
+    name: 'ABDUL ISSAHAKU FATAWU',
     section: 'Ghana',
     group: 'L',
     type: 'player',
@@ -94,7 +94,7 @@ export const GHANA_DATA: Sticker[] = [
   {
     id: 'GHA-10',
     number: 10,
-    name: 'Ghana Player 10',
+    name: 'THOMAS PARTEV',
     section: 'Ghana',
     group: 'L',
     type: 'player',
@@ -104,7 +104,7 @@ export const GHANA_DATA: Sticker[] = [
   {
     id: 'GHA-11',
     number: 11,
-    name: 'Ghana Player 11',
+    name: 'SALIS ABDUL SAMED',
     section: 'Ghana',
     group: 'L',
     type: 'player',
@@ -114,7 +114,7 @@ export const GHANA_DATA: Sticker[] = [
   {
     id: 'GHA-12',
     number: 12,
-    name: 'Ghana Player 12',
+    name: 'KAMALDEEN SULEMANA',
     section: 'Ghana',
     group: 'L',
     type: 'player',
@@ -134,7 +134,7 @@ export const GHANA_DATA: Sticker[] = [
   {
     id: 'GHA-14',
     number: 14,
-    name: 'Ghana Player 14',
+    name: 'MOHAMMED KUDUS',
     section: 'Ghana',
     group: 'L',
     type: 'player',
@@ -144,7 +144,7 @@ export const GHANA_DATA: Sticker[] = [
   {
     id: 'GHA-15',
     number: 15,
-    name: 'Ghana Player 15',
+    name: 'IÑAKI WILLIAMS',
     section: 'Ghana',
     group: 'L',
     type: 'player',
@@ -154,7 +154,7 @@ export const GHANA_DATA: Sticker[] = [
   {
     id: 'GHA-16',
     number: 16,
-    name: 'Ghana Player 16',
+    name: 'JORDAN AVEW',
     section: 'Ghana',
     group: 'L',
     type: 'player',
@@ -164,7 +164,7 @@ export const GHANA_DATA: Sticker[] = [
   {
     id: 'GHA-17',
     number: 17,
-    name: 'Ghana Player 17',
+    name: 'ANDRÉ AVEW',
     section: 'Ghana',
     group: 'L',
     type: 'player',
@@ -174,7 +174,7 @@ export const GHANA_DATA: Sticker[] = [
   {
     id: 'GHA-18',
     number: 18,
-    name: 'Ghana Player 18',
+    name: 'JOSEPH PAINTSIL',
     section: 'Ghana',
     group: 'L',
     type: 'player',
@@ -184,7 +184,7 @@ export const GHANA_DATA: Sticker[] = [
   {
     id: 'GHA-19',
     number: 19,
-    name: 'Ghana Player 19',
+    name: 'OSMAN BUKARI',
     section: 'Ghana',
     group: 'L',
     type: 'player',
@@ -194,7 +194,7 @@ export const GHANA_DATA: Sticker[] = [
   {
     id: 'GHA-20',
     number: 20,
-    name: 'Ghana Player 20',
+    name: 'ANTOINE SEMENYO',
     section: 'Ghana',
     group: 'L',
     type: 'player',

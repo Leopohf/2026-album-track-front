@@ -14,7 +14,7 @@ export const BELGIUM_DATA: Sticker[] = [
   {
     id: 'BEL-02',
     number: 2,
-    name: 'Belgium Player 2',
+    name: 'THIBAUT COURTOIS',
     section: 'Belgium',
     group: 'G',
     type: 'player',
@@ -24,7 +24,7 @@ export const BELGIUM_DATA: Sticker[] = [
   {
     id: 'BEL-03',
     number: 3,
-    name: 'Belgium Player 3',
+    name: 'ARTHUR THEATE',
     section: 'Belgium',
     group: 'G',
     type: 'player',
@@ -34,7 +34,7 @@ export const BELGIUM_DATA: Sticker[] = [
   {
     id: 'BEL-04',
     number: 4,
-    name: 'Belgium Player 4',
+    name: 'TIMOTHY CASTAGNE',
     section: 'Belgium',
     group: 'G',
     type: 'player',
@@ -44,7 +44,7 @@ export const BELGIUM_DATA: Sticker[] = [
   {
     id: 'BEL-05',
     number: 5,
-    name: 'Belgium Player 5',
+    name: 'ZENO DEBAST',
     section: 'Belgium',
     group: 'G',
     type: 'player',
@@ -54,7 +54,7 @@ export const BELGIUM_DATA: Sticker[] = [
   {
     id: 'BEL-06',
     number: 6,
-    name: 'Belgium Player 6',
+    name: 'BRANDON MECHELE',
     section: 'Belgium',
     group: 'G',
     type: 'player',
@@ -64,7 +64,7 @@ export const BELGIUM_DATA: Sticker[] = [
   {
     id: 'BEL-07',
     number: 7,
-    name: 'Belgium Player 7',
+    name: 'MAXIM DE CUYPER',
     section: 'Belgium',
     group: 'G',
     type: 'player',
@@ -74,7 +74,7 @@ export const BELGIUM_DATA: Sticker[] = [
   {
     id: 'BEL-08',
     number: 8,
-    name: 'Belgium Player 8',
+    name: 'THOMAS MEUNIER',
     section: 'Belgium',
     group: 'G',
     type: 'player',
@@ -84,7 +84,7 @@ export const BELGIUM_DATA: Sticker[] = [
   {
     id: 'BEL-09',
     number: 9,
-    name: 'Belgium Player 9',
+    name: 'YOU RI TIELEMANS',
     section: 'Belgium',
     group: 'G',
     type: 'player',
@@ -94,7 +94,7 @@ export const BELGIUM_DATA: Sticker[] = [
   {
     id: 'BEL-10',
     number: 10,
-    name: 'Belgium Player 10',
+    name: 'AMADOU ONANA',
     section: 'Belgium',
     group: 'G',
     type: 'player',
@@ -104,7 +104,7 @@ export const BELGIUM_DATA: Sticker[] = [
   {
     id: 'BEL-11',
     number: 11,
-    name: 'Belgium Player 11',
+    name: 'NICOLAS RASKIN',
     section: 'Belgium',
     group: 'G',
     type: 'player',
@@ -114,7 +114,7 @@ export const BELGIUM_DATA: Sticker[] = [
   {
     id: 'BEL-12',
     number: 12,
-    name: 'Belgium Player 12',
+    name: 'ALEXIS SAELEMAEKERS',
     section: 'Belgium',
     group: 'G',
     type: 'player',
@@ -134,7 +134,7 @@ export const BELGIUM_DATA: Sticker[] = [
   {
     id: 'BEL-14',
     number: 14,
-    name: 'Belgium Player 14',
+    name: 'HANS VANAKEN',
     section: 'Belgium',
     group: 'G',
     type: 'player',
@@ -144,7 +144,7 @@ export const BELGIUM_DATA: Sticker[] = [
   {
     id: 'BEL-15',
     number: 15,
-    name: 'Belgium Player 15',
+    name: 'KEVIN DE BRUYNE',
     section: 'Belgium',
     group: 'G',
     type: 'player',
@@ -154,7 +154,7 @@ export const BELGIUM_DATA: Sticker[] = [
   {
     id: 'BEL-16',
     number: 16,
-    name: 'Belgium Player 16',
+    name: 'JÉRÉMY DOKU',
     section: 'Belgium',
     group: 'G',
     type: 'player',
@@ -164,7 +164,7 @@ export const BELGIUM_DATA: Sticker[] = [
   {
     id: 'BEL-17',
     number: 17,
-    name: 'Belgium Player 17',
+    name: 'CHARLES DE KETELAERE',
     section: 'Belgium',
     group: 'G',
     type: 'player',
@@ -174,7 +174,7 @@ export const BELGIUM_DATA: Sticker[] = [
   {
     id: 'BEL-18',
     number: 18,
-    name: 'Belgium Player 18',
+    name: 'LEANDRO TROSSARD',
     section: 'Belgium',
     group: 'G',
     type: 'player',
@@ -184,7 +184,7 @@ export const BELGIUM_DATA: Sticker[] = [
   {
     id: 'BEL-19',
     number: 19,
-    name: 'Belgium Player 19',
+    name: 'LOÏS OPENDA',
     section: 'Belgium',
     group: 'G',
     type: 'player',
@@ -194,7 +194,7 @@ export const BELGIUM_DATA: Sticker[] = [
   {
     id: 'BEL-20',
     number: 20,
-    name: 'Belgium Player 20',
+    name: 'ROMELU LUKAKU',
     section: 'Belgium',
     group: 'G',
     type: 'player',

@@ -14,7 +14,7 @@ export const KOREA_REPUBLIC_DATA: Sticker[] = [
   {
     id: 'KOR-02',
     number: 2,
-    name: 'HYEONGYU OH',
+    name: 'HYEONWOO JO',
     section: 'Korea Republic',
     group: 'A',
     type: 'player',
@@ -104,7 +104,7 @@ export const KOREA_REPUBLIC_DATA: Sticker[] = [
   {
     id: 'KOR-11',
     number: 11,
-    name: 'HEUNGMIN SON',
+    name: 'INBEOM HWANG',
     section: 'Korea Republic',
     group: 'A',
     type: 'player',
@@ -174,7 +174,7 @@ export const KOREA_REPUBLIC_DATA: Sticker[] = [
   {
     id: 'KOR-18',
     number: 18,
-    name: 'HEECHAN HWANG',
+    name: 'HEUNGMIN SON',
     section: 'Korea Republic',
     group: 'A',
     type: 'player',

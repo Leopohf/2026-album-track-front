@@ -14,7 +14,7 @@ export const JORDAN_DATA: Sticker[] = [
   {
     id: 'JOR-02',
     number: 2,
-    name: 'Jordan Player 2',
+    name: 'YAZEED ABULAILA',
     section: 'Jordan',
     group: 'J',
     type: 'player',
@@ -24,7 +24,7 @@ export const JORDAN_DATA: Sticker[] = [
   {
     id: 'JOR-03',
     number: 3,
-    name: 'Jordan Player 3',
+    name: 'IHSAN HADDAD',
     section: 'Jordan',
     group: 'J',
     type: 'player',
@@ -34,7 +34,7 @@ export const JORDAN_DATA: Sticker[] = [
   {
     id: 'JOR-04',
     number: 4,
-    name: 'Jordan Player 4',
+    name: 'MOHAMMAD ABU HASHISH',
     section: 'Jordan',
     group: 'J',
     type: 'player',
@@ -44,7 +44,7 @@ export const JORDAN_DATA: Sticker[] = [
   {
     id: 'JOR-05',
     number: 5,
-    name: 'Jordan Player 5',
+    name: 'YAZAN AL-ARAB',
     section: 'Jordan',
     group: 'J',
     type: 'player',
@@ -54,7 +54,7 @@ export const JORDAN_DATA: Sticker[] = [
   {
     id: 'JOR-06',
     number: 6,
-    name: 'Jordan Player 6',
+    name: 'ABDALLAH NASIB',
     section: 'Jordan',
     group: 'J',
     type: 'player',
@@ -64,7 +64,7 @@ export const JORDAN_DATA: Sticker[] = [
   {
     id: 'JOR-07',
     number: 7,
-    name: 'Jordan Player 7',
+    name: 'SALEEM OBAID',
     section: 'Jordan',
     group: 'J',
     type: 'player',
@@ -74,7 +74,7 @@ export const JORDAN_DATA: Sticker[] = [
   {
     id: 'JOR-08',
     number: 8,
-    name: 'Jordan Player 8',
+    name: 'MOHAMMAD ABUALNADI',
     section: 'Jordan',
     group: 'J',
     type: 'player',
@@ -84,7 +84,7 @@ export const JORDAN_DATA: Sticker[] = [
   {
     id: 'JOR-09',
     number: 9,
-    name: 'Jordan Player 9',
+    name: 'IBRAHIM SAADEH',
     section: 'Jordan',
     group: 'J',
     type: 'player',
@@ -94,7 +94,7 @@ export const JORDAN_DATA: Sticker[] = [
   {
     id: 'JOR-10',
     number: 10,
-    name: 'Jordan Player 10',
+    name: 'NIZAR AL-RASHDAN',
     section: 'Jordan',
     group: 'J',
     type: 'player',
@@ -104,7 +104,7 @@ export const JORDAN_DATA: Sticker[] = [
   {
     id: 'JOR-11',
     number: 11,
-    name: 'Jordan Player 11',
+    name: 'NOOR AL-RAWABDEH',
     section: 'Jordan',
     group: 'J',
     type: 'player',
@@ -114,7 +114,7 @@ export const JORDAN_DATA: Sticker[] = [
   {
     id: 'JOR-12',
     number: 12,
-    name: 'Jordan Player 12',
+    name: 'MOHANNAD ABU TAHA',
     section: 'Jordan',
     group: 'J',
     type: 'player',
@@ -134,7 +134,7 @@ export const JORDAN_DATA: Sticker[] = [
   {
     id: 'JOR-14',
     number: 14,
-    name: 'Jordan Player 14',
+    name: 'AMER JAMOUS',
     section: 'Jordan',
     group: 'J',
     type: 'player',
@@ -144,7 +144,7 @@ export const JORDAN_DATA: Sticker[] = [
   {
     id: 'JOR-15',
     number: 15,
-    name: 'Jordan Player 15',
+    name: 'MOUSA AL-TAAMARI',
     section: 'Jordan',
     group: 'J',
     type: 'player',
@@ -154,7 +154,7 @@ export const JORDAN_DATA: Sticker[] = [
   {
     id: 'JOR-16',
     number: 16,
-    name: 'Jordan Player 16',
+    name: 'YAZAN AL-NAIMAT',
     section: 'Jordan',
     group: 'J',
     type: 'player',
@@ -164,7 +164,7 @@ export const JORDAN_DATA: Sticker[] = [
   {
     id: 'JOR-17',
     number: 17,
-    name: 'Jordan Player 17',
+    name: 'MAHMOUD AL-MARDI',
     section: 'Jordan',
     group: 'J',
     type: 'player',
@@ -174,7 +174,7 @@ export const JORDAN_DATA: Sticker[] = [
   {
     id: 'JOR-18',
     number: 18,
-    name: 'Jordan Player 18',
+    name: 'ALI OLWAN',
     section: 'Jordan',
     group: 'J',
     type: 'player',
@@ -184,7 +184,7 @@ export const JORDAN_DATA: Sticker[] = [
   {
     id: 'JOR-19',
     number: 19,
-    name: 'Jordan Player 19',
+    name: 'MOHAMMAD ABU ZRAYQ',
     section: 'Jordan',
     group: 'J',
     type: 'player',
@@ -194,7 +194,7 @@ export const JORDAN_DATA: Sticker[] = [
   {
     id: 'JOR-20',
     number: 20,
-    name: 'Jordan Player 20',
+    name: 'IBRAHIM SABRA',
     section: 'Jordan',
     group: 'J',
     type: 'player',

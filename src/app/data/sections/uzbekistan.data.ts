@@ -14,7 +14,7 @@ export const UZBEKISTAN_DATA: Sticker[] = [
   {
     id: 'UZB-02',
     number: 2,
-    name: 'Uzbekistan Player 2',
+    name: 'UTKIR VUSUPOV',
     section: 'Uzbekistan',
     group: 'K',
     type: 'player',
@@ -24,7 +24,7 @@ export const UZBEKISTAN_DATA: Sticker[] = [
   {
     id: 'UZB-03',
     number: 3,
-    name: 'Uzbekistan Player 3',
+    name: 'FARRUKH SAVFIEV',
     section: 'Uzbekistan',
     group: 'K',
     type: 'player',
@@ -34,7 +34,7 @@ export const UZBEKISTAN_DATA: Sticker[] = [
   {
     id: 'UZB-04',
     number: 4,
-    name: 'Uzbekistan Player 4',
+    name: 'SHERZOD NASRULLAEV',
     section: 'Uzbekistan',
     group: 'K',
     type: 'player',
@@ -44,7 +44,7 @@ export const UZBEKISTAN_DATA: Sticker[] = [
   {
     id: 'UZB-05',
     number: 5,
-    name: 'Uzbekistan Player 5',
+    name: 'UMAR ESHMURODOV',
     section: 'Uzbekistan',
     group: 'K',
     type: 'player',
@@ -54,7 +54,7 @@ export const UZBEKISTAN_DATA: Sticker[] = [
   {
     id: 'UZB-06',
     number: 6,
-    name: 'Uzbekistan Player 6',
+    name: 'HUSNIDDIN ALIQLULOV',
     section: 'Uzbekistan',
     group: 'K',
     type: 'player',
@@ -64,7 +64,7 @@ export const UZBEKISTAN_DATA: Sticker[] = [
   {
     id: 'UZB-07',
     number: 7,
-    name: 'Uzbekistan Player 7',
+    name: 'RUSTAM ASHURMATOV',
     section: 'Uzbekistan',
     group: 'K',
     type: 'player',
@@ -74,7 +74,7 @@ export const UZBEKISTAN_DATA: Sticker[] = [
   {
     id: 'UZB-08',
     number: 8,
-    name: 'Uzbekistan Player 8',
+    name: 'KHOJIAKBAR ALIJONOV',
     section: 'Uzbekistan',
     group: 'K',
     type: 'player',
@@ -84,7 +84,7 @@ export const UZBEKISTAN_DATA: Sticker[] = [
   {
     id: 'UZB-09',
     number: 9,
-    name: 'Uzbekistan Player 9',
+    name: 'ABDUKODIR KHUSANOV',
     section: 'Uzbekistan',
     group: 'K',
     type: 'player',
@@ -94,7 +94,7 @@ export const UZBEKISTAN_DATA: Sticker[] = [
   {
     id: 'UZB-10',
     number: 10,
-    name: 'Uzbekistan Player 10',
+    name: 'ODILJON HAMROBEKOV',
     section: 'Uzbekistan',
     group: 'K',
     type: 'player',
@@ -104,7 +104,7 @@ export const UZBEKISTAN_DATA: Sticker[] = [
   {
     id: 'UZB-11',
     number: 11,
-    name: 'Uzbekistan Player 11',
+    name: 'OTABEK SHUKUROV',
     section: 'Uzbekistan',
     group: 'K',
     type: 'player',
@@ -114,7 +114,7 @@ export const UZBEKISTAN_DATA: Sticker[] = [
   {
     id: 'UZB-12',
     number: 12,
-    name: 'Uzbekistan Player 12',
+    name: 'JAMSHID ISKANDEROV',
     section: 'Uzbekistan',
     group: 'K',
     type: 'player',
@@ -134,7 +134,7 @@ export const UZBEKISTAN_DATA: Sticker[] = [
   {
     id: 'UZB-14',
     number: 14,
-    name: 'Uzbekistan Player 14',
+    name: 'AZIZBEK TURGUNBOEV',
     section: 'Uzbekistan',
     group: 'K',
     type: 'player',
@@ -144,7 +144,7 @@ export const UZBEKISTAN_DATA: Sticker[] = [
   {
     id: 'UZB-15',
     number: 15,
-    name: 'Uzbekistan Player 15',
+    name: 'KHOJIMAT ERKINOV',
     section: 'Uzbekistan',
     group: 'K',
     type: 'player',
@@ -154,7 +154,7 @@ export const UZBEKISTAN_DATA: Sticker[] = [
   {
     id: 'UZB-16',
     number: 16,
-    name: 'Uzbekistan Player 16',
+    name: 'ELDOR SHOMURODOV',
     section: 'Uzbekistan',
     group: 'K',
     type: 'player',
@@ -164,7 +164,7 @@ export const UZBEKISTAN_DATA: Sticker[] = [
   {
     id: 'UZB-17',
     number: 17,
-    name: 'Uzbekistan Player 17',
+    name: 'OSTON URUNOV',
     section: 'Uzbekistan',
     group: 'K',
     type: 'player',
@@ -174,7 +174,7 @@ export const UZBEKISTAN_DATA: Sticker[] = [
   {
     id: 'UZB-18',
     number: 18,
-    name: 'Uzbekistan Player 18',
+    name: 'JALOLIDDIN MASHARIPOV',
     section: 'Uzbekistan',
     group: 'K',
     type: 'player',
@@ -184,7 +184,7 @@ export const UZBEKISTAN_DATA: Sticker[] = [
   {
     id: 'UZB-19',
     number: 19,
-    name: 'Uzbekistan Player 19',
+    name: 'IGOR SERGEEV',
     section: 'Uzbekistan',
     group: 'K',
     type: 'player',
@@ -194,7 +194,7 @@ export const UZBEKISTAN_DATA: Sticker[] = [
   {
     id: 'UZB-20',
     number: 20,
-    name: 'Uzbekistan Player 20',
+    name: 'ABBOSBEK FAVZULLAEV',
     section: 'Uzbekistan',
     group: 'K',
     type: 'player',

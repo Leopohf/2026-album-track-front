@@ -14,7 +14,7 @@ export const NETHERLANDS_DATA: Sticker[] = [
   {
     id: 'NED-02',
     number: 2,
-    name: 'Netherlands Player 2',
+    name: 'BART VERBRUGGEN',
     section: 'Netherlands',
     group: 'F',
     type: 'player',
@@ -24,7 +24,7 @@ export const NETHERLANDS_DATA: Sticker[] = [
   {
     id: 'NED-03',
     number: 3,
-    name: 'Netherlands Player 3',
+    name: 'VIRGIL VAN DIJK',
     section: 'Netherlands',
     group: 'F',
     type: 'player',
@@ -34,7 +34,7 @@ export const NETHERLANDS_DATA: Sticker[] = [
   {
     id: 'NED-04',
     number: 4,
-    name: 'Netherlands Player 4',
+    name: 'MICKY VAN DE VEN',
     section: 'Netherlands',
     group: 'F',
     type: 'player',
@@ -44,7 +44,7 @@ export const NETHERLANDS_DATA: Sticker[] = [
   {
     id: 'NED-05',
     number: 5,
-    name: 'Netherlands Player 5',
+    name: 'JURRIËN TIMBER',
     section: 'Netherlands',
     group: 'F',
     type: 'player',
@@ -54,7 +54,7 @@ export const NETHERLANDS_DATA: Sticker[] = [
   {
     id: 'NED-06',
     number: 6,
-    name: 'Netherlands Player 6',
+    name: 'DENZEL DUMFRIES',
     section: 'Netherlands',
     group: 'F',
     type: 'player',
@@ -64,7 +64,7 @@ export const NETHERLANDS_DATA: Sticker[] = [
   {
     id: 'NED-07',
     number: 7,
-    name: 'Netherlands Player 7',
+    name: 'NATHAN AKÉ',
     section: 'Netherlands',
     group: 'F',
     type: 'player',
@@ -74,7 +74,7 @@ export const NETHERLANDS_DATA: Sticker[] = [
   {
     id: 'NED-08',
     number: 8,
-    name: 'Netherlands Player 8',
+    name: 'JEREMIE FRIMPONG',
     section: 'Netherlands',
     group: 'F',
     type: 'player',
@@ -84,7 +84,7 @@ export const NETHERLANDS_DATA: Sticker[] = [
   {
     id: 'NED-09',
     number: 9,
-    name: 'Netherlands Player 9',
+    name: 'JAN PAUL VAN HECKE',
     section: 'Netherlands',
     group: 'F',
     type: 'player',
@@ -94,7 +94,7 @@ export const NETHERLANDS_DATA: Sticker[] = [
   {
     id: 'NED-10',
     number: 10,
-    name: 'Netherlands Player 10',
+    name: 'TIJJANI REIJNDERS',
     section: 'Netherlands',
     group: 'F',
     type: 'player',
@@ -104,7 +104,7 @@ export const NETHERLANDS_DATA: Sticker[] = [
   {
     id: 'NED-11',
     number: 11,
-    name: 'Netherlands Player 11',
+    name: 'RYAN GRAVENBERCH',
     section: 'Netherlands',
     group: 'F',
     type: 'player',
@@ -114,7 +114,7 @@ export const NETHERLANDS_DATA: Sticker[] = [
   {
     id: 'NED-12',
     number: 12,
-    name: 'Netherlands Player 12',
+    name: 'TEUN KOOPMEINERS',
     section: 'Netherlands',
     group: 'F',
     type: 'player',
@@ -134,7 +134,7 @@ export const NETHERLANDS_DATA: Sticker[] = [
   {
     id: 'NED-14',
     number: 14,
-    name: 'Netherlands Player 14',
+    name: 'FRENKIE DE JONG',
     section: 'Netherlands',
     group: 'F',
     type: 'player',
@@ -144,7 +144,7 @@ export const NETHERLANDS_DATA: Sticker[] = [
   {
     id: 'NED-15',
     number: 15,
-    name: 'Netherlands Player 15',
+    name: 'XAVI SIMONS',
     section: 'Netherlands',
     group: 'F',
     type: 'player',
@@ -154,7 +154,7 @@ export const NETHERLANDS_DATA: Sticker[] = [
   {
     id: 'NED-16',
     number: 16,
-    name: 'Netherlands Player 16',
+    name: 'JUSTIN KLUIVERT',
     section: 'Netherlands',
     group: 'F',
     type: 'player',
@@ -164,7 +164,7 @@ export const NETHERLANDS_DATA: Sticker[] = [
   {
     id: 'NED-17',
     number: 17,
-    name: 'Netherlands Player 17',
+    name: 'MEMPHIS DEPAY',
     section: 'Netherlands',
     group: 'F',
     type: 'player',
@@ -174,7 +174,7 @@ export const NETHERLANDS_DATA: Sticker[] = [
   {
     id: 'NED-18',
     number: 18,
-    name: 'Netherlands Player 18',
+    name: 'DONYELL MALEN',
     section: 'Netherlands',
     group: 'F',
     type: 'player',
@@ -184,7 +184,7 @@ export const NETHERLANDS_DATA: Sticker[] = [
   {
     id: 'NED-19',
     number: 19,
-    name: 'Netherlands Player 19',
+    name: 'WOUT WEGHORST',
     section: 'Netherlands',
     group: 'F',
     type: 'player',
@@ -194,7 +194,7 @@ export const NETHERLANDS_DATA: Sticker[] = [
   {
     id: 'NED-20',
     number: 20,
-    name: 'Netherlands Player 20',
+    name: 'CODY GAKPO',
     section: 'Netherlands',
     group: 'F',
     type: 'player',

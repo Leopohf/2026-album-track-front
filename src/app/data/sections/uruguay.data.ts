@@ -14,7 +14,7 @@ export const URUGUAY_DATA: Sticker[] = [
   {
     id: 'URU-02',
     number: 2,
-    name: 'Uruguay Player 2',
+    name: 'SERGIO ROCHET',
     section: 'Uruguay',
     group: 'H',
     type: 'player',
@@ -24,7 +24,7 @@ export const URUGUAY_DATA: Sticker[] = [
   {
     id: 'URU-03',
     number: 3,
-    name: 'Uruguay Player 3',
+    name: 'SANTIAGO MELE',
     section: 'Uruguay',
     group: 'H',
     type: 'player',
@@ -34,7 +34,7 @@ export const URUGUAY_DATA: Sticker[] = [
   {
     id: 'URU-04',
     number: 4,
-    name: 'Uruguay Player 4',
+    name: 'RONALD ARAÚJO',
     section: 'Uruguay',
     group: 'H',
     type: 'player',
@@ -44,7 +44,7 @@ export const URUGUAY_DATA: Sticker[] = [
   {
     id: 'URU-05',
     number: 5,
-    name: 'Uruguay Player 5',
+    name: 'JOSÉ MARÍA GIMÉNEZ',
     section: 'Uruguay',
     group: 'H',
     type: 'player',
@@ -54,7 +54,7 @@ export const URUGUAY_DATA: Sticker[] = [
   {
     id: 'URU-06',
     number: 6,
-    name: 'Uruguay Player 6',
+    name: 'SEBASTIÁN CÁCERES',
     section: 'Uruguay',
     group: 'H',
     type: 'player',
@@ -64,7 +64,7 @@ export const URUGUAY_DATA: Sticker[] = [
   {
     id: 'URU-07',
     number: 7,
-    name: 'Uruguay Player 7',
+    name: 'MATHÍAS OLIVERA',
     section: 'Uruguay',
     group: 'H',
     type: 'player',
@@ -74,7 +74,7 @@ export const URUGUAY_DATA: Sticker[] = [
   {
     id: 'URU-08',
     number: 8,
-    name: 'Uruguay Player 8',
+    name: 'GUILLERMO VARELA',
     section: 'Uruguay',
     group: 'H',
     type: 'player',
@@ -84,7 +84,7 @@ export const URUGUAY_DATA: Sticker[] = [
   {
     id: 'URU-09',
     number: 9,
-    name: 'Uruguay Player 9',
+    name: 'NAHITAN NÁNDEZ',
     section: 'Uruguay',
     group: 'H',
     type: 'player',
@@ -94,7 +94,7 @@ export const URUGUAY_DATA: Sticker[] = [
   {
     id: 'URU-10',
     number: 10,
-    name: 'Uruguay Player 10',
+    name: 'FEDERICO VALVERDE',
     section: 'Uruguay',
     group: 'H',
     type: 'player',
@@ -104,7 +104,7 @@ export const URUGUAY_DATA: Sticker[] = [
   {
     id: 'URU-11',
     number: 11,
-    name: 'Uruguay Player 11',
+    name: 'GIORGIAN DE ARRASCAETA',
     section: 'Uruguay',
     group: 'H',
     type: 'player',
@@ -114,7 +114,7 @@ export const URUGUAY_DATA: Sticker[] = [
   {
     id: 'URU-12',
     number: 12,
-    name: 'Uruguay Player 12',
+    name: 'RODRIGO BENTANCUR',
     section: 'Uruguay',
     group: 'H',
     type: 'player',
@@ -134,7 +134,7 @@ export const URUGUAY_DATA: Sticker[] = [
   {
     id: 'URU-14',
     number: 14,
-    name: 'Uruguay Player 14',
+    name: 'MANUEL UGARTE',
     section: 'Uruguay',
     group: 'H',
     type: 'player',
@@ -144,7 +144,7 @@ export const URUGUAY_DATA: Sticker[] = [
   {
     id: 'URU-15',
     number: 15,
-    name: 'Uruguay Player 15',
+    name: 'NICOLÁS DE LA CRUZ',
     section: 'Uruguay',
     group: 'H',
     type: 'player',
@@ -154,7 +154,7 @@ export const URUGUAY_DATA: Sticker[] = [
   {
     id: 'URU-16',
     number: 16,
-    name: 'Uruguay Player 16',
+    name: 'MAXI ARAÚJO',
     section: 'Uruguay',
     group: 'H',
     type: 'player',
@@ -164,7 +164,7 @@ export const URUGUAY_DATA: Sticker[] = [
   {
     id: 'URU-17',
     number: 17,
-    name: 'Uruguay Player 17',
+    name: 'DARWIN NÚÑEZ',
     section: 'Uruguay',
     group: 'H',
     type: 'player',
@@ -174,7 +174,7 @@ export const URUGUAY_DATA: Sticker[] = [
   {
     id: 'URU-18',
     number: 18,
-    name: 'Uruguay Player 18',
+    name: 'FEDERICO VIÑAS',
     section: 'Uruguay',
     group: 'H',
     type: 'player',
@@ -184,7 +184,7 @@ export const URUGUAY_DATA: Sticker[] = [
   {
     id: 'URU-19',
     number: 19,
-    name: 'Uruguay Player 19',
+    name: 'RODRIGO AGUIRRE',
     section: 'Uruguay',
     group: 'H',
     type: 'player',
@@ -194,7 +194,7 @@ export const URUGUAY_DATA: Sticker[] = [
   {
     id: 'URU-20',
     number: 20,
-    name: 'Uruguay Player 20',
+    name: 'FACUNDO PELLISTRI',
     section: 'Uruguay',
     group: 'H',
     type: 'player',

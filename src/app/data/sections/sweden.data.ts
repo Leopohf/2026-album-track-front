@@ -14,7 +14,7 @@ export const SWEDEN_DATA: Sticker[] = [
   {
     id: 'SWE-02',
     number: 2,
-    name: 'Sweden Player 2',
+    name: 'VIKTOR JOHANSSON',
     section: 'Sweden',
     group: 'F',
     type: 'player',
@@ -24,7 +24,7 @@ export const SWEDEN_DATA: Sticker[] = [
   {
     id: 'SWE-03',
     number: 3,
-    name: 'Sweden Player 3',
+    name: 'ISAK HIEN',
     section: 'Sweden',
     group: 'F',
     type: 'player',
@@ -34,7 +34,7 @@ export const SWEDEN_DATA: Sticker[] = [
   {
     id: 'SWE-04',
     number: 4,
-    name: 'Sweden Player 4',
+    name: 'GABRIEL GUDMUNDSSON',
     section: 'Sweden',
     group: 'F',
     type: 'player',
@@ -44,7 +44,7 @@ export const SWEDEN_DATA: Sticker[] = [
   {
     id: 'SWE-05',
     number: 5,
-    name: 'Sweden Player 5',
+    name: 'EMIL HOLM',
     section: 'Sweden',
     group: 'F',
     type: 'player',
@@ -54,7 +54,7 @@ export const SWEDEN_DATA: Sticker[] = [
   {
     id: 'SWE-06',
     number: 6,
-    name: 'Sweden Player 6',
+    name: 'VICTOR NILSSON LINDELÖF',
     section: 'Sweden',
     group: 'F',
     type: 'player',
@@ -64,7 +64,7 @@ export const SWEDEN_DATA: Sticker[] = [
   {
     id: 'SWE-07',
     number: 7,
-    name: 'Sweden Player 7',
+    name: 'GUSTAF LAGERBIELKE',
     section: 'Sweden',
     group: 'F',
     type: 'player',
@@ -74,7 +74,7 @@ export const SWEDEN_DATA: Sticker[] = [
   {
     id: 'SWE-08',
     number: 8,
-    name: 'Sweden Player 8',
+    name: 'LUCAS BERGVALL',
     section: 'Sweden',
     group: 'F',
     type: 'player',
@@ -84,7 +84,7 @@ export const SWEDEN_DATA: Sticker[] = [
   {
     id: 'SWE-09',
     number: 9,
-    name: 'Sweden Player 9',
+    name: 'HUGO LARSSON',
     section: 'Sweden',
     group: 'F',
     type: 'player',
@@ -94,7 +94,7 @@ export const SWEDEN_DATA: Sticker[] = [
   {
     id: 'SWE-10',
     number: 10,
-    name: 'Sweden Player 10',
+    name: 'JESPER KARLSTRÖM',
     section: 'Sweden',
     group: 'F',
     type: 'player',
@@ -104,7 +104,7 @@ export const SWEDEN_DATA: Sticker[] = [
   {
     id: 'SWE-11',
     number: 11,
-    name: 'Sweden Player 11',
+    name: 'YASIN AVARI',
     section: 'Sweden',
     group: 'F',
     type: 'player',
@@ -114,7 +114,7 @@ export const SWEDEN_DATA: Sticker[] = [
   {
     id: 'SWE-12',
     number: 12,
-    name: 'Sweden Player 12',
+    name: 'MATTIAS SVANBERG',
     section: 'Sweden',
     group: 'F',
     type: 'player',
@@ -134,7 +134,7 @@ export const SWEDEN_DATA: Sticker[] = [
   {
     id: 'SWE-14',
     number: 14,
-    name: 'Sweden Player 14',
+    name: 'DANIEL SVENSSON',
     section: 'Sweden',
     group: 'F',
     type: 'player',
@@ -144,7 +144,7 @@ export const SWEDEN_DATA: Sticker[] = [
   {
     id: 'SWE-15',
     number: 15,
-    name: 'Sweden Player 15',
+    name: 'KEN SEMA',
     section: 'Sweden',
     group: 'F',
     type: 'player',
@@ -154,7 +154,7 @@ export const SWEDEN_DATA: Sticker[] = [
   {
     id: 'SWE-16',
     number: 16,
-    name: 'Sweden Player 16',
+    name: 'ROONY BARDGHJI',
     section: 'Sweden',
     group: 'F',
     type: 'player',
@@ -164,7 +164,7 @@ export const SWEDEN_DATA: Sticker[] = [
   {
     id: 'SWE-17',
     number: 17,
-    name: 'Sweden Player 17',
+    name: 'DEJAN KULUSEVSKI',
     section: 'Sweden',
     group: 'F',
     type: 'player',
@@ -174,7 +174,7 @@ export const SWEDEN_DATA: Sticker[] = [
   {
     id: 'SWE-18',
     number: 18,
-    name: 'Sweden Player 18',
+    name: 'ANTHONY ELANGA',
     section: 'Sweden',
     group: 'F',
     type: 'player',
@@ -184,7 +184,7 @@ export const SWEDEN_DATA: Sticker[] = [
   {
     id: 'SWE-19',
     number: 19,
-    name: 'Sweden Player 19',
+    name: 'ALEXANDER ISAK',
     section: 'Sweden',
     group: 'F',
     type: 'player',
@@ -194,7 +194,7 @@ export const SWEDEN_DATA: Sticker[] = [
   {
     id: 'SWE-20',
     number: 20,
-    name: 'Sweden Player 20',
+    name: 'VIKTOR GYÖKERES',
     section: 'Sweden',
     group: 'F',
     type: 'player',

@@ -14,7 +14,7 @@ export const SWITZERLAND_DATA: Sticker[] = [
   {
     id: 'SUI-02',
     number: 2,
-    name: 'Gregor Kobel',
+    name: 'GREGOR KOBEL',
     section: 'Switzerland',
     group: 'B',
     type: 'player',
@@ -24,7 +24,7 @@ export const SWITZERLAND_DATA: Sticker[] = [
   {
     id: 'SUI-03',
     number: 3,
-    name: 'Yvon Mvogo',
+    name: 'YVON MVOGO',
     section: 'Switzerland',
     group: 'B',
     type: 'player',
@@ -34,7 +34,7 @@ export const SWITZERLAND_DATA: Sticker[] = [
   {
     id: 'SUI-04',
     number: 4,
-    name: 'Manuel Akanji',
+    name: 'MANUEL AKANJI',
     section: 'Switzerland',
     group: 'B',
     type: 'player',
@@ -44,7 +44,7 @@ export const SWITZERLAND_DATA: Sticker[] = [
   {
     id: 'SUI-05',
     number: 5,
-    name: 'Ricardo Rodriguez',
+    name: 'RICARDO RODRÍGUEZ',
     section: 'Switzerland',
     group: 'B',
     type: 'player',
@@ -54,7 +54,7 @@ export const SWITZERLAND_DATA: Sticker[] = [
   {
     id: 'SUI-06',
     number: 6,
-    name: 'Nico Elvedi',
+    name: 'NICO ELVEDI',
     section: 'Switzerland',
     group: 'B',
     type: 'player',
@@ -64,7 +64,7 @@ export const SWITZERLAND_DATA: Sticker[] = [
   {
     id: 'SUI-07',
     number: 7,
-    name: 'Aurèle Amenda',
+    name: 'AURÉLE AMENDA',
     section: 'Switzerland',
     group: 'B',
     type: 'player',
@@ -74,7 +74,7 @@ export const SWITZERLAND_DATA: Sticker[] = [
   {
     id: 'SUI-08',
     number: 8,
-    name: 'Silvan Widmer',
+    name: 'SILVAN WIDMER',
     section: 'Switzerland',
     group: 'B',
     type: 'player',
@@ -84,7 +84,7 @@ export const SWITZERLAND_DATA: Sticker[] = [
   {
     id: 'SUI-09',
     number: 9,
-    name: 'Granit Xhaka',
+    name: 'GRANIT XHAKA',
     section: 'Switzerland',
     group: 'B',
     type: 'player',
@@ -94,7 +94,7 @@ export const SWITZERLAND_DATA: Sticker[] = [
   {
     id: 'SUI-10',
     number: 10,
-    name: 'Denis Zakaria',
+    name: 'DENIS ZAKARIA',
     section: 'Switzerland',
     group: 'B',
     type: 'player',
@@ -104,7 +104,7 @@ export const SWITZERLAND_DATA: Sticker[] = [
   {
     id: 'SUI-11',
     number: 11,
-    name: 'Remo Freuler',
+    name: 'REMO FREULER',
     section: 'Switzerland',
     group: 'B',
     type: 'player',
@@ -114,7 +114,7 @@ export const SWITZERLAND_DATA: Sticker[] = [
   {
     id: 'SUI-12',
     number: 12,
-    name: 'Fabian Rieder',
+    name: 'FABIAN RIEDER',
     section: 'Switzerland',
     group: 'B',
     type: 'player',
@@ -134,7 +134,7 @@ export const SWITZERLAND_DATA: Sticker[] = [
   {
     id: 'SUI-14',
     number: 14,
-    name: 'Ardon Jashari',
+    name: 'ARDON JASHARI',
     section: 'Switzerland',
     group: 'B',
     type: 'player',
@@ -144,7 +144,7 @@ export const SWITZERLAND_DATA: Sticker[] = [
   {
     id: 'SUI-15',
     number: 15,
-    name: 'Johan Manzambi',
+    name: 'JOHAN MANZAMBI',
     section: 'Switzerland',
     group: 'B',
     type: 'player',
@@ -154,7 +154,7 @@ export const SWITZERLAND_DATA: Sticker[] = [
   {
     id: 'SUI-16',
     number: 16,
-    name: 'Michel Aebischer',
+    name: 'MICHEL AEBISCHER',
     section: 'Switzerland',
     group: 'B',
     type: 'player',
@@ -164,7 +164,7 @@ export const SWITZERLAND_DATA: Sticker[] = [
   {
     id: 'SUI-17',
     number: 17,
-    name: 'Breel Embolo',
+    name: 'BREEL EMBOLO',
     section: 'Switzerland',
     group: 'B',
     type: 'player',
@@ -174,7 +174,7 @@ export const SWITZERLAND_DATA: Sticker[] = [
   {
     id: 'SUI-18',
     number: 18,
-    name: 'Ruben Vargas',
+    name: 'RUBEN VARGAS',
     section: 'Switzerland',
     group: 'B',
     type: 'player',
@@ -184,7 +184,7 @@ export const SWITZERLAND_DATA: Sticker[] = [
   {
     id: 'SUI-19',
     number: 19,
-    name: 'Dan Ndoye',
+    name: 'DAN NDOYE',
     section: 'Switzerland',
     group: 'B',
     type: 'player',
@@ -194,7 +194,7 @@ export const SWITZERLAND_DATA: Sticker[] = [
   {
     id: 'SUI-20',
     number: 20,
-    name: 'Zeki Amdouni',
+    name: 'ZEKI AMDOUNI',
     section: 'Switzerland',
     group: 'B',
     type: 'player',

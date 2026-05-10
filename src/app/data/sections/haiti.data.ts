@@ -14,7 +14,7 @@ export const HAITI_DATA: Sticker[] = [
   {
     id: 'HAI-02',
     number: 2,
-    name: 'JOHN PLACIDE',
+    name: 'JOHNY PLACIDE',
     section: 'Haiti',
     group: 'C',
     type: 'player',
@@ -34,7 +34,7 @@ export const HAITI_DATA: Sticker[] = [
   {
     id: 'HAI-04',
     number: 4,
-    name: 'MARTIN EXPERIENCE',
+    name: 'MARTIN EXPÉRIENCE',
     section: 'Haiti',
     group: 'C',
     type: 'player',
@@ -114,7 +114,7 @@ export const HAITI_DATA: Sticker[] = [
   {
     id: 'HAI-12',
     number: 12,
-    name: 'JEAN-FRONELY BELLEGARDE',
+    name: 'JEAN-RICNER BELLEGARDE',
     section: 'Haiti',
     group: 'C',
     type: 'player',
