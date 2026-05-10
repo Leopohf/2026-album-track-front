@@ -21,7 +21,7 @@ describe('FilterBarReact', () => {
       })
     );
 
-    expect(screen.getByPlaceholderText(/SEARCH BY NAME/i)).toBeInTheDocument();
+    expect(screen.getByPlaceholderText(/SEARCH BY ID OR NAME/i)).toBeInTheDocument();
     expect(screen.getByText('ALL SECTIONS')).toBeInTheDocument();
     expect(screen.getByText('ARGENTINA')).toBeInTheDocument();
     expect(screen.getByText('BRAZIL')).toBeInTheDocument();
@@ -47,7 +47,7 @@ describe('FilterBarReact', () => {
       })
     );
 
-    const input = screen.getByPlaceholderText(/SEARCH BY NAME/i);
+    const input = screen.getByPlaceholderText(/SEARCH BY ID OR NAME/i);
     fireEvent.change(input, { target: { value: 'Messi', name: 'search' } });
 
     expect(onFilterChange).toHaveBeenCalledWith(expect.objectContaining({ search: 'Messi' }));

@@ -51,7 +51,7 @@ export const FilterBarReact: React.FC<FilterBarProps> = ({
           name="search"
           value={filters.search}
           onChange={handleInputChange}
-          placeholder="SEARCH BY NAME OR NUMBER..."
+          placeholder="SEARCH BY ID OR NAME"
           className="flex-1 bg-transparent border border-border p-3 text-sm focus:outline-none focus:border-ink uppercase placeholder:text-muted/50"
         />
         <select 

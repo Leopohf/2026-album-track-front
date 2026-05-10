@@ -92,4 +92,21 @@ describe('AlbumService', () => {
     expect(filtered.length).toBe(1);
     expect(filtered[0].id).toBe('3');
   });
+
+  it('should search by sticker ID', () => {
+    (service as any).stickers.set([
+      { id: 'ARG-01', name: 'MESSI', number: 10, section: 'Argentina', owned: false, duplicates: 0 },
+      { id: 'BRA-10', name: 'NEYMAR', number: 10, section: 'Brazil', owned: false, duplicates: 0 }
+    ]);
+
+    const filters = { search: 'arg-01', status: 'all', section: '' } as any;
+    let filtered = service.getFiltered(filters);
+    expect(filtered.length).toBe(1);
+    expect(filtered[0].id).toBe('ARG-01');
+
+    filters.search = 'BRA';
+    filtered = service.getFiltered(filters);
+    expect(filtered.length).toBe(1);
+    expect(filtered[0].id).toBe('BRA-10');
+  });
 });
