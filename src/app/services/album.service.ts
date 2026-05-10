@@ -56,9 +56,15 @@ export class AlbumService {
     this.saveToLocalStorage();
   }
 
+  private normalizeString(str: string): string {
+    return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  }
+
   getFiltered(filters: FilterState): Sticker[] {
+    const searchTerm = this.normalizeString(filters.search);
     return this.stickers().filter(s => {
-      const matchSearch = s.name.toLowerCase().includes(filters.search.toLowerCase()) ||
+      const normalizedName = this.normalizeString(s.name);
+      const matchSearch = normalizedName.includes(searchTerm) ||
                             s.number.toString().includes(filters.search);
       const matchStatus = filters.status === 'all' ? true :
                           filters.status === 'owned' ? s.owned :

@@ -64,4 +64,32 @@ describe('AlbumService', () => {
     expect(stats.owned).toBe(2);
     expect(stats.duplicates).toBe(5);
   });
+
+  it('should perform accent-insensitive search', () => {
+    (service as any).stickers.set([
+      { id: '1', name: 'DÁVINSON SÁNCHEZ', number: 4, section: 'Colombia', owned: false, duplicates: 0 },
+      { id: '2', name: 'JAMES RODRÍGUEZ', number: 14, section: 'Colombia', owned: false, duplicates: 0 },
+      { id: '3', name: 'RICHARD RÍOS', number: 12, section: 'Colombia', owned: false, duplicates: 0 }
+    ]);
+
+    const filters = { search: 'davinson', status: 'all', section: '' } as any;
+    let filtered = service.getFiltered(filters);
+    expect(filtered.length).toBe(1);
+    expect(filtered[0].id).toBe('1');
+
+    filters.search = 'rodriguez';
+    filtered = service.getFiltered(filters);
+    expect(filtered.length).toBe(1);
+    expect(filtered[0].id).toBe('2');
+
+    filters.search = 'rios';
+    filtered = service.getFiltered(filters);
+    expect(filtered.length).toBe(1);
+    expect(filtered[0].id).toBe('3');
+
+    filters.search = 'RIOS';
+    filtered = service.getFiltered(filters);
+    expect(filtered.length).toBe(1);
+    expect(filtered[0].id).toBe('3');
+  });
 });
