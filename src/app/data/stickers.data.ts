@@ -1,5 +1,8 @@
 import { Sticker } from '../models/sticker.model';
 
+// Specials
+import { FWC_DATA } from './sections/fwc.data';
+
 // Group A
 import { MEXICO_DATA } from './sections/mexico.data';
 import { SOUTH_AFRICA_DATA } from './sections/south-africa.data';
@@ -74,6 +77,8 @@ import { PANAMA_DATA } from './sections/panama.data';
 import { COCA_COLA_DATA } from './sections/coca-cola.data';
 
 export const STICKERS_DATA: Sticker[] = [
+  // Specials
+  ...FWC_DATA,
   // Group A
   ...MEXICO_DATA,
   ...SOUTH_AFRICA_DATA,

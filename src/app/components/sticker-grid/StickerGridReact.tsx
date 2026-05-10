@@ -37,8 +37,10 @@ export const StickerGridReact: React.FC<StickerGridProps> = ({
 
     const result: TournamentGroup[] = [];
     
-    // Sort Groups (A, B, C...) ensuring "Coca-Cola" is at the end
+    // Sort Groups (A, B, C...) ensuring "FWC" is at the start and "Coca-Cola" is at the end
     const sortedGroupKeys = Array.from(tournamentGroupsMap.keys()).sort((a, b) => {
+      if (a === 'FWC') return -1;
+      if (b === 'FWC') return 1;
       if (a === 'Coca-Cola') return 1;
       if (b === 'Coca-Cola') return -1;
       return a.localeCompare(b);
@@ -50,12 +52,17 @@ export const StickerGridReact: React.FC<StickerGridProps> = ({
       
       // Teams within a group are already grouped by section
       Array.from(teamsMap.entries()).forEach(([teamName, teamStickers]) => {
-        // Sort stickers within each team: #1 first, #13 second, others numerical
+        const isSpecialGroup = groupName === 'FWC' || groupName === 'Coca-Cola';
+
+        // Sort stickers within each team
         teamStickers.sort((a, b) => {
-          if (a.number === 1) return -1;
-          if (b.number === 1) return 1;
-          if (a.number === 13) return -1;
-          if (b.number === 13) return 1;
+          if (!isSpecialGroup) {
+            // Special sort for teams: #1 first, #13 second, others numerical
+            if (a.number === 1) return -1;
+            if (b.number === 1) return 1;
+            if (a.number === 13) return -1;
+            if (b.number === 13) return 1;
+          }
           return a.number - b.number;
         });
         
