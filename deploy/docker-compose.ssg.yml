@@ -1,0 +1,24 @@
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: deploy/ssg/Dockerfile
+    deploy:
+      replicas: 3
+    networks:
+      - album-network
+
+  nginx-lb:
+    build:
+      context: ./ssg
+      dockerfile: Dockerfile.lb
+    ports:
+      - "8080:80"
+    depends_on:
+      - app
+    networks:
+      - album-network
+
+networks:
+  album-network:
+    driver: bridge
