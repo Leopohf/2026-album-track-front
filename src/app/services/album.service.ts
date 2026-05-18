@@ -22,6 +22,7 @@ export class AlbumService {
   loadUser(username: string): void {
     this.username.set(username);
     if (isPlatformBrowser(this.platformId)) {
+      localStorage.setItem('panini_2026_last_user', username);
       this.loadFromLocalStorage();
     }
   }
@@ -43,7 +44,17 @@ export class AlbumService {
 
   toggleSticker(id: string): void {
     this.stickers.update(stickers =>
-      stickers.map(s => s.id === id ? { ...s, owned: !s.owned, duplicates: !s.owned ? 0 : (Number(s.duplicates) || 0) } : s)
+      stickers.map(s => {
+        if (s.id === id) {
+          const newOwned = !s.owned;
+          return {
+            ...s,
+            owned: newOwned,
+            duplicates: newOwned ? (Number(s.duplicates) || 0) : 0
+          };
+        }
+        return s;
+      })
     );
     this.saveToLocalStorage();
   }

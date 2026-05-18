@@ -52,4 +52,28 @@ describe('ProfileComponent', () => {
     const textarea = compiled.querySelector('textarea[readonly]') as HTMLTextAreaElement;
     expect(textarea.value).toBe('{"test": "data"}');
   });
+
+  it('should handle repeat changed event', () => {
+    component.onRepeatChanged({ id: '1', quantity: 2 });
+    expect(albumService.updateDuplicates).toHaveBeenCalledWith('1', 2);
+  });
+
+  it('should copy to clipboard', () => {
+    const textarea = document.createElement('textarea');
+    textarea.value = 'test data';
+    vi.spyOn(textarea, 'select').mockImplementation(() => {});
+    
+    // Define execCommand if it doesn't exist in jsdom
+    if (typeof document.execCommand !== 'function') {
+      (document as any).execCommand = vi.fn();
+    }
+    const spy = vi.spyOn(document, 'execCommand').mockReturnValue(true);
+    vi.spyOn(window, 'alert').mockImplementation(() => {});
+
+    component.copyToClipboard(textarea);
+
+    expect(textarea.select).toHaveBeenCalled();
+    expect(spy).toHaveBeenCalledWith('copy');
+    expect(window.alert).toHaveBeenCalledWith('Copied to clipboard!');
+  });
 });

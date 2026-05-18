@@ -52,4 +52,15 @@ describe('SectionComponent', () => {
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('h2')?.textContent).toContain('Argentina');
   });
+
+  it('should handle repeat changed event', () => {
+    component.onRepeatChanged({ id: '1', quantity: 3 });
+    expect(albumService.updateDuplicates).toHaveBeenCalledWith('1', 3);
+  });
+
+  it('should handle empty section name', () => {
+    paramsSubject.next({});
+    fixture.detectChanges();
+    expect(component.sectionName()).toBe('');
+  });
 });

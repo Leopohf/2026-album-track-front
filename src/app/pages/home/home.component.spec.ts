@@ -55,4 +55,16 @@ describe('HomeComponent', () => {
     
     expect(button.disabled).toBe(false);
   });
+
+  it('should load last user from localStorage', () => {
+    localStorage.setItem('panini_2026_last_user', 'OldUser');
+    component.ngOnInit();
+    expect(component.lastUser()).toBe('OldUser');
+  });
+
+  it('should continue as existing user', () => {
+    component.continueAs('OldUser');
+    expect(albumService.loadUser).toHaveBeenCalledWith('OldUser');
+    expect(router.navigate).toHaveBeenCalledWith(['/album']);
+  });
 });

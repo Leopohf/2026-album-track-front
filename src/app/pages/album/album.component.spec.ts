@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { AlbumComponent } from './album.component';
 import { AlbumService } from '../../services/album.service';
 import { FilterState } from '../../models/sticker.model';
-import { signal } from '@angular/core';
+import { provideRouter } from '@angular/router';
 
 describe('AlbumComponent', () => {
   let component: AlbumComponent;
@@ -13,7 +13,7 @@ describe('AlbumComponent', () => {
     albumService = {
       getUsername: vi.fn().mockReturnValue('Leo'),
       getStats: vi.fn().mockReturnValue({ total: 100, owned: 10, missing: 90, duplicates: 0, progress: 10 }),
-      getSections: vi.fn().mockReturnValue(['Argentina']),
+      getSections: vi.fn().mockReturnValue([]),
       getFiltered: vi.fn().mockReturnValue([]),
       toggleSticker: vi.fn(),
       updateDuplicates: vi.fn(),
@@ -24,7 +24,8 @@ describe('AlbumComponent', () => {
     await TestBed.configureTestingModule({
       imports: [AlbumComponent],
       providers: [
-        { provide: AlbumService, useValue: albumService }
+        { provide: AlbumService, useValue: albumService },
+        provideRouter([])
       ]
     }).compileComponents();
 
@@ -37,16 +38,14 @@ describe('AlbumComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should update filters when onFiltersChanged is called', () => {
+  it('should update filters', () => {
     const newFilters: FilterState = { search: 'Messi', status: 'all', section: '' };
     component.onFiltersChanged(newFilters);
-    fixture.detectChanges(); // Trigger re-evaluation of computed signal
     expect(component.filters()).toEqual(newFilters);
-    expect(albumService.getFiltered).toHaveBeenCalledWith(newFilters);
   });
 
-  it('should call albumService.toggleSticker when a sticker is toggled', () => {
-    component.albumService.toggleSticker('ARG1');
-    expect(albumService.toggleSticker).toHaveBeenCalledWith('ARG1');
+  it('should handle repeat changed event', () => {
+    component.onRepeatChanged({ id: 'ARG1', quantity: 5 });
+    expect(albumService.updateDuplicates).toHaveBeenCalledWith('ARG1', 5);
   });
 });

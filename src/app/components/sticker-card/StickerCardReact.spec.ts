@@ -45,6 +45,21 @@ describe('StickerCardReact', () => {
     expect(onToggle).toHaveBeenCalledWith('ARG1');
   });
 
+  it('should call onToggle when name/section area is clicked', () => {
+    const onToggle = vi.fn();
+    render(
+      createElement(StickerCardReact, {
+        sticker: mockSticker,
+        onToggle: onToggle,
+        onUpdateDuplicates: () => {}
+      })
+    );
+
+    // Click on the name
+    fireEvent.click(screen.getByText('Lionel Messi'));
+    expect(onToggle).toHaveBeenCalledWith('ARG1');
+  });
+
   it('should call onUpdateDuplicates when increment/decrement buttons are clicked', () => {
     const onUpdateDuplicates = vi.fn();
     const ownedSticker: Sticker = { ...mockSticker, owned: true, duplicates: 1 };
