@@ -1,0 +1,44 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: album-app-ssr
+  labels:
+    app: album-app-ssr
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: album-app-ssr
+  template:
+    metadata:
+      labels:
+        app: album-app-ssr
+    spec:
+      containers:
+      - name: app
+        image: album-app-ssr:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 4000
+        env:
+        - name: NODE_ENV
+          value: "production"
+        resources:
+          requests:
+            memory: "128Mi"
+            cpu: "100m"
+          limits:
+            memory: "256Mi"
+            cpu: "250m"
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 4000
+          initialDelaySeconds: 5
+          periodSeconds: 10
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 4000
+          initialDelaySeconds: 15
+          periodSeconds: 20

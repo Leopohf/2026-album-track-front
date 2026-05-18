@@ -105,3 +105,89 @@ make clean
 - **Minimalist**: No gradients, shadows, or decorative animations.
 - **Typography-centric**: Using IBM Plex Mono for a technical, "ledger-like" feel.
 - **Interaction**: Fast, tactical feedback via simple color/opacity changes.
+
+## Deployment Deep Dive
+
+### Local Development Workflow
+
+The local environment is optimized for rapid iteration.
+
+1.  **Strict Dependencies**: We use `pnpm` exclusively. This ensures deterministic builds and saves disk space via content-addressed storage.
+    ```bash
+    pnpm install
+    ```
+2.  **Dev Server**: Run `pnpm start` (or `make dev`). This uses the Angular CLI dev server with HMR (Hot Module Replacement) enabled.
+3.  **Mock Data**: The application currently uses static data located in `src/app/data/`. To simulate different collection states, you can modify `stickers.data.ts` or use the **Import/Export** feature in the UI.
+4.  **Testing**: 
+    - `pnpm test`: Run Vitest unit tests.
+    - `pnpm test:ui`: Open Vitest UI for interactive testing.
+
+### Production Architecture (Docker Compose)
+
+Our production-ready setup uses a **Load Balancer + Replicas** pattern.
+
+-   **Load Balancer (Nginx)**: A dedicated container (`nginx-lb`) acts as the entry point. It handles incoming traffic on port `8080` and distributes it across multiple application instances using a round-robin strategy.
+-   **App Replicas**: Multiple instances of the Angular SSR/SSG app run in parallel. This provides redundancy and horizontal scaling.
+-   **Statelessness**: The application is entirely stateless. User progress is persisted in the browser's `localStorage`, allowing any backend replica to handle any request safely.
+
+#### Scaling the Environment
+You can dynamically adjust the number of app instances using the `REPLICAS` variable:
+```bash
+make prod-ssr REPLICAS=5
+```
+This is ideal for handling traffic spikes or testing load distribution locally.
+
+### Kubernetes (K8s) Integration
+
+For enterprise-grade orchestration, the application is fully compatible with Kubernetes. Since the app is already containerized, the transition is seamless.
+
+#### Why Kubernetes?
+While Docker Compose is great for single-node setups, Kubernetes provides:
+-   **Self-Healing**: Automatically restarts failed containers.
+-   **Auto-Scaling**: Scales replicas based on CPU/Memory usage (HPA).
+-   **Zero-Downtime Updates**: Performs rolling updates without dropping requests.
+
+#### Infrastructure Components
+To move to Kubernetes, you would define standard manifests:
+
+1.  **Deployment**: Manages the application pods. It uses the exact same images built by the project's Dockerfiles.
+2.  **Service (ClusterIP)**: Provides a stable internal IP for the app pods.
+3.  **Ingress**: Replaces the `nginx-lb` container. It leverages the cluster's native Ingress Controller (like NGINX or Traefik) to manage SSL termination and routing.
+
+#### Commands & Usage
+
+Before applying manifests, you must build and tag your images so your cluster can pull them:
+
+```bash
+# For SSR
+docker build -t album-app-ssr:latest -f deploy/ssr/Dockerfile .
+
+# For SSG
+docker build -t album-app-ssg:latest -f deploy/ssg/Dockerfile .
+```
+
+> **Note**: If using a remote cluster, you must tag these with your registry URL (e.g., `myregistry.com/album-app-ssr:latest`) and push them. Update the `image` field in `deploy/k8s/*/deployment.yaml` accordingly.
+
+To deploy using `make`:
+
+```bash
+# Apply SSR manifests
+make k8s-apply-ssr
+
+# Apply SSG manifests
+make k8s-apply-ssg
+
+# Remove manifests
+make k8s-delete-ssr
+```
+
+Or using `kubectl` directly:
+
+```bash
+kubectl apply -f deploy/k8s/ssr/
+```
+
+#### Modifying for Custom Needs
+-   **Environment Variables**: Use Kubernetes `ConfigMaps` or `Secrets` to inject configuration (e.g., API URLs, Feature Flags) without rebuilding images.
+-   **Resource Limits**: Define `resources.requests` and `resources.limits` in your Deployment manifest to ensure fair scheduling.
+-   **Probes**: Implement `livenessProbe` (to check if the app is crashed) and `readinessProbe` (to check if it's ready to serve traffic) for better reliability.
