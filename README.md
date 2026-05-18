@@ -48,20 +48,56 @@ Every team in the application follows a strict structural standard to ensure con
 
 ### Prerequisites
 
-- Node.js (Latest LTS recommended)
-- pnpm
+- **Node.js**: Latest LTS recommended.
+- **pnpm**: Used exclusively for package management.
+- **Docker & Docker Compose**: Required for production-like deployment (SSR/SSG).
+- **Make**: (Optional) Recommended for running automated tasks.
 
 ### Development
 
+For local development with hot-reloading:
+
 ```bash
 pnpm install
-pnpm dev
+make dev
+# or
+pnpm start
 ```
 
-### Build
+### Deployment
+
+The project supports both **Server-Side Rendering (SSR)** and **Static Site Generation (SSG)** through a load-balanced Docker environment.
+
+#### SSR Deployment (Server-Side Rendering)
+
+Optimized for dynamic content and real-time state consistency.
 
 ```bash
-pnpm build
+make prod-ssr
+```
+The application will be available at `http://localhost:8080`.
+
+#### SSG Deployment (Static Site Generation)
+
+Optimized for high-performance static delivery.
+
+```bash
+make prod-ssg
+```
+The application will be available at `http://localhost:8080`.
+
+#### Management
+
+```bash
+# View environment logs
+make logs-ssr
+make logs-ssg
+
+# Stop all running environments
+make stop
+
+# Clean up all containers and images
+make clean
 ```
 
 ## Design Philosophy
