@@ -79,6 +79,10 @@ You are an expert in TypeScript, Angular, and scalable web application developme
 - **SSR Safety**: Always check `isPlatformBrowser` before accessing `localStorage` or other browser-only APIs.
 - **Performance**: Use `ChangeDetectionStrategy.OnPush` and `@for` with `track` in templates.
 
+### Cost Management
+- **Cost Warning**: If any feature, library, service, or tool proposed for the project incurs a cost (one-time or subscription), you MUST warn the user before proceeding.
+- **Decision-Making**: Provide the user with the option to either search for a free alternative or proceed with the paid option.
+
 ### Data Model & Hierarchy
 - Stickers must follow the `Sticker` interface in `src/app/models/sticker.model.ts`.
 - **Hierarchical Grouping**: Stickers are organized by `TournamentGroup` -> `TeamGroup` -> `Sticker`.
