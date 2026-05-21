@@ -140,7 +140,7 @@ This is ideal for handling traffic spikes or testing load distribution locally.
 
 ### Kubernetes (K8s) Integration
 
-For enterprise-grade orchestration, the application is fully compatible with Kubernetes. Since the app is already containerized, the transition is seamless.
+For enterprise-grade orchestration, the application ships with ready-to-use Kubernetes manifests. Since the app is already containerized, the transition from Docker Compose is seamless.
 
 #### Why Kubernetes?
 While Docker Compose is great for single-node setups, Kubernetes provides:
@@ -149,10 +149,10 @@ While Docker Compose is great for single-node setups, Kubernetes provides:
 -   **Zero-Downtime Updates**: Performs rolling updates without dropping requests.
 
 #### Infrastructure Components
-To move to Kubernetes, you would define standard manifests:
+The project includes pre-configured manifests under `deploy/k8s/ssr/` and `deploy/k8s/ssg/`:
 
-1.  **Deployment**: Manages the application pods. It uses the exact same images built by the project's Dockerfiles.
-2.  **Service (ClusterIP)**: Provides a stable internal IP for the app pods.
+1.  **Deployment**: Manages 3 application pod replicas by default. Uses the same images built by the project's Dockerfiles. Includes pre-configured `readinessProbe` and `livenessProbe` for reliability, and `resources.requests`/`resources.limits` for fair scheduling.
+2.  **Service (ClusterIP)**: Provides a stable internal IP for the app pods (SSR targets port `4000`, SSG targets port `80`).
 3.  **Ingress**: Replaces the `nginx-lb` container. It leverages the cluster's native Ingress Controller (like NGINX or Traefik) to manage SSL termination and routing.
 
 #### Commands & Usage
@@ -180,6 +180,7 @@ make k8s-apply-ssg
 
 # Remove manifests
 make k8s-delete-ssr
+make k8s-delete-ssg
 ```
 
 Or using `kubectl` directly:
@@ -190,5 +191,5 @@ kubectl apply -f deploy/k8s/ssr/
 
 #### Modifying for Custom Needs
 -   **Environment Variables**: Use Kubernetes `ConfigMaps` or `Secrets` to inject configuration (e.g., API URLs, Feature Flags) without rebuilding images.
--   **Resource Limits**: Define `resources.requests` and `resources.limits` in your Deployment manifest to ensure fair scheduling.
--   **Probes**: Implement `livenessProbe` (to check if the app is crashed) and `readinessProbe` (to check if it's ready to serve traffic) for better reliability.
+-   **Resource Limits**: Adjust the existing `resources.requests` and `resources.limits` in your Deployment manifest to match your workload requirements.
+-   **Probes**: Tune the pre-configured `livenessProbe` and `readinessProbe` intervals in the Deployment manifests as needed for your environment.
