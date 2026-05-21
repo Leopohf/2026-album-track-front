@@ -91,7 +91,7 @@ You are an expert in TypeScript, Angular, and scalable web application developme
 
 ## Documentation & Vault Integration
 
-- **Vault Path**: `/mnt/data/Projects/personal/2026-album-track/album-project` (Absolute)
+- **Vault Path**: `/mnt/data/Projects/personal/album-project` (Absolute)
 - **Location**: `../../` (Relative to this project)
 - **Mandate**: All documentation within the Obsidian vault (wiki, README, etc.) MUST be in **English**.
 - **Requirement**: All codebase changes (features, bug fixes, refactors) MUST be documented in this vault.

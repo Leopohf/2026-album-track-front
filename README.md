@@ -4,12 +4,12 @@ A minimalist, high-performance web application to track your 2026 Panini World C
 
 ## Technical Stack
 
-- **Framework**: Angular 17+ (Standalone Components)
+- **Framework**: Angular 21+ (Standalone Components)
 - **Language**: TypeScript (Strict Mode)
-- **Styling**: Tailwind CSS v3+ (Minimalist, Utility-first)
+- **Styling**: Tailwind CSS v4+ (Minimalist, Utility-first)
 - **State Management**: Angular Signals
 - **Persistence**: LocalStorage (with SSR safety)
-- **SSR/SSR**: Angular SSR enabled
+- **SSR/SSG**: Angular SSR enabled
 
 ## Features
 
@@ -28,15 +28,16 @@ A minimalist, high-performance web application to track your 2026 Panini World C
 Every team in the application follows a strict structural standard to ensure consistency across the 48 sections:
 
 - **20 Stickers per Team**: Consistent size for all participants.
-- **Federation Logo (#1)**: Always typed as `escudo` and displayed first in the grid.
+- **Federation Logo (#1)**: Always typed as `crest` and displayed first in the grid.
 - **Team Picture (#13)**: Always typed as `intro` and displayed second in the grid.
-- **Players**: All other stickers are typed as `jugador` and ordered numerically.
-- **Hierarchical Organization**: Teams are grouped under their respective Tournament Group (Group A through Group L).
+- **Players**: All other stickers are typed as `player` and ordered numerically.
+- **Sticker Types**: The full set of sticker types is `player`, `stadium`, `crest`, and `intro`.
+- **Hierarchical Organization**: Teams are grouped under their respective Tournament Group (Group A through Group L), plus special sections (FWC and Coca-Cola).
 
 ## Architecture
 
 - **Surgical State**: All state transformations are handled via `AlbumService` using Signals, including persistent collapse states.
-- **Hybrid Framework**: Angular handles routing and services, while **React (v19)** powers the entire UI layer for high performance and smooth animations.
+- **Hybrid Framework**: Angular handles routing, services, and page-level templates, while **React (v19)** powers the component-level UI layer (sticker cards, grids, filter bar, stats panel, user header) for high performance and smooth animations.
 - **Modular Pages**:
   - `Home`: User login/selection.
   - `Album`: Main collection grid with filters.
@@ -120,7 +121,7 @@ The local environment is optimized for rapid iteration.
 3.  **Mock Data**: The application currently uses static data located in `src/app/data/`. To simulate different collection states, you can modify `stickers.data.ts` or use the **Import/Export** feature in the UI.
 4.  **Testing**: 
     - `pnpm test`: Run Vitest unit tests.
-    - `pnpm test:ui`: Open Vitest UI for interactive testing.
+    - `pnpm test:coverage`: Run tests with V8 coverage report.
 
 ### Production Architecture (Docker Compose)
 
