@@ -44,8 +44,8 @@ describe('App Routes', () => {
     expect(location.path()).toBe('/profile');
   });
 
-  it('should redirect unknown routes to home', async () => {
+  it('should show not-found page for unknown routes', async () => {
     await router.navigate(['/unknown-route']);
-    expect(location.path()).toBe('');
+    expect(location.path()).toBe('/unknown-route');
   });
 });
